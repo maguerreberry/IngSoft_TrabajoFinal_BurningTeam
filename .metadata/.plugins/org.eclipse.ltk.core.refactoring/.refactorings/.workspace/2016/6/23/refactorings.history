@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;IngSoft_TrabajoFInal&apos; to &apos;IngSoft_TrabajoFinal&apos;" description="Rename resource &apos;IngSoft_TrabajoFInal&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/IngSoft_TrabajoFInal" name="IngSoft_TrabajoFinal" stamp="1465076873868" updateReferences="true"/>
+</session>
