@@ -1,4 +1,7 @@
-package pkt;
+package Heart;
+
+import Beat.BeatModelInterface;
+import Beat.BeatObserver;
 
 public class HeartAdapter implements BeatModelInterface {
 	HeartModelInterface heart;

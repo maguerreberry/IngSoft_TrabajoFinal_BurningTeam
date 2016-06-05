@@ -1,5 +1,8 @@
-package pkt;
-  
+package Heart;
+
+import Beat.ControllerInterface;
+import Beat.DJView;
+
 public class HeartController implements ControllerInterface {
 	HeartModelInterface model;
 	DJView view;

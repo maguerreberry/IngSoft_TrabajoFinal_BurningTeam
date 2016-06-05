@@ -1,4 +1,4 @@
-package pkt;
+package MusicalNotes;
 
 public class MusicalNotesAdapter {
 

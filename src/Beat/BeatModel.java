@@ -1,6 +1,9 @@
-package pkt;
+package Beat;
   
 import javax.sound.midi.*;
+
+import Heart.BPMObserver;
+
 import java.util.*;
 
 public class BeatModel implements BeatModelInterface, MetaEventListener {

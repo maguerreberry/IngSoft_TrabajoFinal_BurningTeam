@@ -1,5 +1,5 @@
-package pkt;
-  
+package Beat;
+
 public class BeatController implements ControllerInterface {
 	BeatModelInterface model;
 	DJView view;

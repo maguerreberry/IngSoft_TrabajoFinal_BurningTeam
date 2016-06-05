@@ -1,5 +1,7 @@
-package pkt;
-  
+package Beat;
+
+import Heart.BPMObserver;
+
 public interface BeatModelInterface {
 	void initialize();
   

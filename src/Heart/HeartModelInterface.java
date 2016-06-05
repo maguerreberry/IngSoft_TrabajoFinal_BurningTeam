@@ -1,4 +1,6 @@
-package pkt;
+package Heart;
+
+import Beat.BeatObserver;
 
 public interface HeartModelInterface {
 	int getHeartRate();

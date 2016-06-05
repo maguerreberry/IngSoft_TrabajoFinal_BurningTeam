@@ -1,6 +1,8 @@
-package pkt;
+package Heart;
 
 import java.util.*;
+
+import Beat.BeatObserver;
 
 public class HeartModel implements HeartModelInterface, Runnable {
 	ArrayList beatObservers = new ArrayList();

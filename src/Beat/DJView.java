@@ -1,8 +1,10 @@
-package pkt;
+package Beat;
     
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
+
+import Heart.BPMObserver;
 
 public class DJView implements ActionListener,  BeatObserver, BPMObserver {
 	BeatModelInterface model;

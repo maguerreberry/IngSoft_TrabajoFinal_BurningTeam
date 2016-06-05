@@ -1,4 +1,4 @@
-package pkt;
+package Beat;
   
 import java.awt.*;
 import java.awt.event.*;

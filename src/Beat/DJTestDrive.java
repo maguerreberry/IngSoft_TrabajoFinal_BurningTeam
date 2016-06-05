@@ -1,5 +1,5 @@
-package pkt;
-  
+package Beat;
+
 public class DJTestDrive {
 
     public static void main (String[] args) {
