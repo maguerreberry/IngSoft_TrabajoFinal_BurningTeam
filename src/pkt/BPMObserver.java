@@ -1,5 +1,5 @@
-package headfirst.combined.djview;
-  
+package pkt;
+
 public interface BPMObserver {
 	void updateBPM();
 }

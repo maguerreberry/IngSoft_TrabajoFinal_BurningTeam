@@ -1,4 +1,4 @@
-package headfirst.combined.djview;
+package pkt;
     
 import java.awt.*;
 import java.awt.event.*;

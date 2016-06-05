@@ -1,4 +1,4 @@
-package headfirst.combined.djview;
+package pkt;
   
 public interface BeatModelInterface {
 	void initialize();
