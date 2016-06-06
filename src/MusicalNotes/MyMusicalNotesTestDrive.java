@@ -2,7 +2,7 @@ package MusicalNotes;
 
 import Beat.ControllerInterface;
 
-public class MusicalNotesTestDrive {
+public class MyMusicalNotesTestDrive {
 
     public static void main (String[] args) {
 		MusicalNotesModel musicalNotesModel = new MusicalNotesModel();
