@@ -11,12 +11,21 @@ public class HeartModel implements HeartModelInterface, Runnable {
     int bpm = 90;
 	Random random = new Random(System.currentTimeMillis());
 	Thread thread;
-
-	public HeartModel() {
+	static HeartModel	heartModel=null; 
+	
+	private HeartModel() {
 		thread = new Thread(this);
 		thread.start();
 	}
-
+	
+	public static HeartModel getInstance(){
+		if(heartModel==null){ 
+			heartModel=new HeartModel();
+		}
+		
+		return heartModel;
+	}
+	
 	public void run() {
 		int lastrate = -1;
 

@@ -5,8 +5,10 @@ import Beat.DJView;
 
 public class HeartController implements ControllerInterface {
 	HeartModelInterface model;
-	DJView view;
-  
+	DJView view;	
+	HeartModel heartModel;
+    int nInst = -1; //arranco en -1 para no contar la primera vez como intento de creacion
+	
 	public HeartController(HeartModelInterface model) {
 		this.model = model;
 		view = new DJView(this, new HeartAdapter(model));
@@ -20,7 +22,14 @@ public class HeartController implements ControllerInterface {
  
 	public void stop() {}
     
-	public void increaseBPM() {}
+	public void increaseBPM() {
+		nInst++;
+		heartModel = heartModel.getInstance();		
+	}
+	
+	public int getnInst(){
+		return nInst;
+	}
     
 	public void decreaseBPM() {}
   

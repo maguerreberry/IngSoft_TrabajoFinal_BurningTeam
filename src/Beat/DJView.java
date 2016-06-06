@@ -157,8 +157,14 @@ public class DJView implements ActionListener,  BeatObserver, BPMObserver {
 				}
 			} else {
 				if (bpmOutputLabel != null) {
-        			bpmOutputLabel.setText("Current BPM: " + model.getBPM());
-				}
+					if(controller.getnInst()==-1){
+						bpmOutputLabel.setText("Current BPM: " + model.getBPM());
+					}
+					else{
+						bpmOutputLabel.setText("Intentos de creacion: " + controller.getnInst());
+					}
+						
+        		}
 			}
 		}
 	}
