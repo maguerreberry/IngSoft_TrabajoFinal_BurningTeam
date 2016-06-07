@@ -1,20 +1,28 @@
 package MusicalNotes;
 
+import Beat.BeatModelInterface;
 import Beat.ControllerInterface;
 import Beat.DJView;
 
 public class MusicalNotesController implements ControllerInterface {
 	MusicalNotesModelInterface model;
 	DJView view;
+	MusicalNotesView view2;
 	MusicalNotesModel NotesModel;
 	
 	public MusicalNotesController(MusicalNotesModelInterface model) {
+	
 		this.model=model;
 		view = new DJView(this, new MusicalNotesAdapter(model));
+		view2 = new MusicalNotesView (this,model);
         view.createView();
         view.createControls();
 		view.disableStopMenuItem();
 		view.enableStartMenuItem();
+		view2.createView();
+        view2.createControls();
+		//view2.disableStopMenuItem();
+		//view2.enableStartMenuItem();
 		model.initialize();
 		// TODO Auto-generated constructor stub
 	}

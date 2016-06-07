@@ -3,7 +3,9 @@ package MusicalNotes;
 import Beat.BeatModelInterface;
 import Beat.BeatObserver;
 import Heart.BPMObserver;
-
+/*
+ *  Transforma Lo que viene de la interfaz BeatModel a la MusicalNoteModelInterface. 
+ */
 public class MusicalNotesAdapter implements BeatModelInterface {
 	MusicalNotesModelInterface note;
 
