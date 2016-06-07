@@ -5,6 +5,6 @@ public interface ControllerInterface {
 	void stop();
 	void increaseBPM();
 	void decreaseBPM();
- 	void setBPM(int bpm);
+ 	void setBPM(String bpm);
 	int getnInst();
 }

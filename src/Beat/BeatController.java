@@ -36,8 +36,9 @@ public class BeatController implements ControllerInterface {
         model.setBPM(bpm - 1);
   	}
   
- 	public void setBPM(int bpm) {
-		model.setBPM(bpm);
+ 	public void setBPM(String bpm) {
+ 		int BPM = Integer.parseInt(bpm);
+		model.setBPM(BPM);
 	}
 
 	@Override
