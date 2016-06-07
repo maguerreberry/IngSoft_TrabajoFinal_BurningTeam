@@ -50,9 +50,35 @@ public class MusicalNotesController implements ControllerInterface {
 	}
 
 	@Override
-	public void setBPM(int note) {
+	public void setBPM(String note) {
 		// TODO Auto-generated method stub
-		model.setNotes(note);
+		int Note=0;
+		switch(note){
+			case "DO":
+				Note=60;
+				break;
+			case "RE":
+				Note=62;
+				break;
+			case "MI":
+				Note=64;
+				break;
+			case "FA":
+				Note=65;
+				break;
+			case "SOL":
+				Note=67;
+				break;
+			case "LA":
+				Note=69;
+				break;
+			case "SI":
+				Note=71;
+				break;
+			default:
+				Note=0;
+		}
+		model.setNotes(Note);
 	}
 
 	@Override

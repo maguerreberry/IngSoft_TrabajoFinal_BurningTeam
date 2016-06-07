@@ -33,7 +33,7 @@ public class HeartController implements ControllerInterface {
     
 	public void decreaseBPM() {}
   
- 	public void setBPM(int bpm) {}
+ 	public void setBPM(String bpm) {}
 }
 
 
