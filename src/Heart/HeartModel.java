@@ -11,7 +11,7 @@ public class HeartModel implements HeartModelInterface, Runnable {
     int bpm = 90;
 	Random random = new Random(System.currentTimeMillis());
 	Thread thread;
-	static HeartModel	heartModel=null; 
+	static HeartModel heartModel=null; 
 	
 	private HeartModel() {
 		thread = new Thread(this);
