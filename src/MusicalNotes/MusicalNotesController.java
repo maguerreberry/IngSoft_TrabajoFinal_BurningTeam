@@ -54,7 +54,7 @@ public class MusicalNotesController implements ControllerInterface {
 	public void decreaseBPM() {
 		// TODO Auto-generated method stub
 		int note = model.getNotes();
-        model.setNotes(note + 1);
+        model.setNotes(note - 1);
 	}
 
 	@Override
