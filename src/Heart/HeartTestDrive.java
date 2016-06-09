@@ -4,10 +4,10 @@ import Beat.ControllerInterface;
 
 public class HeartTestDrive {
 
-	static HeartModel heartModel;
+		static HeartModel heartModel;
 	
     public static void main (String[] args) {
-		heartModel = heartModel.getInstance();
+		heartModel = HeartModel.getInstance();
         ControllerInterface model = new HeartController(heartModel);
     }
 }

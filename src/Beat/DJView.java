@@ -24,6 +24,10 @@ public class DJView implements ActionListener,  BeatObserver, BPMObserver {
     JMenu menu;
     JMenuItem startMenuItem;
     JMenuItem stopMenuItem;
+	private JMenuItem beatMenuItem;
+	private JMenu menu2;
+	private JMenuItem heartMenuItem;
+	private JMenuItem musicalMenuItem;
 
     public DJView(ControllerInterface controller, BeatModelInterface model) {	
 		this.controller = controller;
@@ -85,6 +89,34 @@ public class DJView implements ActionListener,  BeatObserver, BPMObserver {
 
         menu.add(exit);
         menuBar.add(menu);
+        
+        menu2 = new JMenu("Modelo");
+        beatMenuItem = new JMenuItem("Beat");
+        menu2.add(beatMenuItem);
+        beatMenuItem.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent event) {
+                controller.BeatView();
+            }
+        });
+        heartMenuItem = new JMenuItem("Heart");
+        menu2.add(heartMenuItem); 
+        heartMenuItem.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent event) {
+                controller.HeartView();
+            }
+        });
+        musicalMenuItem= new JMenuItem("Musical Notes");
+        menu2.add(musicalMenuItem); 
+        musicalMenuItem.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent event) {
+                controller.MusicalView();
+            }
+        });
+        
+        menuBar.add(menu2);
+        
+        
+        
         controlFrame.setJMenuBar(menuBar);
 
         bpmTextField = new JTextField(2);

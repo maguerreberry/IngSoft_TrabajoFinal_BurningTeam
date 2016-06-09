@@ -1,16 +1,21 @@
 package MusicalNotes;
 
+import Beat.BeatController;
+import Beat.BeatModel;
+import Beat.BeatModelInterface;
 import Beat.ControllerInterface;
-import Beat.DJView;
+import Heart.HeartController;
+import Heart.HeartModel;
+
 
 public class MusicalNotesController implements ControllerInterface {
 	MusicalNotesModelInterface model;
-	DJView view;
+	MusicalView view;
 	MusicalNotesModel NotesModel;
 	
 	public MusicalNotesController(MusicalNotesModelInterface model) {
 		this.model=model;
-		view = new DJView(this, new MusicalNotesAdapter(model));
+		view = new MusicalView(this, new MusicalNotesAdapter(model));
         view.createView();
         view.createControls();
 		view.disableStopMenuItem();
@@ -99,7 +104,28 @@ public class MusicalNotesController implements ControllerInterface {
 	@Override
 	public int getnInst() {
 		// TODO Auto-generated method stub
-		return 0;
+		return -1;
+	}
+	
+	@Override
+	public void BeatView() {
+		// TODO Auto-generated method stub
+        BeatModelInterface model = new BeatModel();
+		ControllerInterface controller = new BeatController(model);
+		
+	}
+
+	@Override
+	public void HeartView() {
+		// TODO Auto-generated method stub
+		HeartModel heartModel;
+		heartModel = HeartModel.getInstance();
+        ControllerInterface model = new HeartController(heartModel);
+	}
+
+	@Override
+	public void MusicalView() {
+		// TODO Auto-generated method stub       
 	}
 
 }

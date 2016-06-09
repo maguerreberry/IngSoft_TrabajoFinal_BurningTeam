@@ -1,5 +1,11 @@
 package Beat;
 
+import Heart.HeartController;
+import Heart.HeartModel;
+import MusicalNotes.MusicalNotesController;
+import MusicalNotes.MusicalNotesModel;
+import MusicalNotes.MusicalNotesModelInterface;
+
 public class BeatController implements ControllerInterface {
 	BeatModelInterface model;
 	DJView view;
@@ -45,5 +51,26 @@ public class BeatController implements ControllerInterface {
 	public int getnInst() {
 		// TODO Auto-generated method stub
 		return -1;
+	}
+
+	@Override
+	public void BeatView() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void HeartView() {
+		// TODO Auto-generated method stub
+		HeartModel heartModel;
+		heartModel = HeartModel.getInstance();
+        ControllerInterface model = new HeartController(heartModel);
+	}
+
+	@Override
+	public void MusicalView() {
+		// TODO Auto-generated method stub
+		MusicalNotesModelInterface notesModel = new MusicalNotesModel();
+        ControllerInterface controller = new MusicalNotesController(notesModel);        
 	}
 }
