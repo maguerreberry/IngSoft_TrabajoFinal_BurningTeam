@@ -11,11 +11,6 @@ public class HeartController implements ControllerInterface {
 	
 	public HeartController(HeartModelInterface model) {
 		this.model = model;
-		view = new DJView(this, new HeartAdapter(model));
-        view.createView();
-        view.createControls();
-		view.disableStopMenuItem();
-		view.disableStartMenuItem();
 	}
   
 	public void start() {}
@@ -34,6 +29,26 @@ public class HeartController implements ControllerInterface {
 	public void decreaseBPM() {}
   
  	public void setBPM(String bpm) {}
+
+	@Override
+	public void on() {
+		// TODO Auto-generated method stub
+	
+		view = new DJView(this, new HeartAdapter(model));
+        view.createView();
+        view.createControls();
+		view.disableStopMenuItem();
+		view.disableStartMenuItem();
+	}
+
+	@Override
+	public void off() {
+		// TODO Auto-generated method stub
+		///model.off();
+		view.end();
+	}
+
+
 }
 
 

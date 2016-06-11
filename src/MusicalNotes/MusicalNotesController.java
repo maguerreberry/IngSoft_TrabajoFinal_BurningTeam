@@ -10,12 +10,7 @@ public class MusicalNotesController implements ControllerInterface {
 	
 	public MusicalNotesController(MusicalNotesModelInterface model) {
 		this.model=model;
-		view = new DJView(this, new MusicalNotesAdapter(model));
-        view.createView();
-        view.createControls();
-		view.disableStopMenuItem();
-		view.enableStartMenuItem();
-		model.initialize();
+		
 		// TODO Auto-generated constructor stub
 	}
 
@@ -101,5 +96,25 @@ public class MusicalNotesController implements ControllerInterface {
 		// TODO Auto-generated method stub
 		return 0;
 	}
+
+	@Override
+	public void on() {
+		// TODO Auto-generated method stub
+		view = new DJView(this, new MusicalNotesAdapter(model));
+        view.createView();
+        view.createControls();
+		view.disableStopMenuItem();
+		view.enableStartMenuItem();
+		model.initialize();
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void off() {
+		// TODO Auto-generated method stub
+		model.off();
+		view.end();	
+	}
+
 
 }

@@ -2,16 +2,10 @@ package Beat;
 
 public class BeatController implements ControllerInterface {
 	BeatModelInterface model;
-	DJView view;
+	ViewInterface view;
    
 	public BeatController(BeatModelInterface model) {
-		this.model = model;
-		view = new DJView(this, model);
-        view.createView();
-        view.createControls();
-		view.disableStopMenuItem();
-		view.enableStartMenuItem();
-		model.initialize();
+		this.model = model;	
 	}
   
 	public void start() {
@@ -45,5 +39,23 @@ public class BeatController implements ControllerInterface {
 	public int getnInst() {
 		// TODO Auto-generated method stub
 		return -1;
+	}
+
+	@Override
+	public void on() {
+		// TODO Auto-generated method stub
+		view = new DJView(this, model);
+        view.createView();
+        view.createControls();
+		view.disableStopMenuItem();
+		view.enableStartMenuItem();
+		model.initialize();
+	}
+
+	@Override
+	public void off() {
+		// TODO Auto-generated method stub
+		model.off();
+		view.end();
 	}
 }
