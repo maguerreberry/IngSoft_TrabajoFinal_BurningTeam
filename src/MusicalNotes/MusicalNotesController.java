@@ -1,5 +1,6 @@
 package MusicalNotes;
 
+<<<<<<< HEAD
 import Beat.BeatController;
 import Beat.BeatModel;
 import Beat.BeatModelInterface;
@@ -11,16 +12,29 @@ import Heart.HeartModel;
 public class MusicalNotesController implements ControllerInterface {
 	MusicalNotesModelInterface model;
 	MusicalView view;
+=======
+import Beat.BeatModelInterface;
+import Beat.ControllerInterface;
+import Beat.DJView;
+import Beat.ViewInterface;
+
+public class MusicalNotesController implements ControllerInterface {
+	MusicalNotesModelInterface model;
+	ViewInterface view;
+>>>>>>> funcionVistas
 	MusicalNotesModel NotesModel;
 	
 	public MusicalNotesController(MusicalNotesModelInterface model) {
 		this.model=model;
+<<<<<<< HEAD
 		view = new MusicalView(this, new MusicalNotesAdapter(model));
         view.createView();
         view.createControls();
 		view.disableStopMenuItem();
 		view.enableStartMenuItem();
 		model.initialize();
+=======
+>>>>>>> funcionVistas
 		// TODO Auto-generated constructor stub
 	}
 
@@ -51,7 +65,7 @@ public class MusicalNotesController implements ControllerInterface {
 	public void decreaseBPM() {
 		// TODO Auto-generated method stub
 		int note = model.getNotes();
-        model.setNotes(note + 1);
+        model.setNotes(note - 1);
 	}
 
 	@Override
@@ -127,5 +141,25 @@ public class MusicalNotesController implements ControllerInterface {
 	public void MusicalView() {
 		// TODO Auto-generated method stub       
 	}
+
+	@Override
+	public void on() {
+		// TODO Auto-generated method stub
+		view = new MusicalNotesView2(this,model);
+        view.createView();
+        view.createControls();
+		view.disableStopMenuItem();
+		view.enableStartMenuItem();
+		model.initialize();
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void off() {
+		// TODO Auto-generated method stub
+		model.off();
+		view.end();	
+	}
+
 
 }

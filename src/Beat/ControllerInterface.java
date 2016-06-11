@@ -1,6 +1,8 @@
 package Beat;
   
 public interface ControllerInterface {
+	void on();
+	void off();
 	void start();
 	void stop();
 	void increaseBPM();

@@ -3,7 +3,9 @@ package Beat;
 public class DJTestDrive {
 
     public static void main (String[] args) {
-        BeatModelInterface model = new BeatModel();
-		ControllerInterface controller = new BeatController(model);
+        //BeatModelInterface model = new BeatModel();
+	//	ControllerInterface controller = new BeatController(model);
+    	ViewInterface vista=new GeneralView();
+    	vista.setModel();
     }
 }
