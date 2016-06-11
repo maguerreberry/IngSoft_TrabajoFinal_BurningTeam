@@ -133,7 +133,24 @@ Una vez presentada la propuesta de cambio, cumpliendo lo establecido en el punto
 6. Si no es aceptodo por CCC, se pruemueve el cambio al archivo de requerimentos pendientes  
 
 ### 4. Normas de nombramiento de archivos ###
-Los nuevos archivos generados brindarán correspondecia con la funcionalidad a realizar. 
+El proyecto será guardado bajo el directorio <IngSoft_TrabajoFinal_BurningTeam> (repositorio de github).
+ 
+En ella se encuentran las siguientes subcarpetas:
+
+
+- *src:* guarda el contenido de la aplicacion (codigo fuente) y los test unitarios
+- *docs:* guarda datos importantes del proyecto: plan de configuracion, diagramas (en subdirectorios "DiagramasUML"), archivo de requerimientos
+- *gradle:* guarda la configuracion del builder.
+- *config:* guarda el checkstyle del proyecto
+- *bin:* guarda documentos compilados del proyecto
+
+Ademas esta carpeta contiene archivos para el uso de integracion continua, archivos de txt, etc:
+</br>
+travis.yml </br>
+README.md </br>
+build </br>
+settings</br>
+
 ### 5 Equipos en ProyectoFinal ###
 **Equipos Scrum:** encargados de desarrollar nuevas funcionalidades de forma ágil y rápida.
 Actualizan el código frecuentemente, evitando problemas a la hora de unir las partes
