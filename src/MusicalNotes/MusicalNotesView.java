@@ -64,7 +64,7 @@ public class MusicalNotesView implements ActionListener, BPMObserver, ViewInterf
 		// Create all Swing components here
 		viewPanel = new JPanel(new GridLayout(1, 1));
 		viewFrame = new JFrame("Vista - NotasMusicales");
-		viewFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		viewFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		viewFrame.setSize(new Dimension(250, 150));
 		//bpmOutputLabel = new JLabel("offline", SwingConstants.CENTER);
 		beatBar = new BeatBar();
@@ -76,6 +76,48 @@ public class MusicalNotesView implements ActionListener, BPMObserver, ViewInterf
 		viewFrame.getContentPane().add(viewPanel, BorderLayout.CENTER);
 		viewFrame.pack();
 		viewFrame.setVisible(true);
+		
+		
+	}
+
+	public void createControls() {
+		// Create all Swing components here
+		JFrame.setDefaultLookAndFeelDecorated(true);
+		controlFrame = new JFrame("Control - Notas Musicales");
+		controlFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		controlFrame.setSize(new Dimension(250, 150));
+
+		controlPanel = new JPanel(new GridLayout(1, 2));
+
+		menuBar = new JMenuBar();
+		menu = new JMenu("Notas Musicales Control");
+		startMenuItem = new JMenuItem("Start");
+		menu.add(startMenuItem);
+		startMenuItem.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent event) {
+				controller.start();
+			}
+		});
+		stopMenuItem = new JMenuItem("Stop");
+		menu.add(stopMenuItem);
+		stopMenuItem.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent event) {
+				controller.stop();
+			}
+		});
+		JMenuItem exit = new JMenuItem("Quit");
+		exit.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent event) {
+				end();
+			}
+		});
+
+		menu.add(exit);
+		menuBar.add(menu);
+		controlFrame.setJMenuBar(menuBar);
+
+		bpmTextField = new JTextField(2);
+		bpmLabel = new JLabel("Enter BPM:", SwingConstants.RIGHT);
 		
 JLabel buttonsTitle = new JLabel("Estas son tus Notas Musicales");
 		
@@ -126,51 +168,7 @@ JLabel buttonsTitle = new JLabel("Estas son tus Notas Musicales");
 		setBPMButtonLA.addActionListener(this);
 		setBPMButtonSI.addActionListener(this);
 		
-		viewPanel.add(buttonPanelNotas);
-		
-		
-	}
-
-	public void createControls() {
-		// Create all Swing components here
-		JFrame.setDefaultLookAndFeelDecorated(true);
-		controlFrame = new JFrame("Control - Notas Musicales");
-		controlFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		controlFrame.setSize(new Dimension(250, 150));
-
-		controlPanel = new JPanel(new GridLayout(1, 2));
-
-		menuBar = new JMenuBar();
-		menu = new JMenu("Notas Musicales Control");
-		startMenuItem = new JMenuItem("Start");
-		menu.add(startMenuItem);
-		startMenuItem.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent event) {
-				controller.start();
-			}
-		});
-		stopMenuItem = new JMenuItem("Stop");
-		menu.add(stopMenuItem);
-		stopMenuItem.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent event) {
-				controller.stop();
-			}
-		});
-		JMenuItem exit = new JMenuItem("Quit");
-		exit.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent event) {
-				System.exit(0);
-			}
-		});
-
-		menu.add(exit);
-		menuBar.add(menu);
-		controlFrame.setJMenuBar(menuBar);
-
-		bpmTextField = new JTextField(2);
-		bpmLabel = new JLabel("Enter BPM:", SwingConstants.RIGHT);
-		
-		
+		controlPanel.add(buttonPanelNotas);
 		
 		/*
 		 * Creo titulo para los botones
@@ -181,7 +179,7 @@ JLabel buttonsTitle = new JLabel("Estas son tus Notas Musicales");
 		 * Creo botones para cada nota!!!
 		 * Creo el Panel donde van estar los botones de las notas
 		 */
-		
+		/*
 		
 		increaseBPMButton.addActionListener(this);
 		decreaseBPMButton.addActionListener(this);
@@ -195,7 +193,8 @@ JLabel buttonsTitle = new JLabel("Estas son tus Notas Musicales");
 		JPanel titlePanel = new JPanel(new GridLayout(1, 2));
 		JLabel IDTitle = new JLabel("Subí o Bajá Semitonos!" , SwingConstants.CENTER);
 		titlePanel.add(IDTitle);
-
+		*/
+		
 		//JPanel enterPanel = new JPanel(new GridLayout(1, 2));
 		//enterPanel.add(bpmLabel);
 		//enterPanel.add(bpmTextField);
@@ -205,8 +204,8 @@ JLabel buttonsTitle = new JLabel("Estas son tus Notas Musicales");
 		JPanel insideControlPanel = new JPanel(new GridLayout(3, 1));
 		//insideControlPanel.add(enterPanel);
 		//insideControlPanel.add(buttonPanelNotas);
-		insideControlPanel.add(titlePanel);
-		insideControlPanel.add(buttonPanel);
+		//insideControlPanel.add(titlePanel);
+		//insideControlPanel.add(buttonPanel);
 		
 		
 		controlPanel.add(insideControlPanel);
