@@ -27,11 +27,6 @@ public class DJView implements ActionListener,  BeatObserver, BPMObserver, ViewI
     BPMObserver bpmO;
     BeatObserver beatO;
     
-    
-    public DJView()
-    {
-    	
-    }
 
     public DJView(ControllerInterface controller, BeatModelInterface model) {	
 		this.controller = controller;
