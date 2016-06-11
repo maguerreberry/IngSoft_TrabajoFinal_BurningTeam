@@ -101,7 +101,7 @@ public class MusicalNotesController implements ControllerInterface {
 	@Override
 	public void on() {
 		// TODO Auto-generated method stub
-		view = new MusicalNotesView(this,model);
+		view = new MusicalNotesView2(this,model);
         view.createView();
         view.createControls();
 		view.disableStopMenuItem();
