@@ -3,6 +3,7 @@
 
 - Control de Versiones
 	- **Version 0.1** -  Autor:Natasha Tomattis - Fecha:04/06/2016 - Descripcion: Primera verson del documento
+	- **Version 0.2** -  Autor:Agustin Trombotto - Fecha:11/06/2016 - Descripcion: Modificaciones en Glosario, Administracion de Cambios y Administracion de codigo Fuente
 
 
 
@@ -47,20 +48,23 @@ Además verifican la implementación de los cambios aprobados.
 serán utilizados luego como base para la realización de cambios. Dichos cambios solo
 podrán realizarse a través de un proceso formal de control de cambios.
 
+**S x.x:** Corresponde a la Seccion determinada segun los valores de x. El lector deberá dirijirse a esa seccion para obtener mas informacion (Ej: S 1.3 corresponde a la Seccion 1.3 Herramientas de administracion de configuraciones)
+
 #### 1.3 Herramientas de la administración de configuraciones  ####
 Las herramientas a continuacion serán utilizadas para facilitar el desarrollo del proyecto y asegurar una correcta integracion del trabajo de los desarrollladores.
 
-- **Herramienta de control de versiones (GitHub)**: Se creará un repositorio en el servidor con el
+- **Herramienta de control de versiones (GitHub):** Se creará un repositorio en el servidor con el
 nombre del proyecto, al cual podrán acceder
 todos los miembros del equipo de desarrollo como
-colaboradores. (*link*)
+colaboradores. (*[ProyectoFinalBurningTeamRepo](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam)*)
 
-- **Herramienta de integración contínua (TravisCI/Gradle)**:A medida que los desarrolladores modifiquen 
+- **Herramienta de integración contínua (TravisCI/Gradle):**A medida que los desarrolladores modifiquen 
 algún ítem de configuración, esta herramienta
 correrá automáticamente los test corroborando
 que no existan errores. En caso de errores la herramienta se encargará de notificar a todos los desarrolladores.
+[ProyectoFinalBurningTeamCI](https://travis-ci.org/matthew44/IngSoft_TrabajoFinal_BurningTeam "ProyectoFinalBurningTeamCI")
 
-- **Herramienta de control de defectos (Issues/GitHub)**
+- **Herramienta de control de defectos (Issues/GitHub):** Se utilizará la herramienta de control de defecto para tener seguimiento de los errores e incovenientes surgidos en el proyecto [ProyectoFinalBurningTeamIssues](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/issues)
 
 ### 2. Administración de la configuración ###
 #### 2.1 Roles y responsabilidades ####
@@ -70,7 +74,7 @@ Las actividades de la gestión de las configuraciones dentro del proyecto serán
 - **Administador de la configuración:** Supervisar que el equipo de desarrollo utilice el repositorio durante el ciclo
 de vida del proyecto. Controlará también que se respeten los lineamientos establecidos a la hora de evluar el proceso de cambio.(*Tomattis,Natasha*)
 
-- **Administrador de Versiones:** Controlar que el producto cumpla con todos los requerimentos establecidos y su funcionamiento sea correcto.(*Aguerreberry,Matthew *)
+- **Administrador de Versiones:** Controlar que el producto cumpla con todos los requerimentos establecidos y su funcionamiento sea correcto.(*Aguerreberry,Matthew*)
 
 - **Administardor del equipo de desarrollo:** Interactuará con el repositorio operando sobre los ítems de configuración generados durante el proyecto. Principal consumidor de la información puesta bajo elcontrol de configuraciones.(*Trombotto, Agustín*) 
 
@@ -85,11 +89,14 @@ Los cambios pueden proceder tanto a mejora como a la corrección de errores, epr
 
 Los pasos necesarios para realizar una petición de cambio son:
 
-1. Definir la información necesaria para aprobar el cambio.
-2. Identificar las áreas afectadas por el cambio requerido.
-3. Describir el proceso de modificación en la documentación usada al procesar cambios.
-4. Describir el procedimiento para los cambios en el código y la implementación del 
-programa 
+1. Definir sector del software a modificar
+2. Describir detalladamente los cambios a realizar
+3. Proponer ciertos plazos para su implmentacion
+4. Establecer un titulo al cambio requerido
+5. Realizar una breve "experiencia de usuario" sobre el requisito planteado
+<br>
+Una vez cumplidos los pasos descriptos anteriormente, se presentará al Administrador de Vesiones, quien sumeterá dicha peticion al proceso de cambio correspondiente (S 3.3)
+
 
 #### 3.2 Comité de Control de Cambios (CCC)  ####
 El comité de control de cambios estará integrado por un grupo de especialistas en Administración de proyectos, métricas, riesgos y requerimientos, cuya función será la de
@@ -116,7 +123,34 @@ base al análisis del resto del equipo. (*Aguerreberry, Matthew*)
 del comité vía mail y, en caso de emergencias se llamará por teléfono. Será de gran importancia la presencia de los tres miembros de la CCC en todas las reuniones.
 
 #### 3.3 Proceso de control de cambios ####
+Una vez presentada la propuesta de cambio, cumpliendo lo establecido en el punto 3.1, dicha propuesta se someterá al siguiente proceso para su correcta evaluacion:
+
+1. Definir si la información recibida es suficiente para la evaluacion global del cambio.
+2. Identificar las áreas afectadas por el cambio requerido.
+3. Detallar costos estimados, fechas de apropacion y estimacion de la implementacion.
+4. Convocar al la CCC para el analisis economico y evaluacion integro del cambio requerido.
+5. Si es aceptado por CCC, se promueva al desarrollo del cambio a traves de un documento escrito para los desarrolladores.
+6. Si no es aceptodo por CCC, se pruemueve el cambio al archivo de requerimentos pendientes  
+
 ### 4. Normas de nombramiento de archivos ###
+El proyecto será guardado bajo el directorio <IngSoft_TrabajoFinal_BurningTeam> (repositorio de github).
+ 
+En ella se encuentran las siguientes subcarpetas:
+
+
+- *src:* guarda el contenido de la aplicacion (codigo fuente) y los test unitarios
+- *docs:* guarda datos importantes del proyecto: plan de configuracion, diagramas (en subdirectorios "DiagramasUML"), archivo de requerimientos
+- *gradle:* guarda la configuracion del builder.
+- *config:* guarda el checkstyle del proyecto
+- *bin:* guarda documentos compilados del proyecto
+
+Ademas esta carpeta contiene archivos para el uso de integracion continua, archivos de txt, etc:
+</br>
+travis.yml </br>
+README.md </br>
+build </br>
+settings</br>
+
 ### 5 Equipos en ProyectoFinal ###
 **Equipos Scrum:** encargados de desarrollar nuevas funcionalidades de forma ágil y rápida.
 Actualizan el código frecuentemente, evitando problemas a la hora de unir las partes
@@ -148,6 +182,10 @@ entonces se añadirá el proyecto al repositorio principal.
 ### 6 Administracion del código fuente ###
 En esta sección se describen distintos ítems de configuración. Se tiene en cuenta desde elesquema de ramas, el etiquetado, la estrategia de unión de archivos y el cumplimiento de losniveles de calidad para el producto final. 
 #### 6.1 Esquema de ramas ####
+- **Rama de Funcion:** La creacion de rama se da lugar para la realizacion o modificacion de una funcionalidad. (Ej: branch funcionViewNotas; donde la nueva fucion o la funcion a editar es "ViewNotas")
+- **Rama de Cliente:** Si se aprueba la solicitud de un cliente, se creara una nueva rama (S 6.4)
+- **Rama Master:** En esta rama se econtrá el desarrollo de software sin errores. Se hará fusiones de archivos sobre esta rama (S 6.3)
+
 #### 6.2 Definición de etiquetas ####
 Se etiquetará un commit sólo si su código cuenta con correcta sintaxis y existe al menos un
 test unitario que compruebe el funcionamiento del mismo. El etiquetado debe ser
