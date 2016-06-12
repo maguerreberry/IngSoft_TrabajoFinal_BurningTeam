@@ -32,5 +32,5 @@ public class AllModelsTestDrive {
 	     ControllerInterface controllerN = new MusicalNotesController(notesModel);
 	     ViewInterface vistaN = new GeneralView();
 	     vistaN.setModel(new MusicalNotesAdapter(notesModel),controllerN);
-}
+	 }
 }
