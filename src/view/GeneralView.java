@@ -73,7 +73,7 @@ public class GeneralView implements ViewInterface {
 	@Override
 	public void createView(){
     	JFrame.setDefaultLookAndFeelDecorated(true);
-        controlFrame = new JFrame("Control Model");
+        controlFrame = new JFrame("Choose Model");
         controlFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         controlFrame.setSize(new Dimension(100, 80));
         controlPanel = new JPanel(new GridLayout(1, 2));

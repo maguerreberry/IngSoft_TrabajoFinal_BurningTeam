@@ -1,9 +1,6 @@
 package controller;
 
 import model.BeatModelInterface;
-import model.HeartModel;
-import model.MusicalNotesModel;
-import model.MusicalNotesModelInterface;
 import view.DJView;
 import view.ViewInterface;
 
@@ -48,28 +45,9 @@ public class BeatController implements ControllerInterface {
 		return -1;
 	}
 
-	public void BeatView() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void HeartView() {
-		// TODO Auto-generated method stub
-		HeartModel heartModel;
-		heartModel = HeartModel.getInstance();
-        ControllerInterface model = new HeartController(heartModel);
-	}
-
-		@Override
-	public void MusicalView() {
-		// TODO Auto-generated method stub
-		MusicalNotesModelInterface notesModel = new MusicalNotesModel();
-        ControllerInterface controller = new MusicalNotesController(notesModel);   
-	}
 	public void on() {
 		// TODO Auto-generated method stub
-		view = new DJView(this, model);
+		view = new DJView(this, model,"DJ Control");
         view.createView();
         view.createControls();
 		view.disableStopMenuItem();

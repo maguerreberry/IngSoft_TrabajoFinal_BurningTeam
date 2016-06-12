@@ -1,13 +1,7 @@
 package controller;
 
-import model.BeatModel;
-import model.BeatModelInterface;
-import model.HeartModel;
-import model.MusicalNotesAdapter;
 import model.MusicalNotesModel;
 import model.MusicalNotesModelInterface;
-import view.MusicalNotesView;
-import view.MusicalNotesView2;
 import view.MusicalNotesView;
 import view.ViewInterface;
 
@@ -105,27 +99,6 @@ public class MusicalNotesController implements ControllerInterface {
 	}
 	
 	@Override
-	public void BeatView() {
-		// TODO Auto-generated method stub
-        BeatModelInterface model = new BeatModel();
-		ControllerInterface controller = new BeatController(model);
-		
-	}
-
-	@Override
-	public void HeartView() {
-		// TODO Auto-generated method stub
-		HeartModel heartModel;
-		heartModel = HeartModel.getInstance();
-        ControllerInterface model = new HeartController(heartModel);
-	}
-
-	@Override
-	public void MusicalView() {
-		// TODO Auto-generated method stub       
-	}
-
-	@Override
 	public void on() {
 		// TODO Auto-generated method stub
 		view = new MusicalNotesView(this,model);
@@ -143,6 +116,5 @@ public class MusicalNotesController implements ControllerInterface {
 		model.off();
 		view.end();	
 	}
-
 
 }

@@ -1,17 +1,13 @@
 package controller;
 
-import model.BeatModel;
-import model.BeatModelInterface;
 import model.HeartAdapter;
 import model.HeartModel;
 import model.HeartModelInterface;
-import model.MusicalNotesModel;
-import model.MusicalNotesModelInterface;
-import view.DJView;
+import view.HeartView;
 
 public class HeartController implements ControllerInterface {
 	HeartModelInterface model;
-	DJView view;	
+	HeartView view;	
 	HeartModel heartModel;
     int nInst = 0; 
 	public HeartController(HeartModelInterface model) {
@@ -35,31 +31,11 @@ public class HeartController implements ControllerInterface {
   
  	public void setBPM(String bpm) {}
  	
- 	@Override
-	public void BeatView() {
-		// TODO Auto-generated method stub
-        BeatModelInterface model = new BeatModel();
-		ControllerInterface controller = new BeatController(model);
-		
-	}
-
-	@Override
-	public void HeartView() {
-		// TODO Auto-generated method stub
-	}
-
-	@Override
-	public void MusicalView() {
-		// TODO Auto-generated method stub
-		MusicalNotesModelInterface notesModel = new MusicalNotesModel();
-        ControllerInterface controller = new MusicalNotesController(notesModel);        
-	}
-
 	@Override
 	public void on() {
 		// TODO Auto-generated method stub
 	
-		view = new DJView(this, new HeartAdapter(model));
+		view = new HeartView(this, new HeartAdapter(model),"Heart Control");
         view.createView();
         view.createControls();
 		view.disableStopMenuItem();

@@ -11,6 +11,5 @@ public interface ViewInterface {
 	void enableStartMenuItem();
 	void disableStartMenuItem();
 	void end();
-	void setModel(BeatModelInterface beat, ControllerInterface controller);
-	
+	void setModel(BeatModelInterface beat, ControllerInterface controller);	
 }

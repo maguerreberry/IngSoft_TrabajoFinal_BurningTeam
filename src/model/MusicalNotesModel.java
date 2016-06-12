@@ -17,8 +17,6 @@ public class MusicalNotesModel implements MusicalNotesModelInterface, MetaEventL
 	Sequence sequence;
 	Track track;
 
-
-
 	public void initialize() {
 		setUpMidi();
 		buildTrackAndStart();
