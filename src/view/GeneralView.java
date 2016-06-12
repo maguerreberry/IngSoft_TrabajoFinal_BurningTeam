@@ -62,9 +62,12 @@ public class GeneralView implements ViewInterface {
     }
     
 	@Override
-	public void setModel() {
+	public void setModel(BeatModelInterface newModel,ControllerInterface newController) {
 		// TODO Auto-generated method stub
-		
+		model=newModel;
+		controller=newController;
+		end();
+		controller.on();
 	}
 
 	@Override
@@ -170,7 +173,7 @@ public class GeneralView implements ViewInterface {
 	@Override
 	public void end() {
 		// TODO Auto-generated method stub
-		
+		controlFrame.setVisible(false);
 	}
 
 	

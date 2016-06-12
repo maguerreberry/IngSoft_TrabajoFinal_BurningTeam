@@ -21,6 +21,7 @@ import javax.swing.SwingConstants;
 import java.awt.color.*;
 
 import controller.ControllerInterface;
+import model.BeatModelInterface;
 import model.MusicalNotesModelInterface;
 
 public class MusicalNotesView2 implements ActionListener, BPMObserver, ViewInterface {
@@ -358,11 +359,6 @@ public class MusicalNotesView2 implements ActionListener, BPMObserver, ViewInter
 
 		}
 
-		@Override
-		public void setModel() {
-			// TODO Auto-generated method stub
-			
-		}
 		public void enableStopMenuItem() {
 	    	stopMenuItem.setEnabled(true);
 		}
@@ -391,6 +387,12 @@ public class MusicalNotesView2 implements ActionListener, BPMObserver, ViewInter
 			// TODO Auto-generated method stub
 			controlFrame.setVisible(false);
 	    	viewFrame.setVisible(false);
+		}
+
+		@Override
+		public void setModel(BeatModelInterface beat, ControllerInterface controller) {
+			// TODO Auto-generated method stub
+			
 		}
 		
 

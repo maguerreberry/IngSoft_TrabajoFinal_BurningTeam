@@ -63,7 +63,7 @@ public class DJView implements ActionListener,  BeatObserver, BPMObserver, ViewI
 
         JFrame.setDefaultLookAndFeelDecorated(true);
         controlFrame = new JFrame("Control");
-        controlFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        controlFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         controlFrame.setSize(new Dimension(100, 80));
 
         controlPanel = new JPanel(new GridLayout(1, 2));
@@ -94,7 +94,7 @@ public class DJView implements ActionListener,  BeatObserver, BPMObserver, ViewI
 
         menu.add(exit);
         menuBar.add(menu);
-        
+        /*
         menu2 = new JMenu("Modelo");
         beatMenuItem = new JMenuItem("Beat");
         menu2.add(beatMenuItem);
@@ -118,7 +118,7 @@ public class DJView implements ActionListener,  BeatObserver, BPMObserver, ViewI
             }
         });        
         menuBar.add(menu2);
-               
+               */
         controlFrame.setJMenuBar(menuBar);
 
         bpmTextField = new JTextField(2);
@@ -208,15 +208,15 @@ public class DJView implements ActionListener,  BeatObserver, BPMObserver, ViewI
 			 beatBar.setValue(100);
 		}
 	}
-
-	@Override
-	public void setModel() {
-		// TODO Auto-generated method stub
-		
-	}
 	public void end(){
 		controlFrame.setVisible(false);
     	viewFrame.setVisible(false);
+	}
+
+	@Override
+	public void setModel(BeatModelInterface beat, ControllerInterface controller) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

@@ -212,14 +212,16 @@ public class MusicalNotesView implements ViewInterface,ActionListener,  BeatObse
 			}
 		}
 
-		@Override
-		public void setModel() {
-			// TODO Auto-generated method stub
-			
-		}
 
 		@Override
 		public void end() {
+			// TODO Auto-generated method stub
+			controlFrame.setVisible(false);
+	    	viewFrame.setVisible(false);
+		}
+
+		@Override
+		public void setModel(BeatModelInterface beat, ControllerInterface controller) {
 			// TODO Auto-generated method stub
 			
 		}
