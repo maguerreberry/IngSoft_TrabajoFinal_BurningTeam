@@ -1,6 +1,9 @@
-package MusicalNotes;
+package testDrive;
 
-import Beat.ControllerInterface;
+import controller.ControllerInterface;
+import controller.MusicalNotesController;
+import model.MusicalNotesModel;
+import model.MusicalNotesModelInterface;
 
 public class MyMusicalNotesTestDrive {
 

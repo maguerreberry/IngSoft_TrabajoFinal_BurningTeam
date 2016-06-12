@@ -1,4 +1,4 @@
-package MusicalNotes;
+package view;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -20,10 +20,8 @@ import javax.swing.SwingConstants;
 
 import java.awt.color.*;
 
-import Beat.BeatBar;
-import Beat.ControllerInterface;
-import Beat.ViewInterface;
-import Heart.BPMObserver;
+import controller.ControllerInterface;
+import model.MusicalNotesModelInterface;
 
 public class MusicalNotesView2 implements ActionListener, BPMObserver, ViewInterface {
 

@@ -1,6 +1,7 @@
-package Heart;
+package model;
 
-import Beat.BeatObserver;
+import view.BPMObserver;
+import view.BeatObserver;
 
 public interface HeartModelInterface {
 	int getHeartRate();

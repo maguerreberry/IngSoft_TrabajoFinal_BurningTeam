@@ -1,4 +1,4 @@
-package Beat;
+package view;
 
 public interface ViewInterface {
 	void createView();

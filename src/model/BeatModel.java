@@ -1,8 +1,9 @@
-package Beat;
+package model;
   
 import javax.sound.midi.*;
 
-import Heart.BPMObserver;
+import view.BPMObserver;
+import view.BeatObserver;
 
 import java.util.*;
 

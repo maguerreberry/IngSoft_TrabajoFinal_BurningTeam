@@ -1,17 +1,15 @@
-package MusicalNotes;
+package view;
 
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-import Beat.BeatBar;
-import Beat.BeatModelInterface;
-import Beat.BeatObserver;
-import Beat.ControllerInterface;
-import Heart.BPMObserver;
+import controller.ControllerInterface;
+import model.BeatModelInterface;
+import model.MusicalNotesModelInterface;
 
-public class MusicalView implements ActionListener,  BeatObserver, BPMObserver {
-	BeatModelInterface model;
+public class MusicalNotesView implements ViewInterface,ActionListener,  BeatObserver, BPMObserver {
+	MusicalNotesModelInterface model;
 	ControllerInterface controller;
     JFrame viewFrame;
     JPanel viewPanel;
@@ -40,7 +38,7 @@ public class MusicalView implements ActionListener,  BeatObserver, BPMObserver {
 	private JButton laButton;
 	private JButton siButton;
 	
-	 public MusicalView(ControllerInterface controller, BeatModelInterface model) {	
+	 public MusicalNotesView(ControllerInterface controller, MusicalNotesModelInterface model) {	
 			this.controller = controller;
 			this.model = model;
 			model.registerObserver((BeatObserver)this);
@@ -99,33 +97,6 @@ public class MusicalView implements ActionListener,  BeatObserver, BPMObserver {
 
 	        menu.add(exit);
 	        menuBar.add(menu);
-	        
-	        menu2 = new JMenu("Modelo");
-	        beatMenuItem = new JMenuItem("Beat");
-	        menu2.add(beatMenuItem);
-	        beatMenuItem.addActionListener(new ActionListener() {
-	            public void actionPerformed(ActionEvent event) {
-	                controller.BeatView();
-	            }
-	        });
-	        heartMenuItem = new JMenuItem("Heart");
-	        menu2.add(heartMenuItem); 
-	        heartMenuItem.addActionListener(new ActionListener() {
-	            public void actionPerformed(ActionEvent event) {
-	                controller.HeartView();
-	            }
-	        });
-	        musicalMenuItem= new JMenuItem("Musical Notes");
-	        menu2.add(musicalMenuItem); 
-	        musicalMenuItem.addActionListener(new ActionListener() {
-	            public void actionPerformed(ActionEvent event) {
-	                controller.MusicalView();
-	            }
-	        });
-	        
-	        menuBar.add(menu2);
-	        
-	        
 	        
 	        controlFrame.setJMenuBar(menuBar);
 
@@ -216,7 +187,7 @@ public class MusicalView implements ActionListener,  BeatObserver, BPMObserver {
 	
 		public void updateBPM() {
 			if (model != null) {
-				int bpm = model.getBPM();
+				int bpm = model.getNotes();
 				if (bpm == 0) {
 					if (bpmOutputLabel != null) {
 	        			bpmOutputLabel.setText("offline");
@@ -224,7 +195,7 @@ public class MusicalView implements ActionListener,  BeatObserver, BPMObserver {
 				} else {
 					if (bpmOutputLabel != null) {
 						if(controller.getnInst()==-1){
-							bpmOutputLabel.setText("Current BPM: " + model.getBPM());
+							bpmOutputLabel.setText("Current BPM: " + model.getNotes());
 						}
 						else{
 							bpmOutputLabel.setText("Intentos de creacion: " + controller.getnInst());
@@ -239,6 +210,18 @@ public class MusicalView implements ActionListener,  BeatObserver, BPMObserver {
 			if (beatBar != null) {
 				 beatBar.setValue(100);
 			}
+		}
+
+		@Override
+		public void setModel() {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void end() {
+			// TODO Auto-generated method stub
+			
 		}
 
 }

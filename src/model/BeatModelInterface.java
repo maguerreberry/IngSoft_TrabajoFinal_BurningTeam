@@ -1,6 +1,7 @@
-package Beat;
+package model;
 
-import Heart.BPMObserver;
+import view.BPMObserver;
+import view.BeatObserver;
 
 public interface BeatModelInterface {
 	void initialize();

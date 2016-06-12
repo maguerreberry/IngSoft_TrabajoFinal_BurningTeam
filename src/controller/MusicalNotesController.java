@@ -1,40 +1,23 @@
-package MusicalNotes;
+package controller;
 
-<<<<<<< HEAD
-import Beat.BeatController;
-import Beat.BeatModel;
-import Beat.BeatModelInterface;
-import Beat.ControllerInterface;
-import Heart.HeartController;
-import Heart.HeartModel;
-
-
-public class MusicalNotesController implements ControllerInterface {
-	MusicalNotesModelInterface model;
-	MusicalView view;
-=======
-import Beat.BeatModelInterface;
-import Beat.ControllerInterface;
-import Beat.DJView;
-import Beat.ViewInterface;
+import model.BeatModel;
+import model.BeatModelInterface;
+import model.HeartModel;
+import model.MusicalNotesAdapter;
+import model.MusicalNotesModel;
+import model.MusicalNotesModelInterface;
+import view.MusicalNotesView;
+import view.MusicalNotesView2;
+import view.MusicalNotesView;
+import view.ViewInterface;
 
 public class MusicalNotesController implements ControllerInterface {
 	MusicalNotesModelInterface model;
 	ViewInterface view;
->>>>>>> funcionVistas
 	MusicalNotesModel NotesModel;
 	
 	public MusicalNotesController(MusicalNotesModelInterface model) {
 		this.model=model;
-<<<<<<< HEAD
-		view = new MusicalView(this, new MusicalNotesAdapter(model));
-        view.createView();
-        view.createControls();
-		view.disableStopMenuItem();
-		view.enableStartMenuItem();
-		model.initialize();
-=======
->>>>>>> funcionVistas
 		// TODO Auto-generated constructor stub
 	}
 
@@ -145,7 +128,7 @@ public class MusicalNotesController implements ControllerInterface {
 	@Override
 	public void on() {
 		// TODO Auto-generated method stub
-		view = new MusicalNotesView2(this,model);
+		view = new MusicalNotesView(this,model);
         view.createView();
         view.createControls();
 		view.disableStopMenuItem();

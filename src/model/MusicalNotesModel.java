@@ -1,11 +1,11 @@
-package MusicalNotes;
+package model;
 
 import java.util.ArrayList;
 
 import javax.sound.midi.*;
 
-import Beat.BeatObserver;
-import Heart.BPMObserver;
+import view.BPMObserver;
+import view.BeatObserver;
 
 public class MusicalNotesModel implements MusicalNotesModelInterface, MetaEventListener {
 	Thread thread;
@@ -173,5 +173,4 @@ public class MusicalNotesModel implements MusicalNotesModelInterface, MetaEventL
 		}
 		return event;
 	}
-
 }

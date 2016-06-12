@@ -1,10 +1,11 @@
-package Beat;
+package view;
     
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-import Heart.BPMObserver;
+import controller.ControllerInterface;
+import model.BeatModelInterface;
 
 public class DJView implements ActionListener,  BeatObserver, BPMObserver, ViewInterface {
 	BeatModelInterface model;
@@ -24,16 +25,12 @@ public class DJView implements ActionListener,  BeatObserver, BPMObserver, ViewI
     JMenu menu;
     JMenuItem startMenuItem;
     JMenuItem stopMenuItem;
-<<<<<<< HEAD
 	private JMenuItem beatMenuItem;
 	private JMenu menu2;
 	private JMenuItem heartMenuItem;
 	private JMenuItem musicalMenuItem;
-=======
     BPMObserver bpmO;
     BeatObserver beatO;
-    
->>>>>>> funcionVistas
 
     public DJView(ControllerInterface controller, BeatModelInterface model) {	
 		this.controller = controller;
@@ -119,12 +116,9 @@ public class DJView implements ActionListener,  BeatObserver, BPMObserver, ViewI
             public void actionPerformed(ActionEvent event) {
                 controller.MusicalView();
             }
-        });
-        
+        });        
         menuBar.add(menu2);
-        
-        
-        
+               
         controlFrame.setJMenuBar(menuBar);
 
         bpmTextField = new JTextField(2);

@@ -1,10 +1,11 @@
-package Beat;
+package controller;
 
-import Heart.HeartController;
-import Heart.HeartModel;
-import MusicalNotes.MusicalNotesController;
-import MusicalNotes.MusicalNotesModel;
-import MusicalNotes.MusicalNotesModelInterface;
+import model.BeatModelInterface;
+import model.HeartModel;
+import model.MusicalNotesModel;
+import model.MusicalNotesModelInterface;
+import view.DJView;
+import view.ViewInterface;
 
 public class BeatController implements ControllerInterface {
 	BeatModelInterface model;
@@ -47,8 +48,6 @@ public class BeatController implements ControllerInterface {
 		return -1;
 	}
 
-	@Override
-<<<<<<< HEAD
 	public void BeatView() {
 		// TODO Auto-generated method stub
 		
@@ -62,12 +61,12 @@ public class BeatController implements ControllerInterface {
         ControllerInterface model = new HeartController(heartModel);
 	}
 
-	@Override
+		@Override
 	public void MusicalView() {
 		// TODO Auto-generated method stub
 		MusicalNotesModelInterface notesModel = new MusicalNotesModel();
-        ControllerInterface controller = new MusicalNotesController(notesModel);        
-=======
+        ControllerInterface controller = new MusicalNotesController(notesModel);   
+	}
 	public void on() {
 		// TODO Auto-generated method stub
 		view = new DJView(this, model);
@@ -83,6 +82,5 @@ public class BeatController implements ControllerInterface {
 		// TODO Auto-generated method stub
 		model.off();
 		view.end();
->>>>>>> funcionVistas
 	}
 }

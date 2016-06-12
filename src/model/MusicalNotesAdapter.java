@@ -1,8 +1,7 @@
-package MusicalNotes;
+package model;
 
-import Beat.BeatModelInterface;
-import Beat.BeatObserver;
-import Heart.BPMObserver;
+import view.BPMObserver;
+import view.BeatObserver;
 
 public class MusicalNotesAdapter implements BeatModelInterface {
 	MusicalNotesModelInterface note;

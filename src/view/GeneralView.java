@@ -1,4 +1,4 @@
-package Beat;
+package view;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
@@ -15,11 +15,14 @@ import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-import Heart.BPMObserver;
-import Heart.HeartController;
-import Heart.HeartModel;
-import MusicalNotes.MusicalNotesController;
-import MusicalNotes.MusicalNotesModel;
+import controller.BeatController;
+import controller.ControllerInterface;
+import controller.HeartController;
+import controller.MusicalNotesController;
+import model.BeatModel;
+import model.BeatModelInterface;
+import model.HeartModel;
+import model.MusicalNotesModel;
 
 public class GeneralView implements ViewInterface {
 	MusicalNotesModel notesModel ;
@@ -43,9 +46,9 @@ public class GeneralView implements ViewInterface {
     JButton decreaseBPMButton;
     JMenuBar menuBar;
     JMenu menu;
-    JMenuItem startMenuItem;
-    JMenuItem stopMenuItem;
-    JMenuItem notesItem;
+    JMenuItem beatMenuItem;
+    JMenuItem heartMenuItem;
+    JMenuItem musicalNotesMenuItem;
     
     public	GeneralView(){
     	modelBeat = new BeatModel();
@@ -55,58 +58,68 @@ public class GeneralView implements ViewInterface {
         controllerHeart = new HeartController(heartModel);
         notesModel = new MusicalNotesModel();
         controllerNotes = new MusicalNotesController(notesModel);
+        createView();
     }
     
 	@Override
-	public void createView() {
+	public void setModel() {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void setModel(){
+	public void createView(){
     	JFrame.setDefaultLookAndFeelDecorated(true);
         controlFrame = new JFrame("Control Model");
         controlFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         controlFrame.setSize(new Dimension(100, 80));
-
         controlPanel = new JPanel(new GridLayout(1, 2));
-
         menuBar = new JMenuBar();
         menu = new JMenu("Model Select");
-        startMenuItem = new JMenuItem("Beat");
-        menu.add(startMenuItem);
-        startMenuItem.addActionListener(new ActionListener() {
+        beatMenuItem = new JMenuItem("Beat");
+        heartMenuItem = new JMenuItem("Heart");
+        musicalNotesMenuItem = new JMenuItem("MusicalNotes");        
+        menu.add(beatMenuItem);
+        menu.add(heartMenuItem); 
+        menu.add(musicalNotesMenuItem); 
+        
+        beatMenuItem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent event) {
             	try{
             	controller.off();
             	}
             	catch(NullPointerException e){}
-            	model = modelBeat;
+            	beatMenuItem.setEnabled(false);
+            	heartMenuItem.setEnabled(true);
+            	musicalNotesMenuItem.setEnabled(true);
             	controller = controllerBeat;
             	controller.on();
             }
-        });
-        stopMenuItem = new JMenuItem("Heart");
-        menu.add(stopMenuItem); 
-        stopMenuItem.addActionListener(new ActionListener() {
+        });        
+        
+        heartMenuItem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent event) {
             	try{
                 	controller.off();
                 	}
                 	catch(NullPointerException e){}
+            	beatMenuItem.setEnabled(true);
+            	heartMenuItem.setEnabled(false);
+            	musicalNotesMenuItem.setEnabled(true);
             	controller=controllerHeart;
                 controller.on();
             }
         });
-        notesItem = new JMenuItem("MusicalNotes");
-        menu.add(notesItem); 
-        notesItem.addActionListener(new ActionListener() {
+        
+        musicalNotesMenuItem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent event) {
             	try{
                 	controller.off();
                 	}
                 	catch(NullPointerException e){}
+            	beatMenuItem.setEnabled(true);
+            	heartMenuItem.setEnabled(true);
+            	musicalNotesMenuItem.setEnabled(false);
             	controller=controllerNotes;
                 controller.on();
             }

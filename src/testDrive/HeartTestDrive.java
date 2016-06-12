@@ -1,6 +1,8 @@
-package Heart;
+package testDrive;
 
-import Beat.ControllerInterface;
+import controller.ControllerInterface;
+import controller.HeartController;
+import model.HeartModel;
 
 public class HeartTestDrive {
 

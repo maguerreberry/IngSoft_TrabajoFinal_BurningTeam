@@ -1,7 +1,7 @@
-package MusicalNotes;
+package model;
 
-import Beat.BeatObserver;
-import Heart.BPMObserver;
+import view.BPMObserver;
+import view.BeatObserver;
 
 public interface MusicalNotesModelInterface {
 	
@@ -13,7 +13,5 @@ public interface MusicalNotesModelInterface {
 	void removeObserver(BPMObserver o);
 	int getNotes();
 	void setNotes(int i);
-	void initialize();
-	
-	
+	void initialize();	
 }

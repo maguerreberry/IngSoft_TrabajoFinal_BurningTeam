@@ -1,20 +1,19 @@
-package Heart;
+package controller;
 
-import Beat.BeatController;
-import Beat.BeatModel;
-import Beat.BeatModelInterface;
-import Beat.ControllerInterface;
-import Beat.DJView;
-import MusicalNotes.MusicalNotesController;
-import MusicalNotes.MusicalNotesModel;
-import MusicalNotes.MusicalNotesModelInterface;
+import model.BeatModel;
+import model.BeatModelInterface;
+import model.HeartAdapter;
+import model.HeartModel;
+import model.HeartModelInterface;
+import model.MusicalNotesModel;
+import model.MusicalNotesModelInterface;
+import view.DJView;
 
 public class HeartController implements ControllerInterface {
 	HeartModelInterface model;
 	DJView view;	
 	HeartModel heartModel;
-    int nInst = -1; //arranco en -1 para no contar la primera vez como intento de creacion
-	
+    int nInst = 0; 
 	public HeartController(HeartModelInterface model) {
 		this.model = model;
 	}
@@ -35,7 +34,6 @@ public class HeartController implements ControllerInterface {
 	public void decreaseBPM() {}
   
  	public void setBPM(String bpm) {}
-<<<<<<< HEAD
  	
  	@Override
 	public void BeatView() {
@@ -56,7 +54,6 @@ public class HeartController implements ControllerInterface {
 		MusicalNotesModelInterface notesModel = new MusicalNotesModel();
         ControllerInterface controller = new MusicalNotesController(notesModel);        
 	}
-=======
 
 	@Override
 	public void on() {
@@ -75,9 +72,6 @@ public class HeartController implements ControllerInterface {
 		///model.off();
 		view.end();
 	}
-
-
->>>>>>> funcionVistas
 }
 
 
