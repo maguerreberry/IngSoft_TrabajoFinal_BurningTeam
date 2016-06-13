@@ -175,7 +175,4 @@ public class GeneralView implements ViewInterface {
 		// TODO Auto-generated method stub
 		controlFrame.setVisible(false);
 	}
-
-	
-	
 }

@@ -38,12 +38,6 @@ public class MusicalNotesModel implements MusicalNotesModelInterface, MetaEventL
 		this.note = note;
 		initialize();
 		sequencer.start();
-
-		//FIX
-		//sequencer.setMicrosecondPosition(0);
-		//sequencer.setTickPosition(0) ; 
-
-		//sequencer.setTempoInBPM(getBPM());
 		notifyBPMObservers();
 	}
 

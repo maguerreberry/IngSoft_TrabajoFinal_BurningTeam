@@ -25,10 +25,6 @@ public class DJView implements ActionListener,  BeatObserver, BPMObserver, ViewI
     JMenu menu;
     JMenuItem startMenuItem;
     JMenuItem stopMenuItem;
-	private JMenuItem beatMenuItem;
-	private JMenu menu2;
-	private JMenuItem heartMenuItem;
-	private JMenuItem musicalMenuItem;
     BPMObserver bpmO;
     BeatObserver beatO;
 	private String name;
