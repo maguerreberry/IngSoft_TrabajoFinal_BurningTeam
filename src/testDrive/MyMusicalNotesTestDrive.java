@@ -8,6 +8,7 @@ import model.MusicalNotesModelInterface;
 import view.GeneralView;
 import view.ViewInterface;
 
+
 public class MyMusicalNotesTestDrive {
 
     public static void main (String[] args) {
@@ -15,5 +16,6 @@ public class MyMusicalNotesTestDrive {
         ControllerInterface controller = new MusicalNotesController(notesModel);
     	ViewInterface vista = new GeneralView();
     	vista.setModel(new MusicalNotesAdapter(notesModel),controller);
+    	
     }
 }

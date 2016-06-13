@@ -2,7 +2,9 @@ package controller;
 
 import model.MusicalNotesModel;
 import model.MusicalNotesModelInterface;
+import view.MusicalNotes3;
 import view.MusicalNotesView;
+import view.MusicalNotesView2;
 import view.ViewInterface;
 
 public class MusicalNotesController implements ControllerInterface {
@@ -101,7 +103,7 @@ public class MusicalNotesController implements ControllerInterface {
 	@Override
 	public void on() {
 		// TODO Auto-generated method stub
-		view = new MusicalNotesView(this,model);
+		view = new MusicalNotes3(this,model);
         view.createView();
         view.createControls();
 		view.disableStopMenuItem();
