@@ -13,8 +13,8 @@ public class HeartTestDrive {
 	
     public static void main (String[] args) {
 		heartModel = HeartModel.getInstance();
-        ControllerInterface model = new HeartController(heartModel);
+        ControllerInterface controller = new HeartController(heartModel);
     	ViewInterface vista = new GeneralView();
-    	vista.setModel(new HeartAdapter(heartModel),model);
+    	vista.setModel(new HeartAdapter(heartModel),controller);
     }
 }
