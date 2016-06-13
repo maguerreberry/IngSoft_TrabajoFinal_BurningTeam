@@ -26,7 +26,7 @@ import controller.ControllerInterface;
 import model.BeatModelInterface;
 import model.MusicalNotesModelInterface;
 
-public class MusicalNotesView implements ViewInterface,ActionListener,  BeatObserver, BPMObserver {
+public class PianoView implements ViewInterface,ActionListener,  BeatObserver, BPMObserver {
 	/** GUI frame.*/
 	private JFrame frame;
 	/** The total number of notes.*/
@@ -55,7 +55,7 @@ public class MusicalNotesView implements ViewInterface,ActionListener,  BeatObse
 	JMenuBar menuBar;
 	JMenu menu;
 
-	public MusicalNotesView(ControllerInterface controller,MusicalNotesModelInterface model){
+	public PianoView(ControllerInterface controller,MusicalNotesModelInterface model){
 		this.controller = controller;
 		this.model = model;
 		model.registerObserver((BeatObserver)this);
