@@ -35,6 +35,9 @@ En este documento se describre los requerimientos tanto del sistema como del usu
 
 
 ### 5. Requerimientos no Funcionales ###
+- Archivo comprimido con los ejecutables correspondientes a los requerimientos solicitados
+- Peso del archivo menor a 100kb
+- Respuesta no mayor a 5 segundos del sistema a la hora de recibir una entrada
 
 
  
