@@ -34,5 +34,8 @@ En este documento se describen los requerimientos tanto del sistema como del usu
 - Peso del archivo menor a 100kb
 - Respuesta no mayor a 5 segundos del sistema a la hora de recibir una entrada
 
+### 6. Matriz de Trazabilidad
+
+[Link a la Matriz de Trazabilidad](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/Requerimientos/docs/DiagramasUML/Matriz%20de%20Trazabilidad.JPG "Matriz de Trazabilidad")
 
  
