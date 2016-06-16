@@ -4,35 +4,30 @@
 
 
 ### 1. Introducción  ###
-En este documento se describre los requerimientos tanto del sistema como del usuario. Ademas se detalla precisamente los requerimientos funcionales y no funcionales a los fines de establecer concretamente el plan de desarrollor a realizar por los programadores
+En este documento se describen los requerimientos tanto del sistema como del usuario. Además, se detallan los requerimientos funcionales y no funcionales a los fines de establecer el plan de trabajo a seguir por los desarrolladores.
 
 *Se destaca la abreviatura de cada requerimiento, el cual será utilizado en diversas secciones (por ejemplo en la Matriz de Trazabilidad)*
 
 
 ### 2. Requerimientos del usuario ###
 
-
-
-- Generar dos ventanas: una que muestra un piano y la otra que se modifique segun las notas aprentadas en la ventana del piano (R1)
-- En los modelos que le paso, crear una ventana para poder intercambiarnos en el momento que ejecuto mi aplicacion (R2)
-- Ejecucion de la aplicacion para ver los tres modelos andando a la vez (R3)
-- Generar una forma de mostrar como funciona para evaluar el correcto funcionamiento (R4)
+- Generar dos ventanas: una que muestre un piano y otra que se modifique según las notas presionadas en la ventana del piano. (R1)
+- Crear una ventana que permita intercambiar de modelo en tiempo de ejecución de mi aplicación. (R2)
+- Ejecución de la aplicacion para ver los tres modelos andando a la vez. (R3)
+- Generar una forma de mostrar como funciona el sistema para evaluar su correcto funcionamiento. (R4)
 
 
 ### 3. Requerimientos del Sistema ###
 
-
-
-- Implementacion de un patrón observer para actualizar la ventana de las modificaciones en las teclas.
-- Realizar test unitario a cada terea realizada (Test de Actulizacion de datos. Test de funcionamientos de botones.
-- Implementar un MVC para cambiar de forma dinamica los modelos con las vistas. Generar interfaces entre modelos correspondiente
+- Implementación de un patrón observer para actualizar la ventana que muestra las modificaciones en las teclas.
+- Realizar un test unitario a cada terea realizada. Test de Actualización de datos. Test de funcionamiento de botones.
+- Implementar el patrón de arquitectura Model View Controller (MVC) para cambiar de forma dinámica los modelos y las vistas. Generar interfaces que permitan la comunicación entre dichas partes del sistema.
 
 ### 4. Requerimientos Funcionales ###
 
-- El usuario debe poder ejecutar diversas teclas del piano y mostrar su ejecucion en otra ventana
-- El sistema debe mostrar botones en la Interfaz Grafica para elegir el modelo a implementar
-- El sistema debe mostrar vistas diferentes para cada modelo segun el caso de uso determinado
-
+- El usuario debe poder presionar diversas teclas del piano y mostrar su ejecución en otra ventana.
+- El sistema debe dar la opción en la Interfaz Grafica para elegir el modelo a implementar.
+- El sistema debe mostrar vistas diferentes dependiendo del modelo y según un caso de uso determinado.
 
 ### 5. Requerimientos no Funcionales ###
 
