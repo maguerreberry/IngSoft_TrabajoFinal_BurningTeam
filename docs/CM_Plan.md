@@ -4,6 +4,7 @@
 - Control de Versiones
 	- **Version 0.1** -  Autor:Natasha Tomattis - Fecha:04/06/2016 - Descripcion: Primera version del documento
 	- **Version 0.2** -  Autor:Agustin Trombotto - Fecha:11/06/2016 - Descripcion: Modificaciones en Glosario, Administracion de Cambios y Administracion de codigo Fuente
+	- **Version 0.3** - Autor: Agustin Trombotto - Fecha: 17/06/2016- Descripcion: Se añade imagenes y correccion de detalles en S 4.0 y S 6.1
 
 
 
@@ -151,6 +152,9 @@ README.md </br>
 build </br>
 settings</br>
 
+A continuacion se muestra una imagen de la organizacion del Directorio:
+![alt tag](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Imagenes%Adicionales/OrganizacionDirectorio.jpg?raw=true)
+
 ### 5 Equipos en ProyectoFinal ###
 **Equipos Scrum:** encargados de desarrollar nuevas funcionalidades de forma ágil y rápida.
 Actualizan el código frecuentemente, evitando problemas a la hora de unir las partes
@@ -184,11 +188,13 @@ En esta sección se describen distintos ítems de configuración. Se tiene en cu
 #### 6.1 Esquema de ramas ####
 - **Rama de Funcion:** La creacion de rama se da lugar para la realizacion o modificacion de una funcionalidad. (Ej: branch funcionViewNotas; donde la nueva fucion o la funcion a editar es "ViewNotas")
 - **Rama de Cliente:** Si se aprueba la solicitud de un cliente, se creara una nueva rama (S 6.4)
-- **Rama Master:** En esta rama se econtrá el desarrollo de software sin errores. Se hará fusiones de archivos sobre esta rama (S 6.3)
+- **Rama Master:** En esta rama se econtrá el desarrollo de software sin errores. Se podrá corregir en el mismo detalles que sean minimos y no alteren el correcto funcionamiento del sistema. Se hará fusiones de archivos sobre esta rama (S 6.3)
+- **Rama de Modificacion:** Este tipo de rama será utilizada para realizar modificaciones en los documentos asociados al proyecto, tales como requerimientos, diagramas, datos historicos e incluso el plan de configuraciones.La identificaion de la rama deberá corresponder al documento en cuestion. (Ej: branch Requerimientos; donde el archivo a modificar corresponde a los requerimientos del sistema).
 
+A continuacion se muestra una imagen con el esquemda de ramas a seguir:
+![alt tag](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Imagenes%Adicionales/Esquema%20Cde%20Ramas.jpg?raw=true)
 #### 6.2 Definición de etiquetas ####
-Se etiquetará un commit sólo si su código cuenta con correcta sintaxis y existe al menos un
-test unitario que compruebe el funcionamiento del mismo. El etiquetado debe ser
+Se etiquetará un commit sólo si su código cuenta con correcta sintaxis y el codigo funcione correctamente. El etiquetado debe ser
 autorizado y revisado por los administradores de los equipos de desarrollo. También
 deberán ser respetadas las reglas que aquí se establecen para el nombramiento de la
 etiqueta. 
@@ -230,6 +236,7 @@ para confirmar los cambios realizados en la rama de integración.
 
 - Si los conflictos persisten y se acudirá al equipo de scrum, el cual puede decidir aislar
 algunos ítems en ambas ramas para lograr la correcta combinación. 
+
 
 #### 6.4 Ramas por cliente ####
 Para los cambios específicos de los clientes existirá una rama por cliente la cual evolucionará
