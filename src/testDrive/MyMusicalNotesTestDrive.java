@@ -15,7 +15,6 @@ public class MyMusicalNotesTestDrive {
 		MusicalNotesModelInterface notesModel = new MusicalNotesModel();
         ControllerInterface controller = new MusicalNotesController(notesModel);
     	ViewInterface vista = new GeneralView();
-    	vista.setModel(new MusicalNotesAdapter(notesModel),controller);
-    	
+    	vista.setModel(new MusicalNotesAdapter(notesModel),controller);    	
     }
 }
