@@ -2,7 +2,7 @@
 ## Implementacion del patron de arquitectura MVC ##
 
 - Control de Versiones
-	- **Version 0.1** -  Autor:Natasha Tomattis - Fecha:04/06/2016 - Descripcion: Primera verson del documento
+	- **Version 0.1** -  Autor:Natasha Tomattis - Fecha:04/06/2016 - Descripcion: Primera version del documento
 	- **Version 0.2** -  Autor:Agustin Trombotto - Fecha:11/06/2016 - Descripcion: Modificaciones en Glosario, Administracion de Cambios y Administracion de codigo Fuente
 
 
