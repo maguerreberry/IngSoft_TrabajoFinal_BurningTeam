@@ -33,6 +33,7 @@ En este documento se describen los requerimientos tanto del sistema como del usu
 - Archivo comprimido con los ejecutables correspondientes a los requerimientos solicitados
 - Peso del archivo menor a 100kb
 - Respuesta no mayor a 5 segundos del sistema a la hora de recibir una entrada
+- El teclado del piano debe ser lo mas semejante a la realidad posible
 
 ### 6. Matriz de Trazabilidad
 
