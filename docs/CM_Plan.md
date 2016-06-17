@@ -153,7 +153,7 @@ build </br>
 settings</br>
 
 A continuacion se muestra una imagen de la organizacion del Directorio:
-![alt tag](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Imagenes%Adicionales/OrganizacionDirectorio.jpg?raw=true)
+![Organizacion del Repositorio](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Imagenes%20Adicionales/OrganizacionDirectorio.JPG?raw=true)
 
 ### 5 Equipos en ProyectoFinal ###
 **Equipos Scrum:** encargados de desarrollar nuevas funcionalidades de forma ágil y rápida.
@@ -192,7 +192,7 @@ En esta sección se describen distintos ítems de configuración. Se tiene en cu
 - **Rama de Modificacion:** Este tipo de rama será utilizada para realizar modificaciones en los documentos asociados al proyecto, tales como requerimientos, diagramas, datos historicos e incluso el plan de configuraciones.La identificaion de la rama deberá corresponder al documento en cuestion. (Ej: branch Requerimientos; donde el archivo a modificar corresponde a los requerimientos del sistema).
 
 A continuacion se muestra una imagen con el esquemda de ramas a seguir:
-![alt tag](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Imagenes%Adicionales/Esquema%20Cde%20Ramas.jpg?raw=true)
+![Esquema de Ramas](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Imagenes%20Adicionales/Esquema%20de%20Ramas.JPG?raw=true)
 #### 6.2 Definición de etiquetas ####
 Se etiquetará un commit sólo si su código cuenta con correcta sintaxis y el codigo funcione correctamente. El etiquetado debe ser
 autorizado y revisado por los administradores de los equipos de desarrollo. También
