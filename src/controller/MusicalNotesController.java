@@ -8,7 +8,7 @@ import view.ViewInterface;
 public class MusicalNotesController implements ControllerInterface {
 	MusicalNotesModelInterface model;
 	ViewInterface view;
-	MusicalNotesModel NotesModel;
+	//MusicalNotesModel NotesModel;
 	
 	public MusicalNotesController(MusicalNotesModelInterface model) {
 		this.model=model;
