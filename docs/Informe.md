@@ -5,6 +5,10 @@
 ##2. Manejo de las Configuraciones##
 [Plan de Manejo de las Configuraciones](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/CM_Plan.md "CMPlan")
 ##3. Requerimientos##
+![Diagrama de Caso de Uso](D:/Matt/Facultad/4° Año/Ingeniería de Software/Trabajo Final/IngSoft_TrabajoFinal_BurningTeam/docs/DiagramasUML "holis")
+
+
+
 [Diagrama de Caso de Uso](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/DiagramasUML/Use%20Case%20Diagram.jpg "CasoUso")
 ##4. Arquitectura##
 [Diagrama de Componentes](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/DiagramasUML/Component%20Diagram.jpg "Componentes")
