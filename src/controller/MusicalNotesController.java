@@ -6,7 +6,7 @@ import view.PianoView;
 import view.ViewInterface;
 
 public class MusicalNotesController implements ControllerInterface {
-	MusicalNotesModelInterface model;
+	public MusicalNotesModelInterface model;
 	ViewInterface view;
 	//MusicalNotesModel NotesModel;
 	

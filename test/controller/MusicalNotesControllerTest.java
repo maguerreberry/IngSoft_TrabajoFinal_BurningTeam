@@ -1,3 +1,7 @@
+/*
+ * Este test crea un modelo, un controlador y una vista, la finalidad del mismo es fijarse si el modelo responde 
+ * correctamente a estumulos del controlador y si se crea el objeto vista  
+ */
 package controller;
 
 import static org.junit.Assert.*;
@@ -19,8 +23,6 @@ public class MusicalNotesControllerTest {
 
 	@Before
 	public void setUp()throws Exception{
-		//model=new MusicalNotesModel();
-		//model = new MusicalNotesModelInterface()
 		model=new MusicalNotesModel();
 		controller= new MusicalNotesController(model);
 		view=null;
@@ -41,7 +43,7 @@ public class MusicalNotesControllerTest {
 		controller.setBPM("DO");
 		assertEquals("Ingreso DO",model.getNotes(),60,0);}
 		catch (NullPointerException e){
-			assertTrue("NullPointerException: No se creò el modelo o controlador", false);
+			assertTrue("NullPointerException: No se creò controlador", false);
 		}
 		//fail("Not yet implemented");
 	}
@@ -57,17 +59,6 @@ public class MusicalNotesControllerTest {
 		//fail("Not yet implemented");
 	}
 	
-	@Test
-	public void testOff() {
-	try{
-		model.off();
-		assertTrue("Las ventanas se cerraron correctamente",view==null);
-	}
-		catch(NullPointerException e){
-			assertTrue("Ocurrio un error en la ejecucion de las instrucciones", false);
-	}
-		
-	}
-	
+
 
 }

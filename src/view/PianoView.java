@@ -293,5 +293,8 @@ public class PianoView implements ViewInterface,ActionListener,  BeatObserver, B
 		// TODO Auto-generated method stub
 
 	}
-
+	public String toString(){
+		return "PianoModel";
+		
+	}
 }
