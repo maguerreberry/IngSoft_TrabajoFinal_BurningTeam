@@ -25,15 +25,16 @@ En este documento se describen los requerimientos tanto del sistema como del usu
 
 ### 4. Requerimientos Funcionales ###
 
-- El usuario debe poder presionar diversas teclas del piano y mostrar su ejecución en otra ventana.
+- El usuario debe poder presionar diversas teclas del piano (en la vista del modelo 'Musicalnotes') y generar una respuesta en otra ventana.
 - El sistema debe dar la opción en la Interfaz Grafica para elegir el modelo a implementar.
-- El sistema debe mostrar vistas diferentes dependiendo del modelo y según un caso de uso determinado.
+- El sistema debe mostrar vistas diferentes dependiendo del modelo y de un caso de uso determinado.
 
-### 5. Requerimientos no Funcionales ###
-- Archivo comprimido con los ejecutables correspondientes a los requerimientos solicitados
-- Peso del archivo menor a 100kb
-- Respuesta no mayor a 5 segundos del sistema a la hora de recibir una entrada
-- El teclado del piano debe ser lo mas semejante a la realidad posible
+### 5. Requerimientos No Funcionales ###
+
+- Archivo comprimido con los ejecutables correspondientes a los requerimientos solicitados.
+- Peso del archivo menor a 100kb.
+- Respuesta no mayor a 5 segundos del sistema a la hora de recibir una entrada.
+- El teclado del piano debe ser lo mas semejante a la realidad posible.
 
 ### 6. Matriz de Trazabilidad
 
