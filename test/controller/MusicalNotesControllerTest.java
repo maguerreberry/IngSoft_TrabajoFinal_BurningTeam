@@ -58,7 +58,42 @@ public class MusicalNotesControllerTest {
 		}
 		//fail("Not yet implemented");
 	}
-	
+	@Test
+	public void testSetBPMRE() {
+		try{
+		controller.setBPM("RE");
+		assertEquals("Ingreso RE",model.getNotes(),62,0);}
+		catch (NullPointerException e){
+			assertTrue("NullPointerException: No se creò controlador", false);
+		}
+	}
+	@Test
+	public void testSetBPMDO_() {
+		try{
+		controller.setBPM("DO#");
+		assertEquals("Ingreso DO#",model.getNotes(),61,0);}
+		catch (NullPointerException e){
+			assertTrue("NullPointerException: No se creò controlador", false);
+		}
+	}
+	@Test
+	public void testSetBPMRE_() {
+		try{
+		controller.setBPM("RE#");
+		assertEquals("Ingreso RE#",model.getNotes(),63,0);}
+		catch (NullPointerException e){
+			assertTrue("NullPointerException: No se creò controlador", false);
+		}
+	}
+	@Test
+	public void testSetBPMMI() {
+		try{
+		controller.setBPM("MI");
+		assertEquals("Ingreso MI",model.getNotes(),64,0);}
+		catch (NullPointerException e){
+			assertTrue("NullPointerException: No se creò controlador", false);
+		}
+	}
 
 
 }
