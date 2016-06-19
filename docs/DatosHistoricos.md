@@ -13,3 +13,4 @@ En la siguiente tabla se detalla el tiempo empleado por cada actividad y sus res
 | Arquitectura            	| Todos                                    	|     2 horas     	|
 | Informe                 	| Matthew Aguerreberry                     	|     3 horas     	|
 | Datos Historicos        	| Agustin Trombotto                        	|      1 hora     	|
+| Datos Historicos        	| Todos                             	      |    10 horas     	|
