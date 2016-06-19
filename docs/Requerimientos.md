@@ -46,6 +46,7 @@ En este documento se describen los requerimientos tanto del sistema como del usu
 ### 6. Arquitectura del Sistema  ###
 
 ![Diagrama Arquitectura a Implementar](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Imagenes%20Adicionales/MVC.JPG?raw=true)
+
 Para satisfacer los requerimientos citados por el usuario se implementará el patron de arquitectura MVC el cual nos permitirá separar los datos a mostrar de la logica del modelo implementado. Tendremos una interfaz comun que se actualizará segun los eventos y las comunicaciones que se den en el controlador y el modelo
 
 
@@ -83,7 +84,9 @@ A continuacion se detalla un diagrama de activadad correspondiente a cada caso d
 
 ### 11. Matriz de Trazabilidad ###
 
-![Matriz de Trazabilidad](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/Requerimientos/docs/DiagramasUML/Matriz%20de%20Trazabilidad.JPG?raw=true)
+![Matriz de Trazabilidad con Requerimientos de Usuario](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/Requerimientos/docs/DiagramasUML/Matriz%20de%%20Req%20Usuario.JPG?raw=true)
+
+![Matriz de Trazabilidad con Requerimientos de Sistema](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/Requerimientos/docs/DiagramasUML/Matriz%20de%%20Req%20Sistema.JPG?raw=true)
 
 ### 12. Diagramas de Secuencias ###
 Para cada requerimiento existe su correspondiente caso de uso para su satisfaccion. Se incorpora un diagrama de secuencia para cada uno a los fines de entender mejor su funcionamiento:
@@ -100,7 +103,7 @@ Para cada requerimiento existe su correspondiente caso de uso para su satisfacci
 
 ![MyMusicalNotesTestDrive](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Diagramas%20UML/MyMusicalNotesTestDrive.jpg?raw=true)
 
-### 13. Evolucion del Sistema ###
+### 13. Evolución del Sistema ###
 
 
 - Este software puede contar con actualizaciones referidas a la optimizacion del funcionamiento del piano y la implementacion de nuevas funcionalidades en la Interfaz del usuario
