@@ -1,4 +1,4 @@
-# Ingeniería de Requerimientos #
+# Datos Historicos #
 
 ----------
 En la siguiente tabla se detalla el tiempo empleado por cada actividad y sus respectivos autores: <br>
