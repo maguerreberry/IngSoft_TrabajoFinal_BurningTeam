@@ -14,7 +14,7 @@ En este documento se describen los requerimientos tanto del sistema como del usu
 - Generar dos ventanas: una que muestre un piano y otra que se modifique según las notas presionadas en la ventana del piano. (R1)
 - Crear una ventana que permita intercambiar de modelo en tiempo de ejecución de mi aplicación. (R2)
 - Ejecución de la aplicacion para ver los tres modelos andando a la vez. (R3)
-- Generar una forma de mostrar como funciona el sistema para evaluar su correcto funcionamiento. (R4)
+
 
 
 ### 3. Requerimientos del Sistema ###
@@ -36,6 +36,38 @@ En este documento se describen los requerimientos tanto del sistema como del usu
 - Respuesta del sistema no mayor a 5 segundos a la hora de recibir una entrada.
 - El teclado del piano debe ser lo más semejante a la realidad posible.
 
-### 6. Matriz de Trazabilidad
+### 6. Diagrama de Actividad ###
+A continuacion se detalla un diagrama de activadad correspondiente a cada caso de uso:
 
-[Link a la Matriz de Trazabilidad](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/Requerimientos/docs/DiagramasUML/Matriz%20de%20Trazabilidad.JPG "Matriz de Trazabilidad")
+*6.1 Requerimiento funcional 1*
+![Requerimiento funcional 1](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/DiagramasUML/Diagrama%20de%20Actividades-MusicalNotes.jpg?raw=true)
+
+*6.2 Requerimiento funcional 2*
+
+![Requerimiento funcional 2](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/DiagramasUML/Diagrama%20de%20Actividades-DynamicView.jpg?raw=true)
+
+*6.3 Requerimiento funcional 3*
+![Requerimiento funcional 3](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/DiagramasUML/Diagrama%20de%20Actividades-AllTestDrive.jpg?raw=true)
+
+### 7. Matriz de Trazabilidad ###
+
+![Matriz de Trazabilidad](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/Requerimientos/docs/DiagramasUML/Matriz%20de%20Trazabilidad.JPG?raw=true)
+
+### 8. Diagramas de Secuencias ###
+Para cada requerimiento existe su correspondiente caso de uso para su satisfaccion. Se incorpora un diagrama de secuencia para cada uno a los fines de entender mejor su funcionamiento:
+
+8.1 Caso de Uso: *AllModelsTestDrive*
+
+![MyMusicalNotesTestDrive](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Diagramas%20UML/AllModelsTestDrive.jpg?raw=true)
+
+8.2 Caso de Uso: *DynamicViewChanceTestDrive*
+
+![MyMusicalNotesTestDrive](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Diagramas%20UML/DynamicViewChangeTestDrive.jpg?raw=true)
+
+8.3 Caso de Uso: *MyMusicalNotesTestDrive*
+
+![MyMusicalNotesTestDrive](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Diagramas%20UML/MyMusicalNotesTestDrive.jpg?raw=true)
+
+
+
+
