@@ -1,4 +1,4 @@
-# Datos Historicos #
+# Datos Históricos #
 
 ----------
 En la siguiente tabla se detalla el tiempo empleado por cada actividad y sus respectivos autores: <br>
