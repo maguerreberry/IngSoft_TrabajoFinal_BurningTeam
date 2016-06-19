@@ -8,8 +8,8 @@ Los lectores esperados en este documento son:
 - Administrador del equipo de desarrollo
 
 ***Control de Versiones***<br>
-	- **Version 0.1** -  Autor:Agustin Trombotto - Fecha:15/06/2016 - Descripcion: Primera version del documento
-	- **Version 0.2** -  Autor:Matthew Aguerreberry - Fecha:16/06/2016 - Descripcion: Modificaciones Ortograficas y de Organizacion
+	- **Version 0.1** -  Autor:Agustin Trombotto - Fecha:15/06/2016 - Descripcion: Primera version del documento<br>
+	- **Version 0.2** -  Autor:Matthew Aguerreberry - Fecha:16/06/2016 - Descripcion: Modificaciones Ortograficas y de Organizacion <br>
 	- **Version 0.3** - Autor: Agustin Trombotto - Fecha: 19/06/2016- Descripcion: Se añade Diagramas y Se completa el documento
 ### 2. Indice  ###
 
@@ -29,7 +29,6 @@ Los lectores esperados en este documento son:
 ### 3. Introducción  ###
 En este documento se describen los requerimientos tanto del sistema como del usuario. Además, se detallan los requerimientos funcionales y no funcionales a los fines de establecer el plan de trabajo a seguir por los desarrolladores.
 
-*Se destaca la abreviatura de cada requerimiento, el cual será utilizado en diversas secciones (por ejemplo en la Matriz de Trazabilidad)*
 
 ### 4. Glosario  ###
 
