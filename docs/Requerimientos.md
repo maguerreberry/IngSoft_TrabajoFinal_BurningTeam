@@ -85,9 +85,9 @@ A continuacion se detalla un diagrama de activadad correspondiente a cada caso d
 ### 11. Matriz de Trazabilidad ###
 
 #### Casos de Uso vs Requerimientos de Usuario ####
-![Matriz de Trazabilidad con Requerimientos de Usuario](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Diagramas%20UML/Matriz%20de%%20Req%20Usuario.JPG?raw=true)
+![Matriz de Trazabilidad con Requerimientos de Usuario](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Imagenes%20Adicionales/Matriz%20de%20Trazabilidad%20Req%20Usuario.JPG?raw=true)
 #### Casos de Uso vs Requerimientos de Sistema ####
-![Matriz de Trazabilidad con Requerimientos de Sistema](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Diagramas%20UML/Matriz%20de%%20Req%20Sistema.JPG?raw=true)
+![Matriz de Trazabilidad con Requerimientos de Sistema](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Imagenes%20Adicionales/Matriz%20de%20Trazabilidad%20Req%20Sistema.JPG?raw=true)
 
 ### 12. Diagramas de Secuencias ###
 Para cada requerimiento existe su correspondiente caso de uso para su satisfaccion. Se incorpora un diagrama de secuencia para cada uno a los fines de entender mejor su funcionamiento:
