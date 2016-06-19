@@ -72,20 +72,21 @@ Para satisfacer los requerimientos citados por el usuario se implementará el pa
 ### 10. Diagramas de Actividad ###
 A continuacion se detalla un diagrama de activadad correspondiente a cada caso de uso:
 
-*10.1 Caso de Uso N°1*
+####10.1 Caso de Uso N°1####
 ![Diagrama de Actividad R1](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Diagramas%20UML/Diagrama%20de%20Actividades-MusicalNotes.jpg?raw=true)
 
-*10.2 Caso de Uso N°2*
+####10.2 Caso de Uso N°2####
 
 ![Diagrama de Actividad R2](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Diagramas%20UML/Diagrama%20de%20Actividades-DynamicView.jpg?raw=true)
 
-*10.3 Caso de Uso N°3*
+####10.3 Caso de Uso N°3####
 ![Diagrama de Actividad R3](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Diagramas%20UML/Diagrama%20de%20Actividades-AllTestDrive.jpg?raw=true)
 
 ### 11. Matriz de Trazabilidad ###
 
+#### Casos de Uso vs Requerimientos de Usuario ####
 ![Matriz de Trazabilidad con Requerimientos de Usuario](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/Requerimientos/docs/DiagramasUML/Matriz%20de%%20Req%20Usuario.JPG?raw=true)
-
+#### Casos de Uso vs Requerimientos de Sistema ####
 ![Matriz de Trazabilidad con Requerimientos de Sistema](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/Requerimientos/docs/DiagramasUML/Matriz%20de%%20Req%20Sistema.JPG?raw=true)
 
 ### 12. Diagramas de Secuencias ###
