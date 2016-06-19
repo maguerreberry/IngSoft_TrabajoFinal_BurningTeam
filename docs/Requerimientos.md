@@ -72,14 +72,14 @@ Para satisfacer los requerimientos citados por el usuario se implementará el pa
 A continuacion se detalla un diagrama de activadad correspondiente a cada caso de uso:
 
 *6.1 Requerimiento funcional 1*
-![Diagrama de Actividad R1](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Diagramas%UML/Diagrama%20de%20Actividades-MusicalNotes.jpg?raw=true)
+![Diagrama de Actividad R1](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Diagramas%20UML/Diagrama%20de%20Actividades-MusicalNotes.jpg?raw=true)
 
 *6.2 Requerimiento funcional 2*
 
-![Diagrama de Actividad R2](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Diagramas%UML/Diagrama%20de%20Actividades-DynamicView.jpg?raw=true)
+![Diagrama de Actividad R2](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Diagramas%20UML/Diagrama%20de%20Actividades-DynamicView.jpg?raw=true)
 
 *6.3 Requerimiento funcional 3*
-![Diagrama de Actividad R3](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Diagramas%UML/Diagrama%20de%20Actividades-AllTestDrive.jpg?raw=true)
+![Diagrama de Actividad R3](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Diagramas%20UML/Diagrama%20de%20Actividades-AllTestDrive.jpg?raw=true)
 
 ### 11. Matriz de Trazabilidad ###
 
