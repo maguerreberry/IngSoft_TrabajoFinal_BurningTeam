@@ -72,7 +72,7 @@ que no existan errores. En caso de errores la herramienta se encargará de notif
 
 Las actividades de la gestión de las configuraciones dentro del proyecto serán coordinadas por 3 integrantes, los cuales se encuentran en el mismo nivel jerárquico. Sin embargo cada uno posee funciones específicas detalladas a continuación: 
 
-- **Administador de la configuración:** Supervisar que el equipo de desarrollo utilice el repositorio durante el ciclo
+- **Administrador de la configuración:** Supervisar que el equipo de desarrollo utilice el repositorio durante el ciclo
 de vida del proyecto. Controlará también que se respeten los lineamientos establecidos a la hora de evluar el proceso de cambio.(*Tomattis,Natasha*)
 
 - **Administrador de Versiones:** Controlar que el producto cumpla con todos los requerimentos establecidos y su funcionamiento sea correcto.(*Aguerreberry,Matthew*)
@@ -82,7 +82,7 @@ de vida del proyecto. Controlará también que se respeten los lineamientos esta
 
 
 
-### 3. Administarcion de cambios ###
+### 3. Administracion de cambios ###
 Se entiende como cambio todo aquello que afecte la línea base del sistema.
 Los cambios pueden proceder tanto a mejora como a la corrección de errores, eprocedimiento para el manejo de cambios se realizara de la siguiente manera: cada vez quse realiza una solicitud de cambio es deber llenar un formulario el cual debe ser entregada los responsables para que procesen la solicitud, esta llegara a un estado final en el que será aceptada e implementada o postergada.
 
