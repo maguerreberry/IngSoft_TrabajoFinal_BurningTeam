@@ -84,23 +84,23 @@ A continuacion se detalla un diagrama de activadad correspondiente a cada caso d
 
 ### 11. Matriz de Trazabilidad ###
 
-#### Casos de Uso vs Requerimientos de Usuario ####
+#### 11.1 Casos de Uso vs Requerimientos de Usuario ####
 ![Matriz de Trazabilidad con Requerimientos de Usuario](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Imagenes%20Adicionales/Matriz%20de%20Trazabilidad%20Req%20Usuario.JPG?raw=true)
-#### Casos de Uso vs Requerimientos de Sistema ####
+#### 11.2 Casos de Uso vs Requerimientos de Sistema ####
 ![Matriz de Trazabilidad con Requerimientos de Sistema](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Imagenes%20Adicionales/Matriz%20de%20Trazabilidad%20Req%20Sistema.JPG?raw=true)
 
 ### 12. Diagramas de Secuencias ###
 Para cada requerimiento existe su correspondiente caso de uso para su satisfaccion. Se incorpora un diagrama de secuencia para cada uno a los fines de entender mejor su funcionamiento:
 
-12.1 Caso de Uso: *AllModelsTestDrive*
+####12.1 Caso de Uso: *AllModelsTestDrive*####
 
 ![MyMusicalNotesTestDrive](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Diagramas%20UML/AllModelsTestDrive.jpg?raw=true)
 
-12.2 Caso de Uso: *DynamicViewChanceTestDrive*
+####12.2 Caso de Uso: *DynamicViewChanceTestDrive*####
 
 ![MyMusicalNotesTestDrive](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Diagramas%20UML/DynamicViewChangeTestDrive.jpg?raw=true)
 
-12.3 Caso de Uso: *MyMusicalNotesTestDrive*
+####12.3 Caso de Uso: *MyMusicalNotesTestDrive*####
 
 ![MyMusicalNotesTestDrive](https://github.com/matthew44/IngSoft_TrabajoFinal_BurningTeam/blob/master/docs/Diagramas%20UML/MyMusicalNotesTestDrive.jpg?raw=true)
 
