@@ -140,7 +140,7 @@ En ella se encuentran las siguientes subcarpetas:
 
 
 - *src:* guarda el contenido de la aplicacion (codigo fuente) y los test unitarios
-- *docs:* guarda datos importantes del proyecto: plan de configuracion, diagramas (en subdirectorios "DiagramasUML"), archivo de requerimientos
+- *docs:* guarda datos importantes del proyecto: plan de configuracion, diagramas (en subdirectorios "DiagramasUML"), archivo de requerimientos y  subdirectorio **ejecutables** (con el archivo .zip de los ejecutables del software)
 - *gradle:* guarda la configuracion del builder.
 - *config:* guarda el checkstyle del proyecto
 - *bin:* guarda documentos compilados del proyecto
