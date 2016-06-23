@@ -1,20 +1,20 @@
 # Release Notes #
 ## BurningTeam Project ##
 
-A continuacion se detalla informacion importante para el correcto funcionamiento y su correpondiente funcionalidades
+A continuación se detalla información importante para el correcto funcionamiento de la aplicación y sus correpondientes funcionalidades.
 
-###Version 1.0.0
+###Versión 1.0.0
 (19/06/2016)
 
 ###Funcionalidades del Software###
-- Ventana para elegir el modelo a implementar (finalizado)
-- Eleccion del nuevo model MusicalNote para la utilizacion de piano digital (finalizado)
-- Ejecucion de modelos Heart y Beat (finalizado)
-- Ejecucion simultánea de todos los modelos (finalizado)
+- Ventana para elegir el modelo a implementar (finalizado).
+- Elección del nuevo model MusicalNote para la utilización de piano digital (finalizado).
+- Ejecución de modelos Heart y Beat (finalizado).
+- Ejecución simultánea de todos los modelos (finalizado).
 
 ###Bugs Conocidos###
-- Al presionar de manera seguida y reiterada una misma tecla del piano, éste se tilda
-- Si no se deja un tiempo de aproximadamente medio segundo entre apretar una tecla y otra, el sonido no será el correspondiente
+- Al presionar de manera seguida y reiterada una misma tecla del piano, éste se tilda.
+- Si no se deja un tiempo de apróximadamente medio segundo entre apretar una tecla y otra, el sonido no será el correspondiente.
 
 
 ###Instrucciones de Instalacion###
