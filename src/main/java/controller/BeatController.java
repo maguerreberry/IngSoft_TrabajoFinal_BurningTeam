@@ -5,7 +5,7 @@ import view.DJView;
 import view.ViewInterface;
 
 public class BeatController implements ControllerInterface {
-	BeatModelInterface model
+	BeatModelInterface model;
 	ViewInterface view;
    
 	public BeatController(BeatModelInterface model) {
