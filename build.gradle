@@ -13,7 +13,7 @@ dependencies {
 }
 
 checkstyle {
-    ignoreFailures = true
+    ignoreFailures = false
     toolVersion = '6.6'
 }
 
@@ -49,3 +49,11 @@ tasks.withType(FindBugs) {
 }
 
 jacocoTestReport.dependsOn test
+
+
+test {
+    testLogging {
+        events "failed"
+        exceptionFormat "short"
+    }
+}
