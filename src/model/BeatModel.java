@@ -5,7 +5,7 @@ import javax.sound.midi.*;
 import view.BPMObserver;
 import view.BeatObserver;
 
-import java.util.*;
+import java.util.*
 
 public class BeatModel implements BeatModelInterface, MetaEventListener {
     Sequencer sequencer;
