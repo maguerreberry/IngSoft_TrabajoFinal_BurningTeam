@@ -1,0 +1,909 @@
+src/controller/BeatController.java:7:	headerCommentRequirement Required
+src/controller/BeatController.java:8:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/controller/BeatController.java:8:	To avoid mistakes add a comment at the beginning of the model field if you want a default access modifier
+src/controller/BeatController.java:8:	Use explicit scoping instead of the default package private level
+src/controller/BeatController.java:8:	fieldCommentRequirement Required
+src/controller/BeatController.java:9:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/controller/BeatController.java:9:	To avoid mistakes add a comment at the beginning of the view field if you want a default access modifier
+src/controller/BeatController.java:9:	Use explicit scoping instead of the default package private level
+src/controller/BeatController.java:9:	fieldCommentRequirement Required
+src/controller/BeatController.java:11:	Parameter 'model' is not assigned and could be declared final
+src/controller/BeatController.java:11:	publicMethodCommentRequirement Required
+src/controller/BeatController.java:15:	publicMethodCommentRequirement Required
+src/controller/BeatController.java:21:	publicMethodCommentRequirement Required
+src/controller/BeatController.java:27:	publicMethodCommentRequirement Required
+src/controller/BeatController.java:28:	Local variable 'bpm' could be declared final
+src/controller/BeatController.java:32:	publicMethodCommentRequirement Required
+src/controller/BeatController.java:33:	Local variable 'bpm' could be declared final
+src/controller/BeatController.java:37:	Parameter 'bpm' is not assigned and could be declared final
+src/controller/BeatController.java:37:	publicMethodCommentRequirement Required
+src/controller/BeatController.java:38:	Local variable 'BPM' could be declared final
+src/controller/BeatController.java:38:	Variables should start with a lowercase character, 'BPM' starts with uppercase character.
+src/controller/BeatController.java:43:	publicMethodCommentRequirement Required
+src/controller/BeatController.java:48:	Avoid using short method names
+src/controller/BeatController.java:48:	publicMethodCommentRequirement Required
+src/controller/BeatController.java:59:	publicMethodCommentRequirement Required
+src/controller/ControllerInterface.java:3:	headerCommentRequirement Required
+src/controller/ControllerInterface.java:4:	Avoid using short method names
+src/controller/ControllerInterface.java:4:	publicMethodCommentRequirement Required
+src/controller/ControllerInterface.java:5:	publicMethodCommentRequirement Required
+src/controller/ControllerInterface.java:6:	publicMethodCommentRequirement Required
+src/controller/ControllerInterface.java:7:	publicMethodCommentRequirement Required
+src/controller/ControllerInterface.java:8:	publicMethodCommentRequirement Required
+src/controller/ControllerInterface.java:9:	publicMethodCommentRequirement Required
+src/controller/ControllerInterface.java:10:	publicMethodCommentRequirement Required
+src/controller/ControllerInterface.java:11:	publicMethodCommentRequirement Required
+src/controller/HeartController.java:8:	headerCommentRequirement Required
+src/controller/HeartController.java:9:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/controller/HeartController.java:9:	To avoid mistakes add a comment at the beginning of the model field if you want a default access modifier
+src/controller/HeartController.java:9:	Use explicit scoping instead of the default package private level
+src/controller/HeartController.java:9:	fieldCommentRequirement Required
+src/controller/HeartController.java:10:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/controller/HeartController.java:10:	To avoid mistakes add a comment at the beginning of the view field if you want a default access modifier
+src/controller/HeartController.java:10:	Use explicit scoping instead of the default package private level
+src/controller/HeartController.java:10:	fieldCommentRequirement Required
+src/controller/HeartController.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/controller/HeartController.java:11:	To avoid mistakes add a comment at the beginning of the heartModel field if you want a default access modifier
+src/controller/HeartController.java:11:	Use explicit scoping instead of the default package private level
+src/controller/HeartController.java:11:	fieldCommentRequirement Required
+src/controller/HeartController.java:12:	Avoid using redundant field initializer for 'nInst'
+src/controller/HeartController.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/controller/HeartController.java:12:	To avoid mistakes add a comment at the beginning of the nInst field if you want a default access modifier
+src/controller/HeartController.java:12:	Use explicit scoping instead of the default package private level
+src/controller/HeartController.java:12:	fieldCommentRequirement Required
+src/controller/HeartController.java:13:	Parameter 'model' is not assigned and could be declared final
+src/controller/HeartController.java:13:	publicMethodCommentRequirement Required
+src/controller/HeartController.java:17:	Document empty method body
+src/controller/HeartController.java:17:	publicMethodCommentRequirement Required
+src/controller/HeartController.java:19:	Document empty method body
+src/controller/HeartController.java:19:	publicMethodCommentRequirement Required
+src/controller/HeartController.java:21:	publicMethodCommentRequirement Required
+src/controller/HeartController.java:26:	publicMethodCommentRequirement Required
+src/controller/HeartController.java:30:	Document empty method body
+src/controller/HeartController.java:30:	publicMethodCommentRequirement Required
+src/controller/HeartController.java:32:	Document empty method body
+src/controller/HeartController.java:32:	Parameter 'bpm' is not assigned and could be declared final
+src/controller/HeartController.java:32:	publicMethodCommentRequirement Required
+src/controller/HeartController.java:35:	Avoid using short method names
+src/controller/HeartController.java:35:	publicMethodCommentRequirement Required
+src/controller/HeartController.java:46:	publicMethodCommentRequirement Required
+src/controller/MusicalNotesController.java:8:	The class 'MusicalNotesController' has a Cyclomatic Complexity of 2 (Highest = 13).
+src/controller/MusicalNotesController.java:8:	The class 'MusicalNotesController' has a Standard Cyclomatic Complexity of 2 (Highest = 13).
+src/controller/MusicalNotesController.java:8:	headerCommentRequirement Required
+src/controller/MusicalNotesController.java:9:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/controller/MusicalNotesController.java:9:	To avoid mistakes add a comment at the beginning of the model field if you want a default access modifier
+src/controller/MusicalNotesController.java:9:	Use explicit scoping instead of the default package private level
+src/controller/MusicalNotesController.java:9:	fieldCommentRequirement Required
+src/controller/MusicalNotesController.java:10:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/controller/MusicalNotesController.java:10:	To avoid mistakes add a comment at the beginning of the view field if you want a default access modifier
+src/controller/MusicalNotesController.java:10:	Use explicit scoping instead of the default package private level
+src/controller/MusicalNotesController.java:10:	fieldCommentRequirement Required
+src/controller/MusicalNotesController.java:11:	To avoid mistakes add a comment at the beginning of the NotesModel field if you want a default access modifier
+src/controller/MusicalNotesController.java:11:	Use explicit scoping instead of the default package private level
+src/controller/MusicalNotesController.java:11:	Variables should start with a lowercase character, 'NotesModel' starts with uppercase character.
+src/controller/MusicalNotesController.java:11:	fieldCommentRequirement Required
+src/controller/MusicalNotesController.java:13:	Parameter 'model' is not assigned and could be declared final
+src/controller/MusicalNotesController.java:13:	publicMethodCommentRequirement Required
+src/controller/MusicalNotesController.java:19:	publicMethodCommentRequirement Required
+src/controller/MusicalNotesController.java:27:	publicMethodCommentRequirement Required
+src/controller/MusicalNotesController.java:35:	publicMethodCommentRequirement Required
+src/controller/MusicalNotesController.java:37:	Local variable 'note' could be declared final
+src/controller/MusicalNotesController.java:42:	publicMethodCommentRequirement Required
+src/controller/MusicalNotesController.java:44:	Local variable 'note' could be declared final
+src/controller/MusicalNotesController.java:49:	Parameter 'note' is not assigned and could be declared final
+src/controller/MusicalNotesController.java:49:	The method 'setBPM' has a Cyclomatic Complexity of 13.
+src/controller/MusicalNotesController.java:49:	The method 'setBPM' has a Standard Cyclomatic Complexity of 13.
+src/controller/MusicalNotesController.java:49:	publicMethodCommentRequirement Required
+src/controller/MusicalNotesController.java:51:	Found 'DD'-anomaly for variable 'Note' (lines '51'-'54').
+src/controller/MusicalNotesController.java:51:	Found 'DD'-anomaly for variable 'Note' (lines '51'-'57').
+src/controller/MusicalNotesController.java:51:	Found 'DD'-anomaly for variable 'Note' (lines '51'-'60').
+src/controller/MusicalNotesController.java:51:	Found 'DD'-anomaly for variable 'Note' (lines '51'-'63').
+src/controller/MusicalNotesController.java:51:	Found 'DD'-anomaly for variable 'Note' (lines '51'-'66').
+src/controller/MusicalNotesController.java:51:	Found 'DD'-anomaly for variable 'Note' (lines '51'-'69').
+src/controller/MusicalNotesController.java:51:	Found 'DD'-anomaly for variable 'Note' (lines '51'-'72').
+src/controller/MusicalNotesController.java:51:	Found 'DD'-anomaly for variable 'Note' (lines '51'-'75').
+src/controller/MusicalNotesController.java:51:	Found 'DD'-anomaly for variable 'Note' (lines '51'-'78').
+src/controller/MusicalNotesController.java:51:	Found 'DD'-anomaly for variable 'Note' (lines '51'-'81').
+src/controller/MusicalNotesController.java:51:	Found 'DD'-anomaly for variable 'Note' (lines '51'-'84').
+src/controller/MusicalNotesController.java:51:	Found 'DD'-anomaly for variable 'Note' (lines '51'-'87').
+src/controller/MusicalNotesController.java:51:	Found 'DD'-anomaly for variable 'Note' (lines '51'-'90').
+src/controller/MusicalNotesController.java:51:	Variables should start with a lowercase character, 'Note' starts with uppercase character.
+src/controller/MusicalNotesController.java:52:	A switch statement does not contain a break
+src/controller/MusicalNotesController.java:96:	publicMethodCommentRequirement Required
+src/controller/MusicalNotesController.java:102:	Avoid using short method names
+src/controller/MusicalNotesController.java:102:	publicMethodCommentRequirement Required
+src/controller/MusicalNotesController.java:114:	publicMethodCommentRequirement Required
+src/model/BeatModel.java:10:	Each class should declare at least one constructor
+src/model/BeatModel.java:10:	This class has too many methods, consider refactoring it.
+src/model/BeatModel.java:10:	headerCommentRequirement Required
+src/model/BeatModel.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/BeatModel.java:11:	To avoid mistakes add a comment at the beginning of the sequencer field if you want a default access modifier
+src/model/BeatModel.java:11:	Use explicit scoping instead of the default package private level
+src/model/BeatModel.java:11:	fieldCommentRequirement Required
+src/model/BeatModel.java:12:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/model/BeatModel.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/BeatModel.java:12:	To avoid mistakes add a comment at the beginning of the beatObservers field if you want a default access modifier
+src/model/BeatModel.java:12:	Use explicit scoping instead of the default package private level
+src/model/BeatModel.java:12:	fieldCommentRequirement Required
+src/model/BeatModel.java:13:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/model/BeatModel.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/BeatModel.java:13:	To avoid mistakes add a comment at the beginning of the bpmObservers field if you want a default access modifier
+src/model/BeatModel.java:13:	Use explicit scoping instead of the default package private level
+src/model/BeatModel.java:13:	fieldCommentRequirement Required
+src/model/BeatModel.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/BeatModel.java:14:	To avoid mistakes add a comment at the beginning of the bpm field if you want a default access modifier
+src/model/BeatModel.java:14:	Use explicit scoping instead of the default package private level
+src/model/BeatModel.java:14:	fieldCommentRequirement Required
+src/model/BeatModel.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/BeatModel.java:15:	To avoid mistakes add a comment at the beginning of the sequence field if you want a default access modifier
+src/model/BeatModel.java:15:	Use explicit scoping instead of the default package private level
+src/model/BeatModel.java:15:	fieldCommentRequirement Required
+src/model/BeatModel.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/BeatModel.java:16:	To avoid mistakes add a comment at the beginning of the track field if you want a default access modifier
+src/model/BeatModel.java:16:	Use explicit scoping instead of the default package private level
+src/model/BeatModel.java:16:	fieldCommentRequirement Required
+src/model/BeatModel.java:18:	publicMethodCommentRequirement Required
+src/model/BeatModel.java:23:	Avoid using short method names
+src/model/BeatModel.java:23:	publicMethodCommentRequirement Required
+src/model/BeatModel.java:29:	publicMethodCommentRequirement Required
+src/model/BeatModel.java:34:	Parameter 'bpm' is not assigned and could be declared final
+src/model/BeatModel.java:34:	publicMethodCommentRequirement Required
+src/model/BeatModel.java:46:	publicMethodCommentRequirement Required
+src/model/BeatModel.java:50:	To avoid mistakes add a comment at the beginning of the beatEvent method if you want a default access modifier
+src/model/BeatModel.java:50:	Use explicit scoping instead of the default package private level
+src/model/BeatModel.java:55:	Avoid variables with short names like o
+src/model/BeatModel.java:55:	Parameter 'o' is not assigned and could be declared final
+src/model/BeatModel.java:55:	publicMethodCommentRequirement Required
+src/model/BeatModel.java:59:	publicMethodCommentRequirement Required
+src/model/BeatModel.java:61:	Local variable 'observer' could be declared final
+src/model/BeatModel.java:62:	Potential violation of Law of Demeter (object not created locally)
+src/model/BeatModel.java:66:	Avoid variables with short names like o
+src/model/BeatModel.java:66:	Parameter 'o' is not assigned and could be declared final
+src/model/BeatModel.java:66:	publicMethodCommentRequirement Required
+src/model/BeatModel.java:70:	publicMethodCommentRequirement Required
+src/model/BeatModel.java:72:	Local variable 'observer' could be declared final
+src/model/BeatModel.java:73:	Potential violation of Law of Demeter (object not created locally)
+src/model/BeatModel.java:78:	Avoid variables with short names like o
+src/model/BeatModel.java:78:	Parameter 'o' is not assigned and could be declared final
+src/model/BeatModel.java:78:	publicMethodCommentRequirement Required
+src/model/BeatModel.java:79:	Avoid variables with short names like i
+src/model/BeatModel.java:79:	Local variable 'i' could be declared final
+src/model/BeatModel.java:87:	Avoid variables with short names like o
+src/model/BeatModel.java:87:	Parameter 'o' is not assigned and could be declared final
+src/model/BeatModel.java:87:	publicMethodCommentRequirement Required
+src/model/BeatModel.java:88:	Avoid variables with short names like i
+src/model/BeatModel.java:88:	Local variable 'i' could be declared final
+src/model/BeatModel.java:95:	Parameter 'message' is not assigned and could be declared final
+src/model/BeatModel.java:95:	publicMethodCommentRequirement Required
+src/model/BeatModel.java:103:	Avoid using Literals in Conditional Statements
+src/model/BeatModel.java:112:	publicMethodCommentRequirement Required
+src/model/BeatModel.java:124:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/model/BeatModel.java:125:	Avoid printStackTrace(); use a logger call instead.
+src/model/BeatModel.java:129:	publicMethodCommentRequirement Required
+src/model/BeatModel.java:130:	Local variable 'trackList' could be declared final
+src/model/BeatModel.java:139:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/model/BeatModel.java:140:	Avoid printStackTrace(); use a logger call instead.
+src/model/BeatModel.java:144:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/model/BeatModel.java:144:	Parameter 'list' is not assigned and could be declared final
+src/model/BeatModel.java:144:	publicMethodCommentRequirement Required
+src/model/BeatModel.java:147:	Local variable 'key' could be declared final
+src/model/BeatModel.java:156:	Parameter 'chan' is not assigned and could be declared final
+src/model/BeatModel.java:156:	Parameter 'comd' is not assigned and could be declared final
+src/model/BeatModel.java:156:	Parameter 'one' is not assigned and could be declared final
+src/model/BeatModel.java:156:	Parameter 'tick' is not assigned and could be declared final
+src/model/BeatModel.java:156:	Parameter 'two' is not assigned and could be declared final
+src/model/BeatModel.java:156:	publicMethodCommentRequirement Required
+src/model/BeatModel.java:157:	Found 'DD'-anomaly for variable 'event' (lines '157'-'161').
+src/model/BeatModel.java:159:	Avoid variables with short names like a
+src/model/BeatModel.java:159:	Local variable 'a' could be declared final
+src/model/BeatModel.java:163:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/model/BeatModel.java:164:	Avoid printStackTrace(); use a logger call instead.
+src/model/BeatModelInterface.java:6:	headerCommentRequirement Required
+src/model/BeatModelInterface.java:7:	publicMethodCommentRequirement Required
+src/model/BeatModelInterface.java:9:	Avoid using short method names
+src/model/BeatModelInterface.java:9:	publicMethodCommentRequirement Required
+src/model/BeatModelInterface.java:11:	publicMethodCommentRequirement Required
+src/model/BeatModelInterface.java:13:	publicMethodCommentRequirement Required
+src/model/BeatModelInterface.java:15:	publicMethodCommentRequirement Required
+src/model/BeatModelInterface.java:17:	Avoid variables with short names like o
+src/model/BeatModelInterface.java:17:	publicMethodCommentRequirement Required
+src/model/BeatModelInterface.java:19:	Avoid variables with short names like o
+src/model/BeatModelInterface.java:19:	publicMethodCommentRequirement Required
+src/model/BeatModelInterface.java:21:	Avoid variables with short names like o
+src/model/BeatModelInterface.java:21:	publicMethodCommentRequirement Required
+src/model/BeatModelInterface.java:23:	Avoid variables with short names like o
+src/model/BeatModelInterface.java:23:	publicMethodCommentRequirement Required
+src/model/HeartAdapter.java:6:	headerCommentRequirement Required
+src/model/HeartAdapter.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/HeartAdapter.java:7:	To avoid mistakes add a comment at the beginning of the heart field if you want a default access modifier
+src/model/HeartAdapter.java:7:	Use explicit scoping instead of the default package private level
+src/model/HeartAdapter.java:7:	fieldCommentRequirement Required
+src/model/HeartAdapter.java:9:	Parameter 'heart' is not assigned and could be declared final
+src/model/HeartAdapter.java:9:	publicMethodCommentRequirement Required
+src/model/HeartAdapter.java:13:	Document empty method body
+src/model/HeartAdapter.java:13:	publicMethodCommentRequirement Required
+src/model/HeartAdapter.java:15:	Avoid using short method names
+src/model/HeartAdapter.java:15:	Document empty method body
+src/model/HeartAdapter.java:15:	publicMethodCommentRequirement Required
+src/model/HeartAdapter.java:17:	Document empty method body
+src/model/HeartAdapter.java:17:	publicMethodCommentRequirement Required
+src/model/HeartAdapter.java:19:	publicMethodCommentRequirement Required
+src/model/HeartAdapter.java:23:	Document empty method body
+src/model/HeartAdapter.java:23:	Parameter 'bpm' is not assigned and could be declared final
+src/model/HeartAdapter.java:23:	publicMethodCommentRequirement Required
+src/model/HeartAdapter.java:25:	Avoid variables with short names like o
+src/model/HeartAdapter.java:25:	Parameter 'o' is not assigned and could be declared final
+src/model/HeartAdapter.java:25:	publicMethodCommentRequirement Required
+src/model/HeartAdapter.java:29:	Avoid variables with short names like o
+src/model/HeartAdapter.java:29:	Parameter 'o' is not assigned and could be declared final
+src/model/HeartAdapter.java:29:	publicMethodCommentRequirement Required
+src/model/HeartAdapter.java:33:	Avoid variables with short names like o
+src/model/HeartAdapter.java:33:	Parameter 'o' is not assigned and could be declared final
+src/model/HeartAdapter.java:33:	publicMethodCommentRequirement Required
+src/model/HeartAdapter.java:37:	Avoid variables with short names like o
+src/model/HeartAdapter.java:37:	Parameter 'o' is not assigned and could be declared final
+src/model/HeartAdapter.java:37:	publicMethodCommentRequirement Required
+src/model/HeartModel.java:8:	A class which only has private constructors should be final
+src/model/HeartModel.java:8:	To be compliant to J2EE, a webapp should not use any thread.
+src/model/HeartModel.java:8:	headerCommentRequirement Required
+src/model/HeartModel.java:9:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/model/HeartModel.java:9:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/HeartModel.java:9:	To avoid mistakes add a comment at the beginning of the beatObservers field if you want a default access modifier
+src/model/HeartModel.java:9:	Use explicit scoping instead of the default package private level
+src/model/HeartModel.java:9:	fieldCommentRequirement Required
+src/model/HeartModel.java:10:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/model/HeartModel.java:10:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/HeartModel.java:10:	To avoid mistakes add a comment at the beginning of the bpmObservers field if you want a default access modifier
+src/model/HeartModel.java:10:	Use explicit scoping instead of the default package private level
+src/model/HeartModel.java:10:	fieldCommentRequirement Required
+src/model/HeartModel.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/HeartModel.java:11:	To avoid mistakes add a comment at the beginning of the time field if you want a default access modifier
+src/model/HeartModel.java:11:	Use explicit scoping instead of the default package private level
+src/model/HeartModel.java:11:	fieldCommentRequirement Required
+src/model/HeartModel.java:12:	To avoid mistakes add a comment at the beginning of the bpm field if you want a default access modifier
+src/model/HeartModel.java:12:	Use explicit scoping instead of the default package private level
+src/model/HeartModel.java:12:	fieldCommentRequirement Required
+src/model/HeartModel.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/HeartModel.java:13:	To avoid mistakes add a comment at the beginning of the random field if you want a default access modifier
+src/model/HeartModel.java:13:	Use explicit scoping instead of the default package private level
+src/model/HeartModel.java:13:	fieldCommentRequirement Required
+src/model/HeartModel.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/HeartModel.java:14:	To avoid mistakes add a comment at the beginning of the thread field if you want a default access modifier
+src/model/HeartModel.java:14:	To be compliant to J2EE, a webapp should not use any thread.
+src/model/HeartModel.java:14:	Use explicit scoping instead of the default package private level
+src/model/HeartModel.java:14:	fieldCommentRequirement Required
+src/model/HeartModel.java:15:	Avoid using redundant field initializer for 'heartModel'
+src/model/HeartModel.java:15:	It is somewhat confusing to have a field name matching the declaring class name
+src/model/HeartModel.java:15:	To avoid mistakes add a comment at the beginning of the heartModel field if you want a default access modifier
+src/model/HeartModel.java:15:	Use explicit scoping instead of the default package private level
+src/model/HeartModel.java:15:	fieldCommentRequirement Required
+src/model/HeartModel.java:18:	To be compliant to J2EE, a webapp should not use any thread.
+src/model/HeartModel.java:22:	publicMethodCommentRequirement Required
+src/model/HeartModel.java:23:	Singleton is not thread safe
+src/model/HeartModel.java:30:	publicMethodCommentRequirement Required
+src/model/HeartModel.java:31:	Found 'DU'-anomaly for variable 'lastrate' (lines '31'-'51').
+src/model/HeartModel.java:34:	Found 'DD'-anomaly for variable 'change' (lines '34'-'36').
+src/model/HeartModel.java:38:	Local variable 'rate' could be declared final
+src/model/HeartModel.java:43:	Found 'DU'-anomaly for variable 'lastrate' (lines '43'-'51').
+src/model/HeartModel.java:49:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/model/HeartModel.java:49:	Avoid empty catch blocks
+src/model/HeartModel.java:52:	publicMethodCommentRequirement Required
+src/model/HeartModel.java:56:	Avoid variables with short names like o
+src/model/HeartModel.java:56:	Parameter 'o' is not assigned and could be declared final
+src/model/HeartModel.java:56:	publicMethodCommentRequirement Required
+src/model/HeartModel.java:60:	Avoid variables with short names like o
+src/model/HeartModel.java:60:	Parameter 'o' is not assigned and could be declared final
+src/model/HeartModel.java:60:	publicMethodCommentRequirement Required
+src/model/HeartModel.java:61:	Avoid variables with short names like i
+src/model/HeartModel.java:61:	Local variable 'i' could be declared final
+src/model/HeartModel.java:67:	publicMethodCommentRequirement Required
+src/model/HeartModel.java:69:	Local variable 'observer' could be declared final
+src/model/HeartModel.java:70:	Potential violation of Law of Demeter (object not created locally)
+src/model/HeartModel.java:74:	Avoid variables with short names like o
+src/model/HeartModel.java:74:	Parameter 'o' is not assigned and could be declared final
+src/model/HeartModel.java:74:	publicMethodCommentRequirement Required
+src/model/HeartModel.java:78:	Avoid variables with short names like o
+src/model/HeartModel.java:78:	Parameter 'o' is not assigned and could be declared final
+src/model/HeartModel.java:78:	publicMethodCommentRequirement Required
+src/model/HeartModel.java:79:	Avoid variables with short names like i
+src/model/HeartModel.java:79:	Local variable 'i' could be declared final
+src/model/HeartModel.java:85:	publicMethodCommentRequirement Required
+src/model/HeartModel.java:87:	Local variable 'observer' could be declared final
+src/model/HeartModel.java:88:	Potential violation of Law of Demeter (object not created locally)
+src/model/HeartModelInterface.java:6:	headerCommentRequirement Required
+src/model/HeartModelInterface.java:7:	publicMethodCommentRequirement Required
+src/model/HeartModelInterface.java:8:	Avoid variables with short names like o
+src/model/HeartModelInterface.java:8:	publicMethodCommentRequirement Required
+src/model/HeartModelInterface.java:9:	Avoid variables with short names like o
+src/model/HeartModelInterface.java:9:	publicMethodCommentRequirement Required
+src/model/HeartModelInterface.java:10:	Avoid variables with short names like o
+src/model/HeartModelInterface.java:10:	publicMethodCommentRequirement Required
+src/model/HeartModelInterface.java:11:	Avoid variables with short names like o
+src/model/HeartModelInterface.java:11:	publicMethodCommentRequirement Required
+src/model/MusicalNotesAdapter.java:6:	headerCommentRequirement Required
+src/model/MusicalNotesAdapter.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/MusicalNotesAdapter.java:7:	To avoid mistakes add a comment at the beginning of the note field if you want a default access modifier
+src/model/MusicalNotesAdapter.java:7:	Use explicit scoping instead of the default package private level
+src/model/MusicalNotesAdapter.java:7:	fieldCommentRequirement Required
+src/model/MusicalNotesAdapter.java:9:	Parameter 'note' is not assigned and could be declared final
+src/model/MusicalNotesAdapter.java:9:	publicMethodCommentRequirement Required
+src/model/MusicalNotesAdapter.java:13:	publicMethodCommentRequirement Required
+src/model/MusicalNotesAdapter.java:18:	Avoid using short method names
+src/model/MusicalNotesAdapter.java:18:	publicMethodCommentRequirement Required
+src/model/MusicalNotesAdapter.java:23:	publicMethodCommentRequirement Required
+src/model/MusicalNotesAdapter.java:28:	Parameter 'noteNew' is not assigned and could be declared final
+src/model/MusicalNotesAdapter.java:28:	publicMethodCommentRequirement Required
+src/model/MusicalNotesAdapter.java:34:	publicMethodCommentRequirement Required
+src/model/MusicalNotesAdapter.java:39:	Avoid variables with short names like o
+src/model/MusicalNotesAdapter.java:39:	Parameter 'o' is not assigned and could be declared final
+src/model/MusicalNotesAdapter.java:39:	publicMethodCommentRequirement Required
+src/model/MusicalNotesAdapter.java:45:	Avoid variables with short names like o
+src/model/MusicalNotesAdapter.java:45:	Parameter 'o' is not assigned and could be declared final
+src/model/MusicalNotesAdapter.java:45:	publicMethodCommentRequirement Required
+src/model/MusicalNotesAdapter.java:51:	Avoid variables with short names like o
+src/model/MusicalNotesAdapter.java:51:	Parameter 'o' is not assigned and could be declared final
+src/model/MusicalNotesAdapter.java:51:	publicMethodCommentRequirement Required
+src/model/MusicalNotesAdapter.java:57:	Avoid variables with short names like o
+src/model/MusicalNotesAdapter.java:57:	Parameter 'o' is not assigned and could be declared final
+src/model/MusicalNotesAdapter.java:57:	publicMethodCommentRequirement Required
+src/model/MusicalNotesModel.java:10:	Each class should declare at least one constructor
+src/model/MusicalNotesModel.java:10:	This class has too many methods, consider refactoring it.
+src/model/MusicalNotesModel.java:10:	headerCommentRequirement Required
+src/model/MusicalNotesModel.java:11:	To avoid mistakes add a comment at the beginning of the thread field if you want a default access modifier
+src/model/MusicalNotesModel.java:11:	To be compliant to J2EE, a webapp should not use any thread.
+src/model/MusicalNotesModel.java:11:	Use explicit scoping instead of the default package private level
+src/model/MusicalNotesModel.java:11:	fieldCommentRequirement Required
+src/model/MusicalNotesModel.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/MusicalNotesModel.java:12:	To avoid mistakes add a comment at the beginning of the sequencer field if you want a default access modifier
+src/model/MusicalNotesModel.java:12:	Use explicit scoping instead of the default package private level
+src/model/MusicalNotesModel.java:12:	fieldCommentRequirement Required
+src/model/MusicalNotesModel.java:13:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/model/MusicalNotesModel.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/MusicalNotesModel.java:13:	To avoid mistakes add a comment at the beginning of the beatObservers field if you want a default access modifier
+src/model/MusicalNotesModel.java:13:	Use explicit scoping instead of the default package private level
+src/model/MusicalNotesModel.java:13:	fieldCommentRequirement Required
+src/model/MusicalNotesModel.java:14:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/model/MusicalNotesModel.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/MusicalNotesModel.java:14:	To avoid mistakes add a comment at the beginning of the bpmObservers field if you want a default access modifier
+src/model/MusicalNotesModel.java:14:	Use explicit scoping instead of the default package private level
+src/model/MusicalNotesModel.java:14:	fieldCommentRequirement Required
+src/model/MusicalNotesModel.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/MusicalNotesModel.java:15:	To avoid mistakes add a comment at the beginning of the note field if you want a default access modifier
+src/model/MusicalNotesModel.java:15:	Use explicit scoping instead of the default package private level
+src/model/MusicalNotesModel.java:15:	fieldCommentRequirement Required
+src/model/MusicalNotesModel.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/MusicalNotesModel.java:16:	To avoid mistakes add a comment at the beginning of the bpm field if you want a default access modifier
+src/model/MusicalNotesModel.java:16:	Use explicit scoping instead of the default package private level
+src/model/MusicalNotesModel.java:16:	fieldCommentRequirement Required
+src/model/MusicalNotesModel.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/MusicalNotesModel.java:17:	To avoid mistakes add a comment at the beginning of the sequence field if you want a default access modifier
+src/model/MusicalNotesModel.java:17:	Use explicit scoping instead of the default package private level
+src/model/MusicalNotesModel.java:17:	fieldCommentRequirement Required
+src/model/MusicalNotesModel.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/MusicalNotesModel.java:18:	To avoid mistakes add a comment at the beginning of the track field if you want a default access modifier
+src/model/MusicalNotesModel.java:18:	Use explicit scoping instead of the default package private level
+src/model/MusicalNotesModel.java:18:	fieldCommentRequirement Required
+src/model/MusicalNotesModel.java:20:	publicMethodCommentRequirement Required
+src/model/MusicalNotesModel.java:25:	Avoid using short method names
+src/model/MusicalNotesModel.java:25:	publicMethodCommentRequirement Required
+src/model/MusicalNotesModel.java:31:	publicMethodCommentRequirement Required
+src/model/MusicalNotesModel.java:36:	Parameter 'note' is not assigned and could be declared final
+src/model/MusicalNotesModel.java:36:	publicMethodCommentRequirement Required
+src/model/MusicalNotesModel.java:44:	publicMethodCommentRequirement Required
+src/model/MusicalNotesModel.java:48:	To avoid mistakes add a comment at the beginning of the beatEvent method if you want a default access modifier
+src/model/MusicalNotesModel.java:48:	Use explicit scoping instead of the default package private level
+src/model/MusicalNotesModel.java:53:	Avoid variables with short names like o
+src/model/MusicalNotesModel.java:53:	Parameter 'o' is not assigned and could be declared final
+src/model/MusicalNotesModel.java:53:	publicMethodCommentRequirement Required
+src/model/MusicalNotesModel.java:57:	publicMethodCommentRequirement Required
+src/model/MusicalNotesModel.java:59:	Local variable 'observer' could be declared final
+src/model/MusicalNotesModel.java:60:	Potential violation of Law of Demeter (object not created locally)
+src/model/MusicalNotesModel.java:64:	Avoid variables with short names like o
+src/model/MusicalNotesModel.java:64:	Parameter 'o' is not assigned and could be declared final
+src/model/MusicalNotesModel.java:64:	publicMethodCommentRequirement Required
+src/model/MusicalNotesModel.java:68:	publicMethodCommentRequirement Required
+src/model/MusicalNotesModel.java:70:	Local variable 'observer' could be declared final
+src/model/MusicalNotesModel.java:71:	Potential violation of Law of Demeter (object not created locally)
+src/model/MusicalNotesModel.java:76:	Avoid variables with short names like o
+src/model/MusicalNotesModel.java:76:	Parameter 'o' is not assigned and could be declared final
+src/model/MusicalNotesModel.java:76:	publicMethodCommentRequirement Required
+src/model/MusicalNotesModel.java:77:	Avoid variables with short names like i
+src/model/MusicalNotesModel.java:77:	Local variable 'i' could be declared final
+src/model/MusicalNotesModel.java:85:	Avoid variables with short names like o
+src/model/MusicalNotesModel.java:85:	Parameter 'o' is not assigned and could be declared final
+src/model/MusicalNotesModel.java:85:	publicMethodCommentRequirement Required
+src/model/MusicalNotesModel.java:86:	Avoid variables with short names like i
+src/model/MusicalNotesModel.java:86:	Local variable 'i' could be declared final
+src/model/MusicalNotesModel.java:93:	Parameter 'message' is not assigned and could be declared final
+src/model/MusicalNotesModel.java:93:	publicMethodCommentRequirement Required
+src/model/MusicalNotesModel.java:101:	Avoid using Literals in Conditional Statements
+src/model/MusicalNotesModel.java:110:	publicMethodCommentRequirement Required
+src/model/MusicalNotesModel.java:122:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/model/MusicalNotesModel.java:123:	Avoid printStackTrace(); use a logger call instead.
+src/model/MusicalNotesModel.java:127:	publicMethodCommentRequirement Required
+src/model/MusicalNotesModel.java:128:	Local variable 'trackList' could be declared final
+src/model/MusicalNotesModel.java:138:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/model/MusicalNotesModel.java:139:	Avoid printStackTrace(); use a logger call instead.
+src/model/MusicalNotesModel.java:143:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/model/MusicalNotesModel.java:143:	Parameter 'list' is not assigned and could be declared final
+src/model/MusicalNotesModel.java:143:	publicMethodCommentRequirement Required
+src/model/MusicalNotesModel.java:146:	Local variable 'key' could be declared final
+src/model/MusicalNotesModel.java:156:	Parameter 'chan' is not assigned and could be declared final
+src/model/MusicalNotesModel.java:156:	Parameter 'comd' is not assigned and could be declared final
+src/model/MusicalNotesModel.java:156:	Parameter 'one' is not assigned and could be declared final
+src/model/MusicalNotesModel.java:156:	Parameter 'tick' is not assigned and could be declared final
+src/model/MusicalNotesModel.java:156:	Parameter 'two' is not assigned and could be declared final
+src/model/MusicalNotesModel.java:156:	publicMethodCommentRequirement Required
+src/model/MusicalNotesModel.java:157:	Found 'DD'-anomaly for variable 'event' (lines '157'-'161').
+src/model/MusicalNotesModel.java:159:	Avoid variables with short names like a
+src/model/MusicalNotesModel.java:159:	Local variable 'a' could be declared final
+src/model/MusicalNotesModel.java:163:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/model/MusicalNotesModel.java:164:	Avoid printStackTrace(); use a logger call instead.
+src/model/MusicalNotesModelInterface.java:6:	headerCommentRequirement Required
+src/model/MusicalNotesModelInterface.java:8:	Avoid using short method names
+src/model/MusicalNotesModelInterface.java:8:	publicMethodCommentRequirement Required
+src/model/MusicalNotesModelInterface.java:9:	publicMethodCommentRequirement Required
+src/model/MusicalNotesModelInterface.java:10:	Avoid variables with short names like o
+src/model/MusicalNotesModelInterface.java:10:	publicMethodCommentRequirement Required
+src/model/MusicalNotesModelInterface.java:11:	Avoid variables with short names like o
+src/model/MusicalNotesModelInterface.java:11:	publicMethodCommentRequirement Required
+src/model/MusicalNotesModelInterface.java:12:	Avoid variables with short names like o
+src/model/MusicalNotesModelInterface.java:12:	publicMethodCommentRequirement Required
+src/model/MusicalNotesModelInterface.java:13:	Avoid variables with short names like o
+src/model/MusicalNotesModelInterface.java:13:	publicMethodCommentRequirement Required
+src/model/MusicalNotesModelInterface.java:14:	publicMethodCommentRequirement Required
+src/model/MusicalNotesModelInterface.java:15:	Avoid variables with short names like i
+src/model/MusicalNotesModelInterface.java:15:	publicMethodCommentRequirement Required
+src/model/MusicalNotesModelInterface.java:16:	publicMethodCommentRequirement Required
+src/testDrive/AllModelsTestDrive.java:1:	Package name contains upper case characters
+src/testDrive/AllModelsTestDrive.java:17:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/testDrive/AllModelsTestDrive.java:17:	headerCommentRequirement Required
+src/testDrive/AllModelsTestDrive.java:18:	To avoid mistakes add a comment at the beginning of the heartModel field if you want a default access modifier
+src/testDrive/AllModelsTestDrive.java:18:	Use explicit scoping instead of the default package private level
+src/testDrive/AllModelsTestDrive.java:18:	fieldCommentRequirement Required
+src/testDrive/AllModelsTestDrive.java:20:	Parameter 'args' is not assigned and could be declared final
+src/testDrive/AllModelsTestDrive.java:20:	publicMethodCommentRequirement Required
+src/testDrive/AllModelsTestDrive.java:22:	Local variable 'controllerH' could be declared final
+src/testDrive/AllModelsTestDrive.java:23:	Local variable 'vistaH' could be declared final
+src/testDrive/AllModelsTestDrive.java:26:	Local variable 'modelB' could be declared final
+src/testDrive/AllModelsTestDrive.java:27:	Local variable 'controllerB' could be declared final
+src/testDrive/AllModelsTestDrive.java:28:	Local variable 'vistaB' could be declared final
+src/testDrive/AllModelsTestDrive.java:31:	Local variable 'notesModel' could be declared final
+src/testDrive/AllModelsTestDrive.java:32:	Local variable 'controllerN' could be declared final
+src/testDrive/AllModelsTestDrive.java:33:	Local variable 'vistaN' could be declared final
+src/testDrive/DJTestDrive.java:1:	Package name contains upper case characters
+src/testDrive/DJTestDrive.java:10:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/testDrive/DJTestDrive.java:10:	headerCommentRequirement Required
+src/testDrive/DJTestDrive.java:12:	Parameter 'args' is not assigned and could be declared final
+src/testDrive/DJTestDrive.java:12:	publicMethodCommentRequirement Required
+src/testDrive/DJTestDrive.java:13:	Local variable 'model' could be declared final
+src/testDrive/DJTestDrive.java:14:	Local variable 'controller' could be declared final
+src/testDrive/DJTestDrive.java:15:	Local variable 'vista' could be declared final
+src/testDrive/DynamicViewChangeTestDrive.java:1:	Package name contains upper case characters
+src/testDrive/DynamicViewChangeTestDrive.java:6:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/testDrive/DynamicViewChangeTestDrive.java:6:	headerCommentRequirement Required
+src/testDrive/DynamicViewChangeTestDrive.java:8:	Parameter 'args' is not assigned and could be declared final
+src/testDrive/DynamicViewChangeTestDrive.java:8:	publicMethodCommentRequirement Required
+src/testDrive/DynamicViewChangeTestDrive.java:9:	Avoid unused local variables such as 'vista'.
+src/testDrive/DynamicViewChangeTestDrive.java:9:	Found 'DU'-anomaly for variable 'vista' (lines '9'-'10').
+src/testDrive/DynamicViewChangeTestDrive.java:9:	Local variable 'vista' could be declared final
+src/testDrive/HeartTestDrive.java:1:	Package name contains upper case characters
+src/testDrive/HeartTestDrive.java:10:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/testDrive/HeartTestDrive.java:10:	headerCommentRequirement Required
+src/testDrive/HeartTestDrive.java:12:	To avoid mistakes add a comment at the beginning of the heartModel field if you want a default access modifier
+src/testDrive/HeartTestDrive.java:12:	Use explicit scoping instead of the default package private level
+src/testDrive/HeartTestDrive.java:12:	fieldCommentRequirement Required
+src/testDrive/HeartTestDrive.java:14:	Parameter 'args' is not assigned and could be declared final
+src/testDrive/HeartTestDrive.java:14:	publicMethodCommentRequirement Required
+src/testDrive/HeartTestDrive.java:16:	Local variable 'controller' could be declared final
+src/testDrive/HeartTestDrive.java:17:	Local variable 'vista' could be declared final
+src/testDrive/MyMusicalNotesTestDrive.java:1:	Package name contains upper case characters
+src/testDrive/MyMusicalNotesTestDrive.java:12:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/testDrive/MyMusicalNotesTestDrive.java:12:	headerCommentRequirement Required
+src/testDrive/MyMusicalNotesTestDrive.java:14:	Parameter 'args' is not assigned and could be declared final
+src/testDrive/MyMusicalNotesTestDrive.java:14:	publicMethodCommentRequirement Required
+src/testDrive/MyMusicalNotesTestDrive.java:15:	Local variable 'notesModel' could be declared final
+src/testDrive/MyMusicalNotesTestDrive.java:16:	Local variable 'controller' could be declared final
+src/testDrive/MyMusicalNotesTestDrive.java:17:	Local variable 'vista' could be declared final
+src/view/BPMObserver.java:3:	headerCommentRequirement Required
+src/view/BPMObserver.java:4:	publicMethodCommentRequirement Required
+src/view/BeatBar.java:5:	To be compliant to J2EE, a webapp should not use any thread.
+src/view/BeatBar.java:5:	headerCommentRequirement Required
+src/view/BeatBar.java:6:	To avoid mistakes add a comment at the beginning of the progressBar field if you want a default access modifier
+src/view/BeatBar.java:6:	Use explicit scoping instead of the default package private level
+src/view/BeatBar.java:6:	fieldCommentRequirement Required
+src/view/BeatBar.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/BeatBar.java:7:	To avoid mistakes add a comment at the beginning of the thread field if you want a default access modifier
+src/view/BeatBar.java:7:	To be compliant to J2EE, a webapp should not use any thread.
+src/view/BeatBar.java:7:	Use explicit scoping instead of the default package private level
+src/view/BeatBar.java:7:	fieldCommentRequirement Required
+src/view/BeatBar.java:9:	It is a good practice to call super() in a constructor
+src/view/BeatBar.java:9:	publicMethodCommentRequirement Required
+src/view/BeatBar.java:10:	To be compliant to J2EE, a webapp should not use any thread.
+src/view/BeatBar.java:15:	publicMethodCommentRequirement Required
+src/view/BeatBar.java:17:	Found 'DD'-anomaly for variable 'value' (lines '17'-'18').
+src/view/BeatBar.java:23:	An empty statement (semicolon) not part of a loop
+src/view/BeatBar.java:23:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/view/BeatBar.java:23:	Avoid empty catch blocks
+src/view/BeatObserver.java:3:	headerCommentRequirement Required
+src/view/BeatObserver.java:4:	publicMethodCommentRequirement Required
+src/view/DJView.java:10:	Too many fields
+src/view/DJView.java:10:	headerCommentRequirement Required
+src/view/DJView.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/DJView.java:11:	To avoid mistakes add a comment at the beginning of the model field if you want a default access modifier
+src/view/DJView.java:11:	Use explicit scoping instead of the default package private level
+src/view/DJView.java:11:	fieldCommentRequirement Required
+src/view/DJView.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/DJView.java:12:	To avoid mistakes add a comment at the beginning of the controller field if you want a default access modifier
+src/view/DJView.java:12:	Use explicit scoping instead of the default package private level
+src/view/DJView.java:12:	fieldCommentRequirement Required
+src/view/DJView.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/DJView.java:13:	To avoid mistakes add a comment at the beginning of the viewFrame field if you want a default access modifier
+src/view/DJView.java:13:	Use explicit scoping instead of the default package private level
+src/view/DJView.java:13:	fieldCommentRequirement Required
+src/view/DJView.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/DJView.java:14:	To avoid mistakes add a comment at the beginning of the viewPanel field if you want a default access modifier
+src/view/DJView.java:14:	Use explicit scoping instead of the default package private level
+src/view/DJView.java:14:	fieldCommentRequirement Required
+src/view/DJView.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/DJView.java:15:	To avoid mistakes add a comment at the beginning of the beatBar field if you want a default access modifier
+src/view/DJView.java:15:	Use explicit scoping instead of the default package private level
+src/view/DJView.java:15:	fieldCommentRequirement Required
+src/view/DJView.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/DJView.java:16:	To avoid mistakes add a comment at the beginning of the bpmOutputLabel field if you want a default access modifier
+src/view/DJView.java:16:	Use explicit scoping instead of the default package private level
+src/view/DJView.java:16:	fieldCommentRequirement Required
+src/view/DJView.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/DJView.java:17:	To avoid mistakes add a comment at the beginning of the controlFrame field if you want a default access modifier
+src/view/DJView.java:17:	Use explicit scoping instead of the default package private level
+src/view/DJView.java:17:	fieldCommentRequirement Required
+src/view/DJView.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/DJView.java:18:	To avoid mistakes add a comment at the beginning of the controlPanel field if you want a default access modifier
+src/view/DJView.java:18:	Use explicit scoping instead of the default package private level
+src/view/DJView.java:18:	fieldCommentRequirement Required
+src/view/DJView.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/DJView.java:19:	To avoid mistakes add a comment at the beginning of the bpmLabel field if you want a default access modifier
+src/view/DJView.java:19:	Use explicit scoping instead of the default package private level
+src/view/DJView.java:19:	fieldCommentRequirement Required
+src/view/DJView.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/DJView.java:20:	To avoid mistakes add a comment at the beginning of the bpmTextField field if you want a default access modifier
+src/view/DJView.java:20:	Use explicit scoping instead of the default package private level
+src/view/DJView.java:20:	fieldCommentRequirement Required
+src/view/DJView.java:21:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/DJView.java:21:	To avoid mistakes add a comment at the beginning of the setBPMButton field if you want a default access modifier
+src/view/DJView.java:21:	Use explicit scoping instead of the default package private level
+src/view/DJView.java:21:	fieldCommentRequirement Required
+src/view/DJView.java:22:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/DJView.java:22:	To avoid mistakes add a comment at the beginning of the increaseBPMButton field if you want a default access modifier
+src/view/DJView.java:22:	Use explicit scoping instead of the default package private level
+src/view/DJView.java:22:	fieldCommentRequirement Required
+src/view/DJView.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/DJView.java:23:	To avoid mistakes add a comment at the beginning of the decreaseBPMButton field if you want a default access modifier
+src/view/DJView.java:23:	Use explicit scoping instead of the default package private level
+src/view/DJView.java:23:	fieldCommentRequirement Required
+src/view/DJView.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/DJView.java:24:	To avoid mistakes add a comment at the beginning of the menuBar field if you want a default access modifier
+src/view/DJView.java:24:	Use explicit scoping instead of the default package private level
+src/view/DJView.java:24:	fieldCommentRequirement Required
+src/view/DJView.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/DJView.java:25:	To avoid mistakes add a comment at the beginning of the menu field if you want a default access modifier
+src/view/DJView.java:25:	Use explicit scoping instead of the default package private level
+src/view/DJView.java:25:	fieldCommentRequirement Required
+src/view/DJView.java:26:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/DJView.java:26:	To avoid mistakes add a comment at the beginning of the startMenuItem field if you want a default access modifier
+src/view/DJView.java:26:	Use explicit scoping instead of the default package private level
+src/view/DJView.java:26:	fieldCommentRequirement Required
+src/view/DJView.java:27:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/DJView.java:27:	To avoid mistakes add a comment at the beginning of the stopMenuItem field if you want a default access modifier
+src/view/DJView.java:27:	Use explicit scoping instead of the default package private level
+src/view/DJView.java:27:	fieldCommentRequirement Required
+src/view/DJView.java:28:	To avoid mistakes add a comment at the beginning of the bpmO field if you want a default access modifier
+src/view/DJView.java:28:	Use explicit scoping instead of the default package private level
+src/view/DJView.java:28:	fieldCommentRequirement Required
+src/view/DJView.java:29:	To avoid mistakes add a comment at the beginning of the beatO field if you want a default access modifier
+src/view/DJView.java:29:	Use explicit scoping instead of the default package private level
+src/view/DJView.java:29:	fieldCommentRequirement Required
+src/view/DJView.java:30:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/DJView.java:30:	Private field 'name' could be made final; it is only initialized in the declaration or constructor.
+src/view/DJView.java:30:	fieldCommentRequirement Required
+src/view/DJView.java:32:	Parameter 'controller' is not assigned and could be declared final
+src/view/DJView.java:32:	Parameter 'model' is not assigned and could be declared final
+src/view/DJView.java:32:	Parameter 'name' is not assigned and could be declared final
+src/view/DJView.java:32:	publicMethodCommentRequirement Required
+src/view/DJView.java:40:	publicMethodCommentRequirement Required
+src/view/DJView.java:49:	Local variable 'bpmPanel' could be declared final
+src/view/DJView.java:53:	Potential violation of Law of Demeter (method chain calls)
+src/view/DJView.java:59:	publicMethodCommentRequirement Required
+src/view/DJView.java:74:	Parameter 'event' is not assigned and could be declared final
+src/view/DJView.java:74:	publicMethodCommentRequirement Required
+src/view/DJView.java:82:	Parameter 'event' is not assigned and could be declared final
+src/view/DJView.java:82:	publicMethodCommentRequirement Required
+src/view/DJView.java:86:	Local variable 'exit' could be declared final
+src/view/DJView.java:88:	Parameter 'event' is not assigned and could be declared final
+src/view/DJView.java:88:	publicMethodCommentRequirement Required
+src/view/DJView.java:107:	Local variable 'buttonPanel' could be declared final
+src/view/DJView.java:112:	Local variable 'enterPanel' could be declared final
+src/view/DJView.java:115:	Avoid excessively long variable names like insideControlPanel
+src/view/DJView.java:115:	Local variable 'insideControlPanel' could be declared final
+src/view/DJView.java:124:	Potential violation of Law of Demeter (method chain calls)
+src/view/DJView.java:125:	Potential violation of Law of Demeter (method chain calls)
+src/view/DJView.java:131:	publicMethodCommentRequirement Required
+src/view/DJView.java:135:	publicMethodCommentRequirement Required
+src/view/DJView.java:139:	publicMethodCommentRequirement Required
+src/view/DJView.java:143:	publicMethodCommentRequirement Required
+src/view/DJView.java:147:	Parameter 'event' is not assigned and could be declared final
+src/view/DJView.java:147:	publicMethodCommentRequirement Required
+src/view/DJView.java:158:	publicMethodCommentRequirement Required
+src/view/DJView.java:160:	Local variable 'bpm' could be declared final
+src/view/DJView.java:179:	publicMethodCommentRequirement Required
+src/view/DJView.java:185:	publicMethodCommentRequirement Required
+src/view/DJView.java:191:	Parameter 'beat' is not assigned and could be declared final
+src/view/DJView.java:191:	Parameter 'controller' is not assigned and could be declared final
+src/view/DJView.java:191:	publicMethodCommentRequirement Required
+src/view/GeneralView.java:27:	Too many fields
+src/view/GeneralView.java:27:	headerCommentRequirement Required
+src/view/GeneralView.java:28:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GeneralView.java:28:	To avoid mistakes add a comment at the beginning of the notesModel field if you want a default access modifier
+src/view/GeneralView.java:28:	Use explicit scoping instead of the default package private level
+src/view/GeneralView.java:28:	fieldCommentRequirement Required
+src/view/GeneralView.java:29:	Possible unsafe assignment to a non-final static field in a constructor.
+src/view/GeneralView.java:29:	To avoid mistakes add a comment at the beginning of the heartModel field if you want a default access modifier
+src/view/GeneralView.java:29:	Use explicit scoping instead of the default package private level
+src/view/GeneralView.java:29:	fieldCommentRequirement Required
+src/view/GeneralView.java:30:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GeneralView.java:30:	To avoid mistakes add a comment at the beginning of the modelBeat field if you want a default access modifier
+src/view/GeneralView.java:30:	Use explicit scoping instead of the default package private level
+src/view/GeneralView.java:30:	fieldCommentRequirement Required
+src/view/GeneralView.java:31:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GeneralView.java:31:	To avoid mistakes add a comment at the beginning of the controllerBeat field if you want a default access modifier
+src/view/GeneralView.java:31:	Use explicit scoping instead of the default package private level
+src/view/GeneralView.java:31:	fieldCommentRequirement Required
+src/view/GeneralView.java:32:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GeneralView.java:32:	To avoid mistakes add a comment at the beginning of the controllerHeart field if you want a default access modifier
+src/view/GeneralView.java:32:	Use explicit scoping instead of the default package private level
+src/view/GeneralView.java:32:	fieldCommentRequirement Required
+src/view/GeneralView.java:33:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GeneralView.java:33:	To avoid mistakes add a comment at the beginning of the controllerNotes field if you want a default access modifier
+src/view/GeneralView.java:33:	Use explicit scoping instead of the default package private level
+src/view/GeneralView.java:33:	fieldCommentRequirement Required
+src/view/GeneralView.java:34:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GeneralView.java:34:	To avoid mistakes add a comment at the beginning of the model field if you want a default access modifier
+src/view/GeneralView.java:34:	Use explicit scoping instead of the default package private level
+src/view/GeneralView.java:34:	fieldCommentRequirement Required
+src/view/GeneralView.java:35:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GeneralView.java:35:	To avoid mistakes add a comment at the beginning of the controller field if you want a default access modifier
+src/view/GeneralView.java:35:	Use explicit scoping instead of the default package private level
+src/view/GeneralView.java:35:	fieldCommentRequirement Required
+src/view/GeneralView.java:36:	To avoid mistakes add a comment at the beginning of the viewFrame field if you want a default access modifier
+src/view/GeneralView.java:36:	Use explicit scoping instead of the default package private level
+src/view/GeneralView.java:36:	fieldCommentRequirement Required
+src/view/GeneralView.java:37:	To avoid mistakes add a comment at the beginning of the viewPanel field if you want a default access modifier
+src/view/GeneralView.java:37:	Use explicit scoping instead of the default package private level
+src/view/GeneralView.java:37:	fieldCommentRequirement Required
+src/view/GeneralView.java:38:	To avoid mistakes add a comment at the beginning of the beatBar field if you want a default access modifier
+src/view/GeneralView.java:38:	Use explicit scoping instead of the default package private level
+src/view/GeneralView.java:38:	fieldCommentRequirement Required
+src/view/GeneralView.java:39:	To avoid mistakes add a comment at the beginning of the bpmOutputLabel field if you want a default access modifier
+src/view/GeneralView.java:39:	Use explicit scoping instead of the default package private level
+src/view/GeneralView.java:39:	fieldCommentRequirement Required
+src/view/GeneralView.java:40:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GeneralView.java:40:	To avoid mistakes add a comment at the beginning of the controlFrame field if you want a default access modifier
+src/view/GeneralView.java:40:	Use explicit scoping instead of the default package private level
+src/view/GeneralView.java:40:	fieldCommentRequirement Required
+src/view/GeneralView.java:41:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GeneralView.java:41:	To avoid mistakes add a comment at the beginning of the controlPanel field if you want a default access modifier
+src/view/GeneralView.java:41:	Use explicit scoping instead of the default package private level
+src/view/GeneralView.java:41:	fieldCommentRequirement Required
+src/view/GeneralView.java:42:	To avoid mistakes add a comment at the beginning of the bpmLabel field if you want a default access modifier
+src/view/GeneralView.java:42:	Use explicit scoping instead of the default package private level
+src/view/GeneralView.java:42:	fieldCommentRequirement Required
+src/view/GeneralView.java:43:	To avoid mistakes add a comment at the beginning of the bpmTextField field if you want a default access modifier
+src/view/GeneralView.java:43:	Use explicit scoping instead of the default package private level
+src/view/GeneralView.java:43:	fieldCommentRequirement Required
+src/view/GeneralView.java:44:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GeneralView.java:44:	To avoid mistakes add a comment at the beginning of the setBPMButton field if you want a default access modifier
+src/view/GeneralView.java:44:	Use explicit scoping instead of the default package private level
+src/view/GeneralView.java:44:	fieldCommentRequirement Required
+src/view/GeneralView.java:45:	To avoid mistakes add a comment at the beginning of the increaseBPMButton field if you want a default access modifier
+src/view/GeneralView.java:45:	Use explicit scoping instead of the default package private level
+src/view/GeneralView.java:45:	fieldCommentRequirement Required
+src/view/GeneralView.java:46:	To avoid mistakes add a comment at the beginning of the decreaseBPMButton field if you want a default access modifier
+src/view/GeneralView.java:46:	Use explicit scoping instead of the default package private level
+src/view/GeneralView.java:46:	fieldCommentRequirement Required
+src/view/GeneralView.java:47:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GeneralView.java:47:	To avoid mistakes add a comment at the beginning of the menuBar field if you want a default access modifier
+src/view/GeneralView.java:47:	Use explicit scoping instead of the default package private level
+src/view/GeneralView.java:47:	fieldCommentRequirement Required
+src/view/GeneralView.java:48:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GeneralView.java:48:	To avoid mistakes add a comment at the beginning of the menu field if you want a default access modifier
+src/view/GeneralView.java:48:	Use explicit scoping instead of the default package private level
+src/view/GeneralView.java:48:	fieldCommentRequirement Required
+src/view/GeneralView.java:49:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GeneralView.java:49:	To avoid mistakes add a comment at the beginning of the beatMenuItem field if you want a default access modifier
+src/view/GeneralView.java:49:	Use explicit scoping instead of the default package private level
+src/view/GeneralView.java:49:	fieldCommentRequirement Required
+src/view/GeneralView.java:50:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GeneralView.java:50:	To avoid mistakes add a comment at the beginning of the heartMenuItem field if you want a default access modifier
+src/view/GeneralView.java:50:	Use explicit scoping instead of the default package private level
+src/view/GeneralView.java:50:	fieldCommentRequirement Required
+src/view/GeneralView.java:51:	Avoid excessively long variable names like musicalNotesMenuItem
+src/view/GeneralView.java:51:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/GeneralView.java:51:	To avoid mistakes add a comment at the beginning of the musicalNotesMenuItem field if you want a default access modifier
+src/view/GeneralView.java:51:	Use explicit scoping instead of the default package private level
+src/view/GeneralView.java:51:	fieldCommentRequirement Required
+src/view/GeneralView.java:53:	publicMethodCommentRequirement Required
+src/view/GeneralView.java:61:	Overridable method 'createView' called during object construction
+src/view/GeneralView.java:65:	Parameter 'newController' is not assigned and could be declared final
+src/view/GeneralView.java:65:	Parameter 'newModel' is not assigned and could be declared final
+src/view/GeneralView.java:65:	publicMethodCommentRequirement Required
+src/view/GeneralView.java:74:	publicMethodCommentRequirement Required
+src/view/GeneralView.java:90:	Parameter 'event' is not assigned and could be declared final
+src/view/GeneralView.java:90:	publicMethodCommentRequirement Required
+src/view/GeneralView.java:94:	Avoid catching NullPointerException; consider removing the cause of the NPE.
+src/view/GeneralView.java:94:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/view/GeneralView.java:94:	Avoid empty catch blocks
+src/view/GeneralView.java:104:	Parameter 'event' is not assigned and could be declared final
+src/view/GeneralView.java:104:	publicMethodCommentRequirement Required
+src/view/GeneralView.java:108:	Avoid catching NullPointerException; consider removing the cause of the NPE.
+src/view/GeneralView.java:108:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/view/GeneralView.java:108:	Avoid empty catch blocks
+src/view/GeneralView.java:118:	Parameter 'event' is not assigned and could be declared final
+src/view/GeneralView.java:118:	publicMethodCommentRequirement Required
+src/view/GeneralView.java:122:	Avoid catching NullPointerException; consider removing the cause of the NPE.
+src/view/GeneralView.java:122:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/view/GeneralView.java:122:	Avoid empty catch blocks
+src/view/GeneralView.java:136:	Potential violation of Law of Demeter (method chain calls)
+src/view/GeneralView.java:137:	Potential violation of Law of Demeter (method chain calls)
+src/view/GeneralView.java:144:	publicMethodCommentRequirement Required
+src/view/GeneralView.java:150:	publicMethodCommentRequirement Required
+src/view/GeneralView.java:156:	publicMethodCommentRequirement Required
+src/view/GeneralView.java:162:	publicMethodCommentRequirement Required
+src/view/GeneralView.java:168:	publicMethodCommentRequirement Required
+src/view/GeneralView.java:174:	publicMethodCommentRequirement Required
+src/view/HeartView.java:6:	headerCommentRequirement Required
+src/view/HeartView.java:8:	Parameter 'controller' is not assigned and could be declared final
+src/view/HeartView.java:8:	Parameter 'model' is not assigned and could be declared final
+src/view/HeartView.java:8:	Parameter 'name' is not assigned and could be declared final
+src/view/HeartView.java:8:	publicMethodCommentRequirement Required
+src/view/PianoView.java:29:	This class has too many methods, consider refactoring it.
+src/view/PianoView.java:29:	headerCommentRequirement Required
+src/view/PianoView.java:31:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/PianoView.java:31:	Private field 'frame' could be made final; it is only initialized in the declaration or constructor.
+src/view/PianoView.java:37:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/PianoView.java:37:	Private field 'notes' could be made final; it is only initialized in the declaration or constructor.
+src/view/PianoView.java:39:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/PianoView.java:39:	Private field 'sharps' could be made final; it is only initialized in the declaration or constructor.
+src/view/PianoView.java:45:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/PianoView.java:45:	To avoid mistakes add a comment at the beginning of the model field if you want a default access modifier
+src/view/PianoView.java:45:	Use explicit scoping instead of the default package private level
+src/view/PianoView.java:46:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/PianoView.java:46:	To avoid mistakes add a comment at the beginning of the controller field if you want a default access modifier
+src/view/PianoView.java:46:	Use explicit scoping instead of the default package private level
+src/view/PianoView.java:46:	fieldCommentRequirement Required
+src/view/PianoView.java:47:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/PianoView.java:47:	To avoid mistakes add a comment at the beginning of the startMenuItem field if you want a default access modifier
+src/view/PianoView.java:47:	Use explicit scoping instead of the default package private level
+src/view/PianoView.java:47:	fieldCommentRequirement Required
+src/view/PianoView.java:48:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/PianoView.java:48:	To avoid mistakes add a comment at the beginning of the stopMenuItem field if you want a default access modifier
+src/view/PianoView.java:48:	Use explicit scoping instead of the default package private level
+src/view/PianoView.java:48:	fieldCommentRequirement Required
+src/view/PianoView.java:49:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/PianoView.java:49:	To avoid mistakes add a comment at the beginning of the viewFrame field if you want a default access modifier
+src/view/PianoView.java:49:	Use explicit scoping instead of the default package private level
+src/view/PianoView.java:49:	fieldCommentRequirement Required
+src/view/PianoView.java:50:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/PianoView.java:50:	To avoid mistakes add a comment at the beginning of the viewPanel field if you want a default access modifier
+src/view/PianoView.java:50:	Use explicit scoping instead of the default package private level
+src/view/PianoView.java:50:	fieldCommentRequirement Required
+src/view/PianoView.java:51:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/PianoView.java:51:	To avoid mistakes add a comment at the beginning of the beatBar field if you want a default access modifier
+src/view/PianoView.java:51:	Use explicit scoping instead of the default package private level
+src/view/PianoView.java:51:	fieldCommentRequirement Required
+src/view/PianoView.java:52:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/PianoView.java:52:	To avoid mistakes add a comment at the beginning of the bpmOutputLabel field if you want a default access modifier
+src/view/PianoView.java:52:	Use explicit scoping instead of the default package private level
+src/view/PianoView.java:52:	fieldCommentRequirement Required
+src/view/PianoView.java:53:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/PianoView.java:53:	To avoid mistakes add a comment at the beginning of the bpmLabel field if you want a default access modifier
+src/view/PianoView.java:53:	Use explicit scoping instead of the default package private level
+src/view/PianoView.java:53:	fieldCommentRequirement Required
+src/view/PianoView.java:54:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/PianoView.java:54:	To avoid mistakes add a comment at the beginning of the bpmTextField field if you want a default access modifier
+src/view/PianoView.java:54:	Use explicit scoping instead of the default package private level
+src/view/PianoView.java:54:	fieldCommentRequirement Required
+src/view/PianoView.java:55:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/PianoView.java:55:	To avoid mistakes add a comment at the beginning of the menuBar field if you want a default access modifier
+src/view/PianoView.java:55:	Use explicit scoping instead of the default package private level
+src/view/PianoView.java:55:	fieldCommentRequirement Required
+src/view/PianoView.java:56:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/view/PianoView.java:56:	To avoid mistakes add a comment at the beginning of the menu field if you want a default access modifier
+src/view/PianoView.java:56:	Use explicit scoping instead of the default package private level
+src/view/PianoView.java:56:	fieldCommentRequirement Required
+src/view/PianoView.java:58:	Parameter 'controller' is not assigned and could be declared final
+src/view/PianoView.java:58:	Parameter 'model' is not assigned and could be declared final
+src/view/PianoView.java:58:	publicMethodCommentRequirement Required
+src/view/PianoView.java:71:	Local variable 'mainPanel' could be declared final
+src/view/PianoView.java:83:	Parameter 'event' is not assigned and could be declared final
+src/view/PianoView.java:83:	publicMethodCommentRequirement Required
+src/view/PianoView.java:90:	Parameter 'event' is not assigned and could be declared final
+src/view/PianoView.java:90:	publicMethodCommentRequirement Required
+src/view/PianoView.java:94:	Local variable 'exit' could be declared final
+src/view/PianoView.java:96:	Parameter 'event' is not assigned and could be declared final
+src/view/PianoView.java:96:	publicMethodCommentRequirement Required
+src/view/PianoView.java:97:	System.exit() should not be used in J2EE/JEE apps
+src/view/PianoView.java:110:	Local variable 'pianoKeyPanel' could be declared final
+src/view/PianoView.java:110:	Overridable method 'makeKeys' called during object construction
+src/view/PianoView.java:123:	publicMethodCommentRequirement Required
+src/view/PianoView.java:125:	Found 'DD'-anomaly for variable 'name' (lines '125'-'140').
+src/view/PianoView.java:125:	Found 'DD'-anomaly for variable 'name' (lines '125'-'158').
+src/view/PianoView.java:125:	Found 'DU'-anomaly for variable 'name' (lines '125'-'211').
+src/view/PianoView.java:126:	Avoid variables with short names like x
+src/view/PianoView.java:127:	Avoid variables with short names like y
+src/view/PianoView.java:127:	Found 'DU'-anomaly for variable 'y' (lines '127'-'211').
+src/view/PianoView.java:127:	Local variable 'y' could be declared final
+src/view/PianoView.java:130:	Local variable 'keyBoard' could be declared final
+src/view/PianoView.java:138:	Avoid instantiating new objects inside loops
+src/view/PianoView.java:138:	Avoid variables with short names like jb
+src/view/PianoView.java:138:	Local variable 'jb' could be declared final
+src/view/PianoView.java:145:	Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+src/view/PianoView.java:145:	Avoid instantiating new objects inside loops
+src/view/PianoView.java:146:	Avoid instantiating new objects inside loops
+src/view/PianoView.java:152:	Found 'DU'-anomaly for variable 'x' (lines '152'-'211').
+src/view/PianoView.java:157:	Avoid instantiating new objects inside loops
+src/view/PianoView.java:157:	Local variable 'jb0' could be declared final
+src/view/PianoView.java:165:	Avoid instantiating new objects inside loops
+src/view/PianoView.java:165:	Local variable 'jb1' could be declared final
+src/view/PianoView.java:172:	Avoid instantiating new objects inside loops
+src/view/PianoView.java:172:	Local variable 'jb2' could be declared final
+src/view/PianoView.java:179:	Avoid instantiating new objects inside loops
+src/view/PianoView.java:179:	Local variable 'jb3' could be declared final
+src/view/PianoView.java:186:	Avoid instantiating new objects inside loops
+src/view/PianoView.java:186:	Local variable 'jb4' could be declared final
+src/view/PianoView.java:195:	Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+src/view/PianoView.java:195:	Avoid instantiating new objects inside loops
+src/view/PianoView.java:198:	Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+src/view/PianoView.java:198:	Avoid instantiating new objects inside loops
+src/view/PianoView.java:201:	Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+src/view/PianoView.java:201:	Avoid instantiating new objects inside loops
+src/view/PianoView.java:204:	Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+src/view/PianoView.java:204:	Avoid instantiating new objects inside loops
+src/view/PianoView.java:207:	Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+src/view/PianoView.java:207:	Avoid instantiating new objects inside loops
+src/view/PianoView.java:212:	publicMethodCommentRequirement Required
+src/view/PianoView.java:217:	Avoid catching NullPointerException; consider removing the cause of the NPE.
+src/view/PianoView.java:217:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/view/PianoView.java:217:	Avoid empty catch blocks
+src/view/PianoView.java:221:	publicMethodCommentRequirement Required
+src/view/PianoView.java:229:	Avoid variables with short names like e
+src/view/PianoView.java:229:	Parameter 'e' is not assigned and could be declared final
+src/view/PianoView.java:229:	publicMethodCommentRequirement Required
+src/view/PianoView.java:231:	Avoid unused local variables such as 'command'.
+src/view/PianoView.java:231:	Found 'DU'-anomaly for variable 'command' (lines '231'-'239').
+src/view/PianoView.java:231:	Local variable 'command' could be declared final
+src/view/PianoView.java:232:	Avoid variables with short names like jb
+src/view/PianoView.java:232:	Found 'DD'-anomaly for variable 'jb' (lines '232'-'236').
+src/view/PianoView.java:233:	Found 'DD'-anomaly for variable 'name' (lines '233'-'237').
+src/view/PianoView.java:235:	Local variable 'obj' could be declared final
+src/view/PianoView.java:237:	Potential violation of Law of Demeter (object not created locally)
+src/view/PianoView.java:242:	publicMethodCommentRequirement Required
+src/view/PianoView.java:253:	Local variable 'bpmPanel' could be declared final
+src/view/PianoView.java:257:	Potential violation of Law of Demeter (method chain calls)
+src/view/PianoView.java:263:	publicMethodCommentRequirement Required
+src/view/PianoView.java:268:	publicMethodCommentRequirement Required
+src/view/PianoView.java:272:	publicMethodCommentRequirement Required
+src/view/PianoView.java:276:	publicMethodCommentRequirement Required
+src/view/PianoView.java:280:	publicMethodCommentRequirement Required
+src/view/PianoView.java:285:	publicMethodCommentRequirement Required
+src/view/PianoView.java:292:	Parameter 'beat' is not assigned and could be declared final
+src/view/PianoView.java:292:	Parameter 'controller' is not assigned and could be declared final
+src/view/PianoView.java:292:	publicMethodCommentRequirement Required
+src/view/ViewInterface.java:6:	headerCommentRequirement Required
+src/view/ViewInterface.java:7:	publicMethodCommentRequirement Required
+src/view/ViewInterface.java:8:	publicMethodCommentRequirement Required
+src/view/ViewInterface.java:9:	publicMethodCommentRequirement Required
+src/view/ViewInterface.java:10:	publicMethodCommentRequirement Required
+src/view/ViewInterface.java:11:	publicMethodCommentRequirement Required
+src/view/ViewInterface.java:12:	publicMethodCommentRequirement Required
+src/view/ViewInterface.java:13:	publicMethodCommentRequirement Required
+src/view/ViewInterface.java:14:	publicMethodCommentRequirement Required

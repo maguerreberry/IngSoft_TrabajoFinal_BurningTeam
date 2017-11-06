@@ -11,7 +11,7 @@ repositories {
 
 dependencies {
     testCompile 'junit:junit:4.10'
-      compile fileTree(dir: 'src')
+      compile fileTree(dir: 'lib', include: '*.jar')
 }
 
 checkstyle {
@@ -51,7 +51,6 @@ tasks.withType(FindBugs) {
 }
 
 jacocoTestReport.dependsOn test
-
 
 test {
     testLogging {
