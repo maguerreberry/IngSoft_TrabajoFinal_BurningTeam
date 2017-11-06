@@ -3,7 +3,6 @@ jdk:
   - oraclejdk8
 
 before_install: 
- - cd src
  - chmod +x gradlew
 
 after_success:
