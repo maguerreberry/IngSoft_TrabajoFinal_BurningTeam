@@ -8,7 +8,7 @@ import view.BeatObserver;
 import java.util.*;
 
 public class BeatModel implements BeatModelInterface, MetaEventListener {
-    Sequencer sequencer
+    Sequencer sequencer;
 	ArrayList beatObservers = new ArrayList();
 	ArrayList bpmObservers = new ArrayList();
     int bpm = 90;
