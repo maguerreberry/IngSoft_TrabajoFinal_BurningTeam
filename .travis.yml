@@ -5,6 +5,12 @@ jdk:
 before_install:
  - chmod +x gradlew
 
+install:
+  - gradle assemble
+
+script:
+  - gradle check
+
 after_success:
   - ./gradlew jacocoTestReport
   - pip install --user codecov
