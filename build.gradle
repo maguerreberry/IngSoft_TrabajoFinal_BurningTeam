@@ -15,7 +15,7 @@ dependencies {
 }
 
 checkstyle {
-    ignoreFailures = false
+    ignoreFailures = true
     toolVersion = '6.6'
 }
 
