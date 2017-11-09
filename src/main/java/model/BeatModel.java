@@ -1,9 +1,9 @@
-package model;
+package main.java.model;
   
 import javax.sound.midi.*;
 
-import view.BPMObserver;
-import view.BeatObserver;
+import main.java.view.BPMObserver;
+import main.java.view.BeatObserver;
 
 import java.util.*;
 

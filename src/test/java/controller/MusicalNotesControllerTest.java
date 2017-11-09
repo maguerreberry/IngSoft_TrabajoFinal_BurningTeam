@@ -2,18 +2,18 @@
  * Este test crea un modelo, un controlador y una vista, la finalidad del mismo es fijarse si el modelo responde 
  * correctamente a estumulos del controlador y si se crea el objeto vista  
  */
-package controller;
+package test.java.controller;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 import org.junit.Before;
 
-
-import model.MusicalNotesModel;
-import model.MusicalNotesModelInterface;
-import view.PianoView;
-import view.ViewInterface;
+import main.java.controller.MusicalNotesController;
+import main.java.model.MusicalNotesModel;
+import main.java.model.MusicalNotesModelInterface;
+import main.java.view.PianoView;
+import main.java.view.ViewInterface;
 
 public class MusicalNotesControllerTest {
 	

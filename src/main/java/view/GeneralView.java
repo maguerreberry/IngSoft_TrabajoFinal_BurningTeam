@@ -1,4 +1,4 @@
-package view;
+package main.java.view;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
@@ -15,14 +15,14 @@ import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-import controller.BeatController;
-import controller.ControllerInterface;
-import controller.HeartController;
-import controller.MusicalNotesController;
-import model.BeatModel;
-import model.BeatModelInterface;
-import model.HeartModel;
-import model.MusicalNotesModel;
+import main.java.controller.BeatController;
+import main.java.controller.ControllerInterface;
+import main.java.controller.HeartController;
+import main.java.controller.MusicalNotesController;
+import main.java.model.BeatModel;
+import main.java.model.BeatModelInterface;
+import main.java.model.HeartModel;
+import main.java.model.MusicalNotesModel;
 
 public class GeneralView implements ViewInterface {
 	MusicalNotesModel notesModel ;

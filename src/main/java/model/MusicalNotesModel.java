@@ -1,11 +1,11 @@
-package model;
+package main.java.model;
 
 import java.util.ArrayList;
 
 import javax.sound.midi.*;
 
-import view.BPMObserver;
-import view.BeatObserver;
+import main.java.view.BPMObserver;
+import main.java.view.BeatObserver;
 
 public class MusicalNotesModel implements MusicalNotesModelInterface, MetaEventListener {
 	Thread thread;

@@ -1,11 +1,11 @@
-package testDrive;
+package main.java.testDrive;
 
-import controller.ControllerInterface;
-import controller.HeartController;
-import model.HeartAdapter;
-import model.HeartModel;
-import view.GeneralView;
-import view.ViewInterface;
+import main.java.controller.ControllerInterface;
+import main.java.controller.HeartController;
+import main.java.model.HeartAdapter;
+import main.java.model.HeartModel;
+import main.java.view.GeneralView;
+import main.java.view.ViewInterface;
 
 public class HeartTestDrive {
 

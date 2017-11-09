@@ -1,7 +1,7 @@
-package testDrive;
+package main.java.testDrive;
 
-import view.GeneralView;
-import view.ViewInterface;
+import main.java.view.GeneralView;
+import main.java.view.ViewInterface;
 
 public class DynamicViewChangeTestDrive {
 	

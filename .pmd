@@ -102,6 +102,10 @@
             <ruleset>Basic</ruleset>
         </rule>
         <rule>
+            <name>AssignmentInOperand</name>
+            <ruleset>Basic Ecmascript</ruleset>
+        </rule>
+        <rule>
             <name>ForLoopsMustUseBraces</name>
             <ruleset>Braces</ruleset>
         </rule>
@@ -142,10 +146,6 @@
             <ruleset>Code Size</ruleset>
         </rule>
         <rule>
-            <name>ExcessiveClassLength</name>
-            <ruleset>Code Size</ruleset>
-        </rule>
-        <rule>
             <name>ExcessiveMethodLength</name>
             <ruleset>Code Size</ruleset>
         </rule>
@@ -158,35 +158,11 @@
             <ruleset>Code Size</ruleset>
         </rule>
         <rule>
-            <name>ExcessiveParameterList</name>
-            <ruleset>Code Size</ruleset>
-        </rule>
-        <rule>
-            <name>ExcessivePublicCount</name>
-            <ruleset>Code Size</ruleset>
-        </rule>
-        <rule>
             <name>ModifiedCyclomaticComplexity</name>
             <ruleset>Code Size</ruleset>
         </rule>
         <rule>
-            <name>NcssConstructorCount</name>
-            <ruleset>Code Size</ruleset>
-        </rule>
-        <rule>
-            <name>NcssMethodCount</name>
-            <ruleset>Code Size</ruleset>
-        </rule>
-        <rule>
-            <name>NcssTypeCount</name>
-            <ruleset>Code Size</ruleset>
-        </rule>
-        <rule>
             <name>NPathComplexity</name>
-            <ruleset>Code Size</ruleset>
-        </rule>
-        <rule>
-            <name>TooManyFields</name>
             <ruleset>Code Size</ruleset>
         </rule>
         <rule>
@@ -210,8 +186,36 @@
             <ruleset>Comments</ruleset>
         </rule>
         <rule>
-            <name>AssignmentInOperand</name>
-            <ruleset>Controversial</ruleset>
+            <name>AvoidDeeplyNestedIfStmts</name>
+            <ruleset>Complexity</ruleset>
+        </rule>
+        <rule>
+            <name>ExcessiveClassLength</name>
+            <ruleset>Complexity</ruleset>
+        </rule>
+        <rule>
+            <name>ExcessiveParameterList</name>
+            <ruleset>Complexity</ruleset>
+        </rule>
+        <rule>
+            <name>ExcessivePublicCount</name>
+            <ruleset>Complexity</ruleset>
+        </rule>
+        <rule>
+            <name>NcssConstructorCount</name>
+            <ruleset>Complexity</ruleset>
+        </rule>
+        <rule>
+            <name>NcssMethodCount</name>
+            <ruleset>Complexity</ruleset>
+        </rule>
+        <rule>
+            <name>NcssTypeCount</name>
+            <ruleset>Complexity</ruleset>
+        </rule>
+        <rule>
+            <name>TooManyFields</name>
+            <ruleset>Complexity</ruleset>
         </rule>
         <rule>
             <name>AtLeastOneConstructor</name>
@@ -286,10 +290,6 @@
             <ruleset>Controversial</ruleset>
         </rule>
         <rule>
-            <name>UnnecessaryParentheses</name>
-            <ruleset>Controversial</ruleset>
-        </rule>
-        <rule>
             <name>UseConcurrentHashMap</name>
             <ruleset>Controversial</ruleset>
         </rule>
@@ -335,10 +335,6 @@
         </rule>
         <rule>
             <name>AssignmentToNonFinalStatic</name>
-            <ruleset>Design</ruleset>
-        </rule>
-        <rule>
-            <name>AvoidDeeplyNestedIfStmts</name>
             <ruleset>Design</ruleset>
         </rule>
         <rule>
@@ -846,23 +842,11 @@
             <ruleset>Naming</ruleset>
         </rule>
         <rule>
-            <name>ClassNamingConventions</name>
-            <ruleset>Naming</ruleset>
-        </rule>
-        <rule>
             <name>GenericsNaming</name>
             <ruleset>Naming</ruleset>
         </rule>
         <rule>
             <name>LongVariable</name>
-            <ruleset>Naming</ruleset>
-        </rule>
-        <rule>
-            <name>MethodNamingConventions</name>
-            <ruleset>Naming</ruleset>
-        </rule>
-        <rule>
-            <name>MethodWithSameNameAsEnclosingClass</name>
             <ruleset>Naming</ruleset>
         </rule>
         <rule>
@@ -899,10 +883,6 @@
         </rule>
         <rule>
             <name>SuspiciousHashcodeMethodName</name>
-            <ruleset>Naming</ruleset>
-        </rule>
-        <rule>
-            <name>VariableNamingConventions</name>
             <ruleset>Naming</ruleset>
         </rule>
         <rule>
@@ -1074,6 +1054,22 @@
             <ruleset>String and StringBuffer</ruleset>
         </rule>
         <rule>
+            <name>ClassNamingConventions</name>
+            <ruleset>Style</ruleset>
+        </rule>
+        <rule>
+            <name>MethodNamingConventions</name>
+            <ruleset>Style</ruleset>
+        </rule>
+        <rule>
+            <name>MethodWithSameNameAsEnclosingClass</name>
+            <ruleset>Style</ruleset>
+        </rule>
+        <rule>
+            <name>VariableNamingConventions</name>
+            <ruleset>Style</ruleset>
+        </rule>
+        <rule>
             <name>UnnecessaryConversionTemporary</name>
             <ruleset>Unnecessary</ruleset>
         </rule>
@@ -1083,6 +1079,10 @@
         </rule>
         <rule>
             <name>UnnecessaryModifier</name>
+            <ruleset>Unnecessary</ruleset>
+        </rule>
+        <rule>
+            <name>UnnecessaryParentheses</name>
             <ruleset>Unnecessary</ruleset>
         </rule>
         <rule>

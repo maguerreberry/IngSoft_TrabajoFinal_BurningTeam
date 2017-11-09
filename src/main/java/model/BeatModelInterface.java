@@ -1,7 +1,7 @@
-package model;
+package main.java.model;
 
-import view.BPMObserver;
-import view.BeatObserver;
+import main.java.view.BPMObserver;
+import main.java.view.BeatObserver;
 
 public interface BeatModelInterface {
 	void initialize();

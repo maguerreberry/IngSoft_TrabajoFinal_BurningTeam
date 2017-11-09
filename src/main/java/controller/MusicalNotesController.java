@@ -1,9 +1,9 @@
-package controller;
+package main.java.controller;
 
-import model.MusicalNotesModel;
-import model.MusicalNotesModelInterface;
-import view.PianoView;
-import view.ViewInterface;
+import main.java.model.MusicalNotesModel;
+import main.java.model.MusicalNotesModelInterface;
+import main.java.view.PianoView;
+import main.java.view.ViewInterface;
 
 public class MusicalNotesController implements ControllerInterface {
 	MusicalNotesModelInterface model;

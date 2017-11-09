@@ -1,12 +1,12 @@
-package testDrive;
+package main.java.testDrive;
 
-import controller.ControllerInterface;
-import controller.MusicalNotesController;
-import model.MusicalNotesAdapter;
-import model.MusicalNotesModel;
-import model.MusicalNotesModelInterface;
-import view.GeneralView;
-import view.ViewInterface;
+import main.java.controller.ControllerInterface;
+import main.java.controller.MusicalNotesController;
+import main.java.model.MusicalNotesAdapter;
+import main.java.model.MusicalNotesModel;
+import main.java.model.MusicalNotesModelInterface;
+import main.java.view.GeneralView;
+import main.java.view.ViewInterface;
 
 
 public class MyMusicalNotesTestDrive {

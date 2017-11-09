@@ -1,7 +1,7 @@
-package view;
+package main.java.view;
 
-import controller.ControllerInterface;
-import model.BeatModelInterface;
+import main.java.controller.ControllerInterface;
+import main.java.model.BeatModelInterface;
 
 public class HeartView extends DJView{
 	

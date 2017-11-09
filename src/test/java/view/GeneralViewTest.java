@@ -1,21 +1,21 @@
-package view;
+package test.java.view;
 
 import static org.junit.Assert.*;
-
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
-import controller.BeatController;
-import controller.ControllerInterface;
-import controller.HeartController;
-import controller.MusicalNotesController;
-import model.BeatModel;
-import model.BeatModelInterface;
-import model.HeartAdapter;
-import model.HeartModel;
-import model.MusicalNotesAdapter;
-import model.MusicalNotesModel;
+import main.java.controller.BeatController;
+import main.java.controller.ControllerInterface;
+import main.java.controller.HeartController;
+import main.java.controller.MusicalNotesController;
+import main.java.model.BeatModel;
+import main.java.model.BeatModelInterface;
+import main.java.model.HeartAdapter;
+import main.java.model.HeartModel;
+import main.java.model.MusicalNotesAdapter;
+import main.java.model.MusicalNotesModel;
+import main.java.view.GeneralView;
+import main.java.view.ViewInterface;
 
 public class GeneralViewTest {
 	

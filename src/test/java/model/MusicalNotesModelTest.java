@@ -1,10 +1,13 @@
-package model;
+package test.java.model;
 
 import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+
+import main.java.model.MusicalNotesModel;
+import main.java.model.MusicalNotesModelInterface;
 
 public class MusicalNotesModelTest {
 	MusicalNotesModelInterface model;

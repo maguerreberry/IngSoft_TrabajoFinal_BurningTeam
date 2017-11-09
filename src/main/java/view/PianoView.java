@@ -1,4 +1,4 @@
-package view;
+package main.java.view;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -22,9 +22,9 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
-import controller.ControllerInterface;
-import model.BeatModelInterface;
-import model.MusicalNotesModelInterface;
+import main.java.controller.ControllerInterface;
+import main.java.model.BeatModelInterface;
+import main.java.model.MusicalNotesModelInterface;
 
 public class PianoView implements ViewInterface,ActionListener,  BeatObserver, BPMObserver {
 	/** GUI frame.*/
