@@ -46,7 +46,7 @@ public class HeartModel implements HeartModelInterface, Runnable {
 			}
 			try {
 				Thread.sleep(time);
-			} catch (Exception e) {}
+			} catch (Exception e) {return;}
 		}
 	}
 	public int getHeartRate() {
