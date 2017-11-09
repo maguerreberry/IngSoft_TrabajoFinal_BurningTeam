@@ -11,9 +11,9 @@ install:
 script:
   - gradle check
 
-after_success:
-  - ./gradlew jacocoTestReport
-  - pip install --user codecov
-  - codecov 
+#after_success:
+# - ./gradlew jacocoTestReport
+# - pip install --user codecov
+# - codecov 
   
  
