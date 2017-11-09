@@ -35,14 +35,14 @@ public class MusicalNotesController implements ControllerInterface {
 	public void increaseBPM() {
 		// TODO Auto-generated method stub
 		int note = model.getNotes();
-        model.setNotes(note + 1);
+		model.setNotes(note + 1);
 	}
 
 	@Override
 	public void decreaseBPM() {
 		// TODO Auto-generated method stub
 		int note = model.getNotes();
-        model.setNotes(note - 1);
+		model.setNotes(note - 1);
 	}
 
 	@Override
@@ -51,43 +51,43 @@ public class MusicalNotesController implements ControllerInterface {
 		int Note=0;
 		switch(note){
 			case "DO":
-				Note=60;
-				break;
+			Note=60;
+			break;
 			case "DO#":
-				Note=61;
-				break;
+			Note=61;
+			break;
 			case "RE":
-				Note=62;
-				break;
+			Note=62;
+			break;
 			case "RE#":
-				Note=63;
-				break;
+			Note=63;
+			break;
 			case "MI":
-				Note=64;
-				break;
+			Note=64;
+			break;
 			case "FA":
-				Note=65;
-				break;
+			Note=65;
+			break;
 			case "FA#":
-				Note=66;
-				break;
+			Note=66;
+			break;
 			case "SOL":
-				Note=67;
-				break;
+			Note=67;
+			break;
 			case "SOL#":
-				Note=68;
-				break;
+			Note=68;
+			break;
 			case "LA":
-				Note=69;
-				break;
+			Note=69;
+			break;
 			case "LA#":
-				Note=70;
-				break;
+			Note=70;
+			break;
 			case "SI":
-				Note=71;
-				break;
+			Note=71;
+			break;
 			default:
-				Note=0;
+			Note=0;
 		}
 		model.setNotes(Note);
 	}
@@ -102,8 +102,8 @@ public class MusicalNotesController implements ControllerInterface {
 	public void on() {
 		// TODO Auto-generated method stub
 		view = new PianoView(this,model);
-        view.createView();
-        view.createControls();
+		view.createView();
+		view.createControls();
 		view.disableStopMenuItem();
 		view.enableStartMenuItem();
 		model.initialize();

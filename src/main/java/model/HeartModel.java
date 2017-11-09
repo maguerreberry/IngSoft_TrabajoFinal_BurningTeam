@@ -9,7 +9,7 @@ public class HeartModel implements HeartModelInterface, Runnable {
 	ArrayList beatObservers = new ArrayList();
 	ArrayList bpmObservers = new ArrayList();
 	int time = 1000;
-    int bpm = 90;
+	int bpm = 90;
 	Random random = new Random(System.currentTimeMillis());
 	Thread thread;
 	static HeartModel heartModel=null; 

@@ -5,7 +5,7 @@ import main.java.view.ViewInterface;
 
 public class DynamicViewChangeTestDrive {
 	
-	public static void main (String[] args) {
-        ViewInterface vista=new GeneralView();
+	public static void main(String[] args) {
+		ViewInterface vista=new GeneralView();
 	}
 }

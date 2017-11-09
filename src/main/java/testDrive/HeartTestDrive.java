@@ -9,12 +9,12 @@ import main.java.view.ViewInterface;
 
 public class HeartTestDrive {
 
-		static HeartModel heartModel;
+	static HeartModel heartModel;
 	
-    public static void main (String[] args) {
+	public static void main(String[] args) {
 		heartModel = HeartModel.getInstance();
-        ControllerInterface controller = new HeartController(heartModel);
-    	ViewInterface vista = new GeneralView();
-    	vista.setModel(new HeartAdapter(heartModel),controller);
-    }
+		ControllerInterface controller = new HeartController(heartModel);
+		ViewInterface vista = new GeneralView();
+		vista.setModel(new HeartAdapter(heartModel),controller);
+	}
 }

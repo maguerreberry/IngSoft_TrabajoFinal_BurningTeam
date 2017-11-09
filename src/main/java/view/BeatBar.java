@@ -1,9 +1,9 @@
 package main.java.view;
-  
+
 import javax.swing.JProgressBar;
 
 public class BeatBar extends JProgressBar implements Runnable { 
-    JProgressBar progressBar;
+	JProgressBar progressBar;
 	Thread thread;
 
 	public BeatBar() {

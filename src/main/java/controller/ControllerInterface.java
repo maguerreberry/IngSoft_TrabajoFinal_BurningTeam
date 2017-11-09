@@ -1,5 +1,5 @@
 package main.java.controller;
-  
+
 public interface ControllerInterface {
 	void on();
 	void off();
@@ -7,6 +7,6 @@ public interface ControllerInterface {
 	void stop();
 	void increaseBPM();
 	void decreaseBPM();
- 	void setBPM(String bpm);
+	void setBPM(String bpm);
 	int getnInst();
 }

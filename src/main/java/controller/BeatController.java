@@ -7,35 +7,35 @@ import main.java.view.ViewInterface;
 public class BeatController implements ControllerInterface {
 	BeatModelInterface model;
 	ViewInterface view;
-   
+	
 	public BeatController(BeatModelInterface model) {
 		this.model = model;	
 	}
-  
+	
 	public void start() {
 		model.on();
 		view.disableStartMenuItem();
 		view.enableStopMenuItem();
 	}
-  
+	
 	public void stop() {
 		model.off();
 		view.disableStopMenuItem();
 		view.enableStartMenuItem();
 	}
-    
+	
 	public void increaseBPM() {
-        int bpm = model.getBPM();
-        model.setBPM(bpm + 1);
+		int bpm = model.getBPM();
+		model.setBPM(bpm + 1);
 	}
-    
+	
 	public void decreaseBPM() {
-        int bpm = model.getBPM();
-        model.setBPM(bpm - 1);
-  	}
-  
- 	public void setBPM(String bpm) {
- 		int BPM = Integer.parseInt(bpm);
+		int bpm = model.getBPM();
+		model.setBPM(bpm - 1);
+	}
+	
+	public void setBPM(String bpm) {
+		int BPM = Integer.parseInt(bpm);
 		model.setBPM(BPM);
 	}
 
@@ -48,8 +48,8 @@ public class BeatController implements ControllerInterface {
 	public void on() {
 		// TODO Auto-generated method stub
 		view = new DJView(this, model,"DJ Control");
-        view.createView();
-        view.createControls();
+		view.createView();
+		view.createControls();
 		view.disableStopMenuItem();
 		view.enableStartMenuItem();
 		model.initialize();

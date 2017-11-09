@@ -9,11 +9,11 @@ import main.java.view.ViewInterface;
 
 public class DJTestDrive {
 
-    public static void main (String[] args) {
-        BeatModelInterface model = new BeatModel();
-    	ControllerInterface controller = new BeatController(model);
-    	ViewInterface vista = new GeneralView();
-    	vista.setModel(model,controller);
-    	
-    }
+	public static void main(String[] args) {
+		BeatModelInterface model = new BeatModel();
+		ControllerInterface controller = new BeatController(model);
+		ViewInterface vista = new GeneralView();
+		vista.setModel(model,controller);
+
+	}
 }

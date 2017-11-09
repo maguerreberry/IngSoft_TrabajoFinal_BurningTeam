@@ -45,13 +45,13 @@ public class PianoView implements ViewInterface,ActionListener,  BeatObserver, B
 	MusicalNotesModelInterface model;
 	ControllerInterface controller;
 	JMenuItem startMenuItem;
-    JMenuItem stopMenuItem;
-    JFrame viewFrame;
-    JPanel viewPanel;
+	JMenuItem stopMenuItem;
+	JFrame viewFrame;
+	JPanel viewPanel;
 	BeatBar beatBar;
 	JLabel bpmOutputLabel;
 	JLabel bpmLabel;
-    JTextField bpmTextField;
+	JTextField bpmTextField;
 	JMenuBar menuBar;
 	JMenu menu;
 
@@ -110,10 +110,10 @@ public class PianoView implements ViewInterface,ActionListener,  BeatObserver, B
 		JLayeredPane pianoKeyPanel = makeKeys();
 		mainPanel.add(pianoKeyPanel); 
 		bpmTextField = new JTextField(2);
-	    bpmLabel = new JLabel("Enter Note:", SwingConstants.RIGHT);
-        bpmLabel.setBorder(BorderFactory.createEmptyBorder(5,5,5,5));
-        
-        
+		bpmLabel = new JLabel("Enter Note:", SwingConstants.RIGHT);
+		bpmLabel.setBorder(BorderFactory.createEmptyBorder(5,5,5,5));
+		
+		
 		// Show the window
 		frame.setVisible(false);
 		frame.setResizable(false);
@@ -221,7 +221,7 @@ public class PianoView implements ViewInterface,ActionListener,  BeatObserver, B
 	public void updateBeat() {
 		// TODO Auto-generated method stub
 		if (beatBar != null) {
-			 beatBar.setValue(100);
+			beatBar.setValue(100);
 		}
 	}
 
@@ -266,26 +266,26 @@ public class PianoView implements ViewInterface,ActionListener,  BeatObserver, B
 	}
 
 	public void enableStopMenuItem() {
-    	stopMenuItem.setEnabled(true);
+		stopMenuItem.setEnabled(true);
 	}
 
 	public void disableStopMenuItem() {
-    	stopMenuItem.setEnabled(false);
+		stopMenuItem.setEnabled(false);
 	}
 
 	public void enableStartMenuItem() {
-    	startMenuItem.setEnabled(true);
+		startMenuItem.setEnabled(true);
 	}
 
 	public void disableStartMenuItem() {
-    	startMenuItem.setEnabled(false);
+		startMenuItem.setEnabled(false);
 	}
 	
 	@Override
 	public void end() {
 		// TODO Auto-generated method stub
 		frame.setVisible(false);
-    	viewFrame.setVisible(false);
+		viewFrame.setVisible(false);
 	}
 
 	@Override

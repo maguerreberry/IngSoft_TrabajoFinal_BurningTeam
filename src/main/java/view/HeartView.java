@@ -5,7 +5,7 @@ import main.java.model.BeatModelInterface;
 
 public class HeartView extends DJView{
 	
-	public HeartView (ControllerInterface controller, BeatModelInterface model,String name) {	
+	public HeartView(ControllerInterface controller, BeatModelInterface model,String name) {	
 		super(controller,model,name);
 	}	
 }
