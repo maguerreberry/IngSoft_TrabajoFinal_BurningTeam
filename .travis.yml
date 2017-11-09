@@ -6,7 +6,7 @@ before_install:
  - chmod +x gradlew
 
 install:
-  - gradle assemble
+  - gradle build
 
 script:
   - gradle check
