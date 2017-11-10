@@ -11,7 +11,7 @@ repositories {
 
 dependencies {
     testCompile 'junit:junit:4.10'
-      compile fileTree(dir: 'lib', include: '*.jar')
+    compile fileTree(dir: 'lib', include: '*.jar')
 }
 
 checkstyle {
@@ -28,12 +28,19 @@ tasks.withType(Checkstyle) {
 
 pmd {
     ignoreFailures = true
+    ruleSets = [
+    "java-basic",
+    "java-braces",
+    "java-strings",
+    "java-design",
+    "java-unusedcode"
+    ]
 }
 
 tasks.withType(Pmd) {
     reports {
         xml.enabled = true
-        html.enabled = true
+        html.enabled = false
     }
 }
 
