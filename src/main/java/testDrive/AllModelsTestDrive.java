@@ -20,6 +20,7 @@ public class AllModelsTestDrive {
 	public static void main(String[] args) {
 			int ErrorFindBugs;
 			int FindBugs;
+			ViewInterface vista=new GeneralView();
 			heartModel = HeartModel.getInstance();
 					ControllerInterface controllerH = new HeartController(heartModel);
 			    ViewInterface vistaH = new GeneralView();
