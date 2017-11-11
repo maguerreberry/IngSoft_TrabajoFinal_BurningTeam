@@ -18,6 +18,7 @@ public class AllModelsTestDrive {
 	static HeartModel heartModel;
 
 	public static void main(String[] args) {
+			int ErrorFindBugs;
 			heartModel = HeartModel.getInstance();
 					ControllerInterface controllerH = new HeartController(heartModel);
 			    ViewInterface vistaH = new GeneralView();
