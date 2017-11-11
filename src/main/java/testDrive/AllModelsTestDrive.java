@@ -19,8 +19,8 @@ public class AllModelsTestDrive {
 
 	public static void main(String[] args) {
 			heartModel = HeartModel.getInstance();
-			ControllerInterface controllerH = new HeartController(heartModel);
-			ViewInterface vistaH = new GeneralView();
+					ControllerInterface controllerH = new HeartController(heartModel);
+			    ViewInterface vistaH = new GeneralView();
 			vistaH.setModel(new HeartAdapter(heartModel),controllerH);
 
 			BeatModelInterface modelB = new BeatModel();
